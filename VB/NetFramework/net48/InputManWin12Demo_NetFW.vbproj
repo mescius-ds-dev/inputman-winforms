@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8FBDC6CC-5E8A-43D5-A1BD-79A951661EBF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>My Project</AppDesignerFolder>
+    <RootNamespace>InputManWin12_Demo</RootNamespace>
+    <AssemblyName>InputManWin12_Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignManifests>false</SignManifests>
+    <ApplicationIcon />
+    <FileUpgradeFlags />
+    <UpgradeBackupLocation />
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <StartupObject>InputManWin12_Demo.Program</StartupObject>
+    <PublishUrl>Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>InputMan for Windows Forms 12.0J デモ</ProductName>
+    <PublisherName>GrapeCity ClickOnce Demo</PublisherName>
+    <WebPage>clickonce.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG,TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG,TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="GrapeCity.Framework.InputMan.v44, Version=4.4.4800.2017, Culture=neutral, PublicKeyToken=fdd90f5c44b73170, processorArchitecture=MSIL" />
+    <Reference Include="GrapeCity.Win.Editors.GcCountDownTimer.v120">
+      <HintPath>Resources\GrapeCity.Win.Editors.GcCountDownTimer.v120.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Win.Editors.GcCreditCardNumber.v120">
+      <HintPath>Resources\GrapeCity.Win.Editors.GcCreditCardNumber.v120.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Win.Editors.GcIPAddress.v120">
+      <HintPath>Resources\GrapeCity.Win.Editors.GcIPAddress.v120.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Win.Editors.GcPercent.v120">
+      <HintPath>Resources\GrapeCity.Win.Editors.GcPercent.v120.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Win.Editors.GcPickers.v120">
+      <HintPath>Resources\GrapeCity.Win.Editors.GcPickers.v120.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Win.Editors.GcValidateItem.v120">
+      <HintPath>Resources\GrapeCity.Win.Editors.GcValidateItem.v120.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Win.Editors.v120, Version=12.0.4800.2017, Culture=neutral, PublicKeyToken=0ce01a33ce55ca12, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01_Controls\Components.Designer.vb">
+      <DependentUpon>Components.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01_Controls\Components.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_Controls\Controls.Designer.vb">
+      <DependentUpon>Controls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01_Controls\Controls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="01_Controls\CustomControls.Designer.vb">
+      <DependentUpon>CustomControls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="01_Controls\CustomControls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcCharMask.Designer.vb">
+      <DependentUpon>GcCharMask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcCharMask.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcComboBox.Designer.vb">
+      <DependentUpon>GcComboBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcComboBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcDate.Designer.vb">
+      <DependentUpon>GcDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcDate.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcDateTime.Designer.vb">
+      <DependentUpon>GcDateTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcDateTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcMask.Designer.vb">
+      <DependentUpon>GcMask.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcMask.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcMaskedComboBox.Designer.vb">
+      <DependentUpon>GcMaskedComboBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcMaskedComboBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcNumber.Designer.vb">
+      <DependentUpon>GcNumber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcNumber.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcTextBox.Designer.vb">
+      <DependentUpon>GcTextBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcTextBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcTime.Designer.vb">
+      <DependentUpon>GcTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="02_Format\GcTimeSpan.Designer.vb">
+      <DependentUpon>GcTimeSpan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="02_Format\GcTimeSpan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="03_Focus\Enter.Designer.vb">
+      <DependentUpon>Enter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="03_Focus\Enter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="03_Focus\Tab.Designer.vb">
+      <DependentUpon>Tab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="03_Focus\Tab.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="04_Input\Furigana.Designer.vb">
+      <DependentUpon>Furigana.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04_Input\Furigana.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="04_Input\RecommendedValue.Designer.vb">
+      <DependentUpon>RecommendedValue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="04_Input\RecommendedValue.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="05_Shortcuts\SetShortcuts.Designer.vb">
+      <DependentUpon>SetShortcuts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="05_Shortcuts\SetShortcuts.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="05_Shortcuts\Shortcuts.Designer.vb">
+      <DependentUpon>Shortcuts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="05_Shortcuts\Shortcuts.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06_Display\ActiveColor.Designer.vb">
+      <DependentUpon>ActiveColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06_Display\ActiveColor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06_Display\Alignment.Designer.vb">
+      <DependentUpon>Alignment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06_Display\Alignment.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06_Display\DisabledColor.Designer.vb">
+      <DependentUpon>DisabledColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06_Display\DisabledColor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06_Display\Ellipsis.Designer.vb">
+      <DependentUpon>Ellipsis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06_Display\Ellipsis.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06_Display\ReadOnlyColor.Designer.vb">
+      <DependentUpon>ReadOnlyColor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06_Display\ReadOnlyColor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06_Display\ShowOverflowTip.Designer.vb">
+      <DependentUpon>ShowOverflowTip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06_Display\ShowOverflowTip.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="07_DropDown\DropDown.Designer.vb">
+      <DependentUpon>DropDown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="07_DropDown\DropDown.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="07_DropDown\DropDownCalendar.Designer.vb">
+      <DependentUpon>DropDownCalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="07_DropDown\DropDownCalendar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="07_DropDown\DropDownDateTimePicker.Designer.vb">
+      <DependentUpon>DropDownDateTimePicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="07_DropDown\DropDownDateTimePicker.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="08_SideButton\DropDownButton.Designer.vb">
+      <DependentUpon>DropDownButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08_SideButton\DropDownButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="08_SideButton\SideButton.Designer.vb">
+      <DependentUpon>SideButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08_SideButton\SideButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="08_SideButton\SpinBehavior.Designer.vb">
+      <DependentUpon>SpinBehavior.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08_SideButton\SpinBehavior.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="08_SideButton\SpinButton.Designer.vb">
+      <DependentUpon>SpinButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08_SideButton\SpinButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="08_SideButton\SymbolButton.Designer.vb">
+      <DependentUpon>SymbolButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="08_SideButton\SymbolButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="09_GcComboBox\AutoComplete.Designer.vb">
+      <DependentUpon>AutoComplete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="09_GcComboBox\AutoComplete.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="09_GcComboBox\AutoFilter.Designer.vb">
+      <DependentUpon>AutoFilter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="09_GcComboBox\AutoFilter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="09_GcComboBox\ComboMultiColumns.Designer.vb">
+      <DependentUpon>ComboMultiColumns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="09_GcComboBox\ComboMultiColumns.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="09_GcComboBox\TextFormat.Designer.vb">
+      <DependentUpon>TextFormat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="09_GcComboBox\TextFormat.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="10_GcListBox\ListMultiColumns.Designer.vb">
+      <DependentUpon>ListMultiColumns.vb</DependentUpon>
+    </Compile>
+    <Compile Include="10_GcListBox\ListMultiColumns.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11_Validate\InvalidInput.Designer.vb">
+      <DependentUpon>InvalidInput.vb</DependentUpon>
+    </Compile>
+    <Compile Include="11_Validate\InvalidInput.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11_Validate\MinMax.Designer.vb">
+      <DependentUpon>MinMax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="11_Validate\MinMax.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="11_Validate\Validator.Designer.vb">
+      <DependentUpon>Validator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="11_Validate\Validator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="12_Address\GcAddress.Designer.vb">
+      <DependentUpon>GcAddress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="12_Address\GcAddress.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="12_Address\GcAddressBox.Designer.vb">
+      <DependentUpon>GcAddressBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="12_Address\GcAddressBox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="12_Address\GcPostal.Designer.vb">
+      <DependentUpon>GcPostal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="12_Address\GcPostal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="13_Touch\ContextMenuScale.Designer.vb">
+      <DependentUpon>ContextMenuScale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="13_Touch\ContextMenuScale.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="13_Touch\DropDownScale.Designer.vb">
+      <DependentUpon>DropDownScale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="13_Touch\DropDownScale.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="13_Touch\Gripper.Designer.vb">
+      <DependentUpon>Gripper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="13_Touch\Gripper.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="13_Touch\TouchKeyboard.Designer.vb">
+      <DependentUpon>TouchKeyboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="13_Touch\TouchKeyboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="13_Touch\TouchToolBar.Designer.vb">
+      <DependentUpon>TouchToolBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="13_Touch\TouchToolBar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="14_GcSoftKeyboard\Appearance.Designer.vb">
+      <DependentUpon>Appearance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="14_GcSoftKeyboard\Appearance.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="14_GcSoftKeyboard\KeyLayout.Designer.vb">
+      <DependentUpon>KeyLayout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="14_GcSoftKeyboard\KeyLayout.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="15_Sample\RegistEmployee.Designer.vb">
+      <DependentUpon>RegistEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="15_Sample\RegistEmployee.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DemoBase.Designer.vb">
+      <DependentUpon>DemoBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DemoBase_settings.Designer.vb">
+      <DependentUpon>DemoBase_settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DemoBase_settings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstViewPage.Designer.vb">
+      <DependentUpon>FirstViewPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FirstViewPage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="01_Controls\Components.resx">
+      <DependentUpon>Components.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_Controls\Controls.resx">
+      <DependentUpon>Controls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_Controls\CustomControls.resx">
+      <DependentUpon>CustomControls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcCharMask.resx">
+      <DependentUpon>GcCharMask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcComboBox.resx">
+      <DependentUpon>GcComboBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcDate.resx">
+      <DependentUpon>GcDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcDateTime.resx">
+      <DependentUpon>GcDateTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcMask.resx">
+      <DependentUpon>GcMask.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcMaskedComboBox.resx">
+      <DependentUpon>GcMaskedComboBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcNumber.resx">
+      <DependentUpon>GcNumber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcTextBox.resx">
+      <DependentUpon>GcTextBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcTime.resx">
+      <DependentUpon>GcTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_Format\GcTimeSpan.resx">
+      <DependentUpon>GcTimeSpan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03_Focus\Enter.resx">
+      <DependentUpon>Enter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="03_Focus\Tab.resx">
+      <DependentUpon>Tab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04_Input\Furigana.resx">
+      <DependentUpon>Furigana.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04_Input\RecommendedValue.resx">
+      <DependentUpon>RecommendedValue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05_Shortcuts\SetShortcuts.resx">
+      <DependentUpon>SetShortcuts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05_Shortcuts\Shortcuts.resx">
+      <DependentUpon>Shortcuts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Display\ActiveColor.resx">
+      <DependentUpon>ActiveColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Display\Alignment.resx">
+      <DependentUpon>Alignment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Display\DisabledColor.resx">
+      <DependentUpon>DisabledColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Display\Ellipsis.resx">
+      <DependentUpon>Ellipsis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Display\ReadOnlyColor.resx">
+      <DependentUpon>ReadOnlyColor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Display\ShowOverflowTip.resx">
+      <DependentUpon>ShowOverflowTip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07_DropDown\DropDown.resx">
+      <DependentUpon>DropDown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07_DropDown\DropDownCalendar.resx">
+      <DependentUpon>DropDownCalendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07_DropDown\DropDownDateTimePicker.resx">
+      <DependentUpon>DropDownDateTimePicker.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08_SideButton\DropDownButton.resx">
+      <DependentUpon>DropDownButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08_SideButton\SideButton.resx">
+      <DependentUpon>SideButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08_SideButton\SpinBehavior.resx">
+      <DependentUpon>SpinBehavior.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08_SideButton\SpinButton.resx">
+      <DependentUpon>SpinButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08_SideButton\SymbolButton.resx">
+      <DependentUpon>SymbolButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09_GcComboBox\AutoComplete.resx">
+      <DependentUpon>AutoComplete.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09_GcComboBox\AutoFilter.resx">
+      <DependentUpon>AutoFilter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09_GcComboBox\ComboMultiColumns.resx">
+      <DependentUpon>ComboMultiColumns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09_GcComboBox\TextFormat.resx">
+      <DependentUpon>TextFormat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="10_GcListBox\ListMultiColumns.resx">
+      <DependentUpon>ListMultiColumns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11_Validate\InvalidInput.resx">
+      <DependentUpon>InvalidInput.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11_Validate\MinMax.resx">
+      <DependentUpon>MinMax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11_Validate\Validator.resx">
+      <DependentUpon>Validator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12_Address\GcAddress.resx">
+      <DependentUpon>GcAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12_Address\GcAddressBox.resx">
+      <DependentUpon>GcAddressBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12_Address\GcPostal.resx">
+      <DependentUpon>GcPostal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13_Touch\ContextMenuScale.resx">
+      <DependentUpon>ContextMenuScale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13_Touch\DropDownScale.resx">
+      <DependentUpon>DropDownScale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13_Touch\Gripper.resx">
+      <DependentUpon>Gripper.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13_Touch\TouchKeyboard.resx">
+      <DependentUpon>TouchKeyboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13_Touch\TouchToolBar.resx">
+      <DependentUpon>TouchToolBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="14_GcSoftKeyboard\Appearance.resx">
+      <DependentUpon>Appearance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="14_GcSoftKeyboard\KeyLayout.resx">
+      <DependentUpon>KeyLayout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="15_Sample\RegistEmployee.resx">
+      <DependentUpon>RegistEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DemoBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoBase_settings.resx">
+      <DependentUpon>DemoBase_settings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstViewPage.resx">
+      <DependentUpon>FirstViewPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\allowdown.png" />
+    <None Include="Resources\allowup.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\Common\bg.png" />
+    <None Include="Resources\Common\fotter.png" />
+    <None Include="Resources\Common\header_b.png" />
+    <None Include="Resources\Common\header_g.png" />
+    <None Include="Resources\Common\menuheader.png" />
+    <None Include="Resources\Common\separator.png" />
+    <None Include="Resources\eraser.png" />
+    <None Include="Resources\find.png" />
+    <None Include="Resources\mainvisual.png" />
+    <None Include="Resources\now.png" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\stopwatch.png" />
+    <None Include="Resources\today.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Holiday.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\InputMan.ico" />
+    <Content Include="Resources\pref.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\prefecture.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\product_logo.png" />
+    <Content Include="Resources\shortcuts.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\XMLDataFile.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.Targets" />
+</Project>

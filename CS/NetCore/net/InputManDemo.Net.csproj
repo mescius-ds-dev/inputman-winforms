@@ -1,0 +1,110 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+	<TargetFramework>net6.0-windows</TargetFramework>
+	<UseWindowsForms>true</UseWindowsForms>
+	<OutputType>WinExe</OutputType>
+	<AssemblyName>InputManWin12_Demo</AssemblyName>
+	<RootNamespace>InputManWin12_Demo</RootNamespace>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>disable</Nullable>
+
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	<DefineConstants>TRACE;</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Resources\allowdown.png" />
+		<None Include="Resources\allowup.png" />
+		<None Include="Resources\product_logo.png" />
+		<None Include="Resources\mainvisual.png" />
+		<None Include="Resources\Common\bg.png" />
+		<None Include="Resources\Common\menuheader.png" />
+		<None Include="Resources\Common\separator.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\Common\header_b.png" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<None Include="Resources\Common\header_g.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\Common\fotter.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\eraser.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\stopwatch.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\today.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\question.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\find.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\calendar.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="Resources\now.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Resources\Holiday.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<None Include="Resources\InputMan.ico" />
+		<Content Include="Resources\pref.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\prefecture.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\shortcuts.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+		<Content Include="Resources\XMLDataFile.xml">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	<Reference Include="GrapeCity.Win.Editors.GcCountDownTimer.v120">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>Resources\GrapeCity.Win.Editors.GcCountDownTimer.v120.dll</HintPath>
+	</Reference>
+	<Reference Include="GrapeCity.Win.Editors.GcCreditCardNumber.v120">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>Resources\GrapeCity.Win.Editors.GcCreditCardNumber.v120.dll</HintPath>
+	</Reference>
+	<Reference Include="GrapeCity.Win.Editors.GcIPAddress.v120">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>Resources\GrapeCity.Win.Editors.GcIPAddress.v120.dll</HintPath>
+	</Reference>
+	<Reference Include="GrapeCity.Win.Editors.GcPercent.v120">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>Resources\GrapeCity.Win.Editors.GcPercent.v120.dll</HintPath>
+	</Reference>
+	<Reference Include="GrapeCity.Win.Editors.GcPickers.v120">
+		<HintPath>Resources\GrapeCity.Win.Editors.GcPickers.v120.dll</HintPath>
+	</Reference>
+	<Reference Include="GrapeCity.Win.Editors.GcValidateItem.v120">
+		<SpecificVersion>False</SpecificVersion>
+		<HintPath>Resources\GrapeCity.Win.Editors.GcValidateItem.v120.dll</HintPath>
+	</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="MESCIUS.Win.InputMan" Version="12.0.0" />
+		<PackageReference Include="MESCIUS.Win.JPAddress" Version="4.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="15_Sample\" />
+	</ItemGroup>
+</Project>
