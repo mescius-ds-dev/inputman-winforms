@@ -100,8 +100,8 @@
 	</Reference>
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="MESCIUS.Win.InputMan" Version="12.0.0" />
-		<PackageReference Include="MESCIUS.Win.JPAddress" Version="4.0.0" />
+		<PackageReference Include="MESCIUS.Win.InputMan" Version="12.1.0" />
+		<PackageReference Include="MESCIUS.Win.JPAddress" Version="4.1.0" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="15_Sample\" />

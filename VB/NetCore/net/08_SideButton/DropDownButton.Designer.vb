@@ -16,14 +16,14 @@
 			MyBase.Dispose(disposing)
 		End Sub
 
-		#Region "Windows フォーム デザイナーで生成されたコード"
+#Region "Windows フォーム デザイナーで生成されたコード"
 
-		''' <summary>
-		''' デザイナー サポートに必要なメソッドです。このメソッドの内容を
-		''' コード エディターで変更しないでください。
-		''' </summary>
-		Private Sub InitializeComponent()
-            Me.components = New System.ComponentModel.Container()
+        ''' <summary>
+        ''' デザイナー サポートに必要なメソッドです。このメソッドの内容を
+        ''' コード エディターで変更しないでください。
+        ''' </summary>
+        Private Sub InitializeComponent()
+            components = New ComponentModel.Container()
             Dim DateYearField2 As GrapeCity.Win.Editors.Fields.DateYearField = New GrapeCity.Win.Editors.Fields.DateYearField()
             Dim DateLiteralField5 As GrapeCity.Win.Editors.Fields.DateLiteralField = New GrapeCity.Win.Editors.Fields.DateLiteralField()
             Dim DateMonthField2 As GrapeCity.Win.Editors.Fields.DateMonthField = New GrapeCity.Win.Editors.Fields.DateMonthField()
@@ -87,6 +87,15 @@
             Dim ListItem13 As GrapeCity.Win.Editors.ListItem = New GrapeCity.Win.Editors.ListItem()
             Dim SubItem25 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
             Dim SubItem26 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
+            Dim ListItem14 As GrapeCity.Win.Editors.ListItem = New GrapeCity.Win.Editors.ListItem()
+            Dim SubItem27 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
+            Dim SubItem28 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
+            Dim ListItem15 As GrapeCity.Win.Editors.ListItem = New GrapeCity.Win.Editors.ListItem()
+            Dim SubItem29 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
+            Dim SubItem30 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
+            Dim ListItem16 As GrapeCity.Win.Editors.ListItem = New GrapeCity.Win.Editors.ListItem()
+            Dim SubItem31 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
+            Dim SubItem32 As GrapeCity.Win.Editors.SubItem = New GrapeCity.Win.Editors.SubItem()
             Dim MaskPatternField1 As GrapeCity.Win.Editors.Fields.MaskPatternField = New GrapeCity.Win.Editors.Fields.MaskPatternField()
             Dim MaskLiteralField1 As GrapeCity.Win.Editors.Fields.MaskLiteralField = New GrapeCity.Win.Editors.Fields.MaskLiteralField()
             Dim MaskPatternField2 As GrapeCity.Win.Editors.Fields.MaskPatternField = New GrapeCity.Win.Editors.Fields.MaskPatternField()
@@ -97,208 +106,208 @@
             Dim DateMinuteField1 As GrapeCity.Win.Editors.Fields.DateMinuteField = New GrapeCity.Win.Editors.Fields.DateMinuteField()
             Dim DateLiteralField2 As GrapeCity.Win.Editors.Fields.DateLiteralField = New GrapeCity.Win.Editors.Fields.DateLiteralField()
             Dim DateSecondField1 As GrapeCity.Win.Editors.Fields.DateSecondField = New GrapeCity.Win.Editors.Fields.DateSecondField()
-            Me.gcTextBox1 = New GrapeCity.Win.Editors.GcTextBox(Me.components)
-            Me.dropDownButton3 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcShortcut1 = New GrapeCity.Win.Editors.GcShortcut(Me.components)
-            Me.gcNumber1 = New GrapeCity.Win.Editors.GcNumber(Me.components)
-            Me.dropDownButton2 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcDateTime1 = New GrapeCity.Win.Editors.GcDateTime(Me.components)
-            Me.dropDownButton1 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcComboBox1 = New GrapeCity.Win.Editors.GcComboBox(Me.components)
-            Me.dropDownButton4 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcDate1 = New GrapeCity.Win.Editors.GcDate(Me.components)
-            Me.dropDownButton5 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcComboBox2 = New GrapeCity.Win.Editors.GcComboBox(Me.components)
-            Me.listColumn39 = New GrapeCity.Win.Editors.ListColumn()
-            Me.listColumn40 = New GrapeCity.Win.Editors.ListColumn()
-            Me.dropDownButton21 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcColorPicker2 = New GrapeCity.Win.Editors.GcColorPicker(Me.components)
-            Me.dropDownButton6 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcComboBox3 = New GrapeCity.Win.Editors.GcComboBox(Me.components)
-            Me.listColumn1 = New GrapeCity.Win.Editors.ListColumn()
-            Me.listColumn2 = New GrapeCity.Win.Editors.ListColumn()
-            Me.dropDownButton7 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.gcColorPicker1 = New GrapeCity.Win.Editors.GcColorPicker(Me.components)
-            Me.dropDownButton8 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.GcMaskedComboBox1 = New GrapeCity.Win.Editors.GcMaskedComboBox(Me.components)
-            Me.DropDownButton9 = New GrapeCity.Win.Editors.DropDownButton()
-            Me.label2 = New System.Windows.Forms.Label()
-            Me.label3 = New System.Windows.Forms.Label()
-            Me.dataSet1 = New System.Data.DataSet()
-            Me.label4 = New System.Windows.Forms.Label()
-            Me.label5 = New System.Windows.Forms.Label()
-            Me.label6 = New System.Windows.Forms.Label()
-            Me.checkBox1 = New System.Windows.Forms.CheckBox()
-            Me.label8 = New System.Windows.Forms.Label()
-            Me.label9 = New System.Windows.Forms.Label()
-            Me.label10 = New System.Windows.Forms.Label()
-            Me.label11 = New System.Windows.Forms.Label()
-            Me.checkBox2 = New System.Windows.Forms.CheckBox()
-            Me.Label15 = New System.Windows.Forms.Label()
-            Me.DataSet2 = New System.Data.DataSet()
-            Me.label7 = New System.Windows.Forms.Label()
-            Me.gcTime1 = New GrapeCity.Win.Editors.GcTime(Me.components)
-            Me.dropDownButton10 = New GrapeCity.Win.Editors.DropDownButton()
-            CType(Me.splitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
-            Me.splitContainer1.Panel1.SuspendLayout()
-            Me.splitContainer1.Panel2.SuspendLayout()
-            Me.splitContainer1.SuspendLayout()
-            CType(Me.gcTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcNumber1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcDateTime1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcComboBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcDate1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcComboBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcColorPicker2, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcComboBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcColorPicker1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.GcMaskedComboBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.dataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.DataSet2, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.gcTime1, System.ComponentModel.ISupportInitialize).BeginInit()
-            Me.SuspendLayout()
-            '
-            'splitContainer1
-            '
-            '
-            'splitContainer1.Panel1
-            '
-            Me.splitContainer1.Panel1.Controls.Add(Me.label7)
-            Me.splitContainer1.Panel1.Controls.Add(Me.gcTime1)
-            Me.splitContainer1.Panel1.Controls.Add(Me.Label15)
-            Me.splitContainer1.Panel1.Controls.Add(Me.GcMaskedComboBox1)
-            Me.splitContainer1.Panel1.Controls.Add(Me.gcDate1)
-            Me.splitContainer1.Panel1.Controls.Add(Me.gcTextBox1)
-            Me.splitContainer1.Panel1.Controls.Add(Me.label2)
-            Me.splitContainer1.Panel1.Controls.Add(Me.gcNumber1)
-            Me.splitContainer1.Panel1.Controls.Add(Me.label6)
-            Me.splitContainer1.Panel1.Controls.Add(Me.label3)
-            Me.splitContainer1.Panel1.Controls.Add(Me.gcDateTime1)
-            Me.splitContainer1.Panel1.Controls.Add(Me.label4)
-            Me.splitContainer1.Panel1.Controls.Add(Me.label5)
-            Me.splitContainer1.Panel1.Controls.Add(Me.gcComboBox1)
-            '
-            'splitContainer1.Panel2
-            '
-            Me.splitContainer1.Panel2.Controls.Add(Me.checkBox2)
-            Me.splitContainer1.Panel2.Controls.Add(Me.gcComboBox2)
-            Me.splitContainer1.Panel2.Controls.Add(Me.checkBox1)
-            Me.splitContainer1.Panel2.Controls.Add(Me.label8)
-            Me.splitContainer1.Panel2.Controls.Add(Me.gcColorPicker2)
-            Me.splitContainer1.Panel2.Controls.Add(Me.label9)
-            Me.splitContainer1.Panel2.Controls.Add(Me.label10)
-            Me.splitContainer1.Panel2.Controls.Add(Me.gcComboBox3)
-            Me.splitContainer1.Panel2.Controls.Add(Me.gcColorPicker1)
-            Me.splitContainer1.Panel2.Controls.Add(Me.label11)
-            Me.splitContainer1.Panel2.Padding = New System.Windows.Forms.Padding(8, 0, 8, 4)
-            '
-            'gcTextBox1
-            '
-            Me.gcTextBox1.AutoSize = True
-            Me.gcTextBox1.ImeMode = System.Windows.Forms.ImeMode.[On]
-            Me.gcTextBox1.Location = New System.Drawing.Point(8, 29)
-            Me.gcTextBox1.Name = "gcTextBox1"
-            Me.gcShortcut1.SetShortcuts(Me.gcTextBox1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2}, New Object() {CType(Me.gcTextBox1, Object)}, New String() {"ShortcutClear"}))
-            Me.gcTextBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton3})
-            Me.gcTextBox1.Size = New System.Drawing.Size(253, 24)
-            Me.gcTextBox1.TabIndex = 1
-            Me.gcTextBox1.Text = "ドロップダウンボタンを追加"
-            '
-            'dropDownButton3
-            '
-            Me.dropDownButton3.Name = "dropDownButton3"
-            '
-            'gcNumber1
-            '
-            Me.gcNumber1.AutoSize = True
-            Me.gcNumber1.Fields.IntegerPart.MinDigits = 1
-            Me.gcNumber1.ImeMode = System.Windows.Forms.ImeMode.Off
-            Me.gcNumber1.Location = New System.Drawing.Point(8, 168)
-            Me.gcNumber1.Name = "gcNumber1"
-            Me.gcShortcut1.SetShortcuts(Me.gcNumber1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.Subtract, System.Windows.Forms.Keys.OemMinus}, New Object() {CType(Me.gcNumber1, Object), CType(Me.gcNumber1, Object), CType(Me.gcNumber1, Object)}, New String() {"SetZero", "SwitchSign", "SwitchSign"}))
-            Me.gcNumber1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton2})
-            Me.gcNumber1.Size = New System.Drawing.Size(124, 24)
-            Me.gcNumber1.TabIndex = 7
-            Me.gcNumber1.Value = New Decimal(New Integer() {2011, 0, 0, 0})
-            '
-            'dropDownButton2
-            '
-            Me.dropDownButton2.Name = "dropDownButton2"
-            '
-            'gcDateTime1
-            '
-            Me.gcDateTime1.AutoSize = True
-            Me.gcDateTime1.DropDownCalendar.TodayImage = CType(resources.GetObject("gcDateTime1.DropDownCalendar.TodayImage"), System.Drawing.Image)
+            gcTextBox1 = New GrapeCity.Win.Editors.GcTextBox(components)
+            dropDownButton3 = New GrapeCity.Win.Editors.DropDownButton()
+            gcShortcut1 = New GrapeCity.Win.Editors.GcShortcut(components)
+            gcNumber1 = New GrapeCity.Win.Editors.GcNumber(components)
+            dropDownButton2 = New GrapeCity.Win.Editors.DropDownButton()
+            gcDateTime1 = New GrapeCity.Win.Editors.GcDateTime(components)
+            dropDownButton1 = New GrapeCity.Win.Editors.DropDownButton()
+            gcComboBox1 = New GrapeCity.Win.Editors.GcComboBox(components)
+            dropDownButton4 = New GrapeCity.Win.Editors.DropDownButton()
+            gcDate1 = New GrapeCity.Win.Editors.GcDate(components)
+            dropDownButton5 = New GrapeCity.Win.Editors.DropDownButton()
+            gcComboBox2 = New GrapeCity.Win.Editors.GcComboBox(components)
+            listColumn39 = New GrapeCity.Win.Editors.ListColumn()
+            listColumn40 = New GrapeCity.Win.Editors.ListColumn()
+            dropDownButton21 = New GrapeCity.Win.Editors.DropDownButton()
+            gcColorPicker2 = New GrapeCity.Win.Editors.GcColorPicker(components)
+            dropDownButton6 = New GrapeCity.Win.Editors.DropDownButton()
+            gcComboBox3 = New GrapeCity.Win.Editors.GcComboBox(components)
+            listColumn1 = New GrapeCity.Win.Editors.ListColumn()
+            listColumn2 = New GrapeCity.Win.Editors.ListColumn()
+            dropDownButton7 = New GrapeCity.Win.Editors.DropDownButton()
+            gcColorPicker1 = New GrapeCity.Win.Editors.GcColorPicker(components)
+            dropDownButton8 = New GrapeCity.Win.Editors.DropDownButton()
+            GcMaskedComboBox1 = New GrapeCity.Win.Editors.GcMaskedComboBox(components)
+            DropDownButton9 = New GrapeCity.Win.Editors.DropDownButton()
+            gcTime1 = New GrapeCity.Win.Editors.GcTime(components)
+            dropDownButton10 = New GrapeCity.Win.Editors.DropDownButton()
+            label2 = New Windows.Forms.Label()
+            label3 = New Windows.Forms.Label()
+            dataSet1 = New Data.DataSet()
+            label4 = New Windows.Forms.Label()
+            label5 = New Windows.Forms.Label()
+            label6 = New Windows.Forms.Label()
+            checkBox1 = New Windows.Forms.CheckBox()
+            label8 = New Windows.Forms.Label()
+            label9 = New Windows.Forms.Label()
+            label10 = New Windows.Forms.Label()
+            label11 = New Windows.Forms.Label()
+            checkBox2 = New Windows.Forms.CheckBox()
+            Label15 = New Windows.Forms.Label()
+            DataSet2 = New Data.DataSet()
+            label7 = New Windows.Forms.Label()
+            CType(splitContainer1, ComponentModel.ISupportInitialize).BeginInit()
+            splitContainer1.Panel1.SuspendLayout()
+            splitContainer1.Panel2.SuspendLayout()
+            splitContainer1.SuspendLayout()
+            CType(gcTextBox1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcNumber1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcDateTime1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcComboBox1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcDate1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcComboBox2, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcColorPicker2, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcComboBox3, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcColorPicker1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(GcMaskedComboBox1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(gcTime1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(dataSet1, ComponentModel.ISupportInitialize).BeginInit()
+            CType(DataSet2, ComponentModel.ISupportInitialize).BeginInit()
+            SuspendLayout()
+            ' 
+            ' splitContainer1
+            ' 
+            ' 
+            ' splitContainer1.Panel1
+            ' 
+            splitContainer1.Panel1.Controls.Add(label7)
+            splitContainer1.Panel1.Controls.Add(gcTime1)
+            splitContainer1.Panel1.Controls.Add(Label15)
+            splitContainer1.Panel1.Controls.Add(GcMaskedComboBox1)
+            splitContainer1.Panel1.Controls.Add(gcDate1)
+            splitContainer1.Panel1.Controls.Add(gcTextBox1)
+            splitContainer1.Panel1.Controls.Add(label2)
+            splitContainer1.Panel1.Controls.Add(gcNumber1)
+            splitContainer1.Panel1.Controls.Add(label6)
+            splitContainer1.Panel1.Controls.Add(label3)
+            splitContainer1.Panel1.Controls.Add(gcDateTime1)
+            splitContainer1.Panel1.Controls.Add(label4)
+            splitContainer1.Panel1.Controls.Add(label5)
+            splitContainer1.Panel1.Controls.Add(gcComboBox1)
+            ' 
+            ' splitContainer1.Panel2
+            ' 
+            splitContainer1.Panel2.Controls.Add(checkBox2)
+            splitContainer1.Panel2.Controls.Add(gcComboBox2)
+            splitContainer1.Panel2.Controls.Add(checkBox1)
+            splitContainer1.Panel2.Controls.Add(label8)
+            splitContainer1.Panel2.Controls.Add(gcColorPicker2)
+            splitContainer1.Panel2.Controls.Add(label9)
+            splitContainer1.Panel2.Controls.Add(label10)
+            splitContainer1.Panel2.Controls.Add(gcComboBox3)
+            splitContainer1.Panel2.Controls.Add(gcColorPicker1)
+            splitContainer1.Panel2.Controls.Add(label11)
+            splitContainer1.Panel2.Padding = New System.Windows.Forms.Padding(8, 0, 8, 4)
+            ' 
+            ' gcTextBox1
+            ' 
+            gcTextBox1.AutoSize = True
+            gcTextBox1.ImeMode = Windows.Forms.ImeMode.On
+            gcTextBox1.Location = New System.Drawing.Point(8, 29)
+            gcTextBox1.Name = "gcTextBox1"
+            gcShortcut1.SetShortcuts(gcTextBox1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2}, New Object() {gcTextBox1}, New String() {"ShortcutClear"}))
+            gcTextBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton3})
+            gcTextBox1.Size = New System.Drawing.Size(253, 24)
+            gcTextBox1.TabIndex = 1
+            gcTextBox1.Text = "ドロップダウンボタンを追加"
+            ' 
+            ' dropDownButton3
+            ' 
+            dropDownButton3.Name = "dropDownButton3"
+            ' 
+            ' gcNumber1
+            ' 
+            gcNumber1.AutoSize = True
+            gcNumber1.Fields.IntegerPart.MinDigits = 1
+            gcNumber1.ImeMode = Windows.Forms.ImeMode.Off
+            gcNumber1.Location = New System.Drawing.Point(8, 168)
+            gcNumber1.Name = "gcNumber1"
+            gcShortcut1.SetShortcuts(gcNumber1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.Subtract, Windows.Forms.Keys.OemMinus}, New Object() {gcNumber1, gcNumber1, gcNumber1}, New String() {"SetZero", "SwitchSign", "SwitchSign"}))
+            gcNumber1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton2})
+            gcNumber1.Size = New System.Drawing.Size(124, 24)
+            gcNumber1.TabIndex = 7
+            gcNumber1.Value = New Decimal(New Integer() {2011, 0, 0, 0})
+            ' 
+            ' dropDownButton2
+            ' 
+            dropDownButton2.Name = "dropDownButton2"
+            ' 
+            ' gcDateTime1
+            ' 
+            gcDateTime1.AutoSize = True
+            gcDateTime1.DropDownCalendar.TodayImage = CType(resources.GetObject("gcDateTime1.DropDownCalendar.TodayImage"), Drawing.Image)
             DateLiteralField5.Text = "年"
             DateLiteralField6.Text = "月"
             DateLiteralField7.Text = "日 "
             DateLiteralField8.Text = "時"
             DateLiteralField9.Text = "分"
             DateLiteralField10.Text = "秒"
-            Me.gcDateTime1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.DateField() {DateYearField2, DateLiteralField5, DateMonthField2, DateLiteralField6, DateDayField2, DateLiteralField7, DateHourField2, DateLiteralField8, DateMinuteField2, DateLiteralField9, DateSecondField2, DateLiteralField10})
-            Me.gcDateTime1.ImeMode = System.Windows.Forms.ImeMode.Off
-            Me.gcDateTime1.Location = New System.Drawing.Point(8, 76)
-            Me.gcDateTime1.Name = "gcDateTime1"
-            Me.gcShortcut1.SetShortcuts(Me.gcDateTime1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.F5}, New Object() {CType(Me.gcDateTime1, Object), CType(Me.gcDateTime1, Object)}, New String() {"ShortcutClear", "SetNow"}))
-            Me.gcDateTime1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton1})
-            Me.gcDateTime1.Size = New System.Drawing.Size(253, 24)
-            Me.gcDateTime1.TabIndex = 3
-            Me.gcDateTime1.Value = New Date(2015, 1, 1, 18, 2, 33, 0)
-            '
-            'dropDownButton1
-            '
-            Me.dropDownButton1.Name = "dropDownButton1"
-            '
-            'gcComboBox1
-            '
-            Me.gcComboBox1.AutoSize = True
-            Me.gcComboBox1.DropDown.AutoWidth = True
-            Me.gcComboBox1.ImeMode = System.Windows.Forms.ImeMode.[On]
-            Me.gcComboBox1.ListHeaderPane.Height = 25
-            Me.gcComboBox1.Location = New System.Drawing.Point(8, 216)
-            Me.gcComboBox1.MaxLength = 10
-            Me.gcComboBox1.Name = "gcComboBox1"
-            Me.gcComboBox1.RecommendedValue = "檜木工所"
-            Me.gcShortcut1.SetShortcuts(Me.gcComboBox1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcComboBox1, Object), CType(Me.gcComboBox1, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
-            Me.gcComboBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton4})
-            Me.gcComboBox1.Size = New System.Drawing.Size(253, 26)
-            Me.gcComboBox1.TabIndex = 9
-            Me.gcComboBox1.TextSubItemIndex = 1
-            '
-            'dropDownButton4
-            '
-            Me.dropDownButton4.Name = "dropDownButton4"
-            '
-            'gcDate1
-            '
-            Me.gcDate1.AutoSize = True
+            gcDateTime1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.DateField() {DateYearField2, DateLiteralField5, DateMonthField2, DateLiteralField6, DateDayField2, DateLiteralField7, DateHourField2, DateLiteralField8, DateMinuteField2, DateLiteralField9, DateSecondField2, DateLiteralField10})
+            gcDateTime1.ImeMode = Windows.Forms.ImeMode.Off
+            gcDateTime1.Location = New System.Drawing.Point(8, 76)
+            gcDateTime1.Name = "gcDateTime1"
+            gcShortcut1.SetShortcuts(gcDateTime1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.F5}, New Object() {gcDateTime1, gcDateTime1}, New String() {"ShortcutClear", "SetNow"}))
+            gcDateTime1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton1})
+            gcDateTime1.Size = New System.Drawing.Size(253, 24)
+            gcDateTime1.TabIndex = 3
+            gcDateTime1.Value = New Date(2015, 1, 1, 18, 2, 33, 0)
+            ' 
+            ' dropDownButton1
+            ' 
+            dropDownButton1.Name = "dropDownButton1"
+            ' 
+            ' gcComboBox1
+            ' 
+            gcComboBox1.AutoSize = True
+            gcComboBox1.DropDown.AutoWidth = True
+            gcComboBox1.ImeMode = Windows.Forms.ImeMode.On
+            gcComboBox1.ListHeaderPane.Height = 25
+            gcComboBox1.Location = New System.Drawing.Point(8, 216)
+            gcComboBox1.MaxLength = 10
+            gcComboBox1.Name = "gcComboBox1"
+            gcComboBox1.RecommendedValue = "檜木工所"
+            gcShortcut1.SetShortcuts(gcComboBox1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {gcComboBox1, gcComboBox1}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
+            gcComboBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton4})
+            gcComboBox1.Size = New System.Drawing.Size(253, 26)
+            gcComboBox1.TabIndex = 9
+            gcComboBox1.TextSubItemIndex = 1
+            ' 
+            ' dropDownButton4
+            ' 
+            dropDownButton4.Name = "dropDownButton4"
+            ' 
+            ' gcDate1
+            ' 
+            gcDate1.AutoSize = True
             DateLiteralDisplayField1.Text = "年"
             DateLiteralDisplayField2.Text = "月"
             DateLiteralDisplayField3.Text = "日"
-            Me.gcDate1.DisplayFields.AddRange(New GrapeCity.Win.Editors.Fields.DateDisplayField() {DateYearDisplayField1, DateLiteralDisplayField1, DateMonthDisplayField1, DateLiteralDisplayField2, DateDayDisplayField1, DateLiteralDisplayField3})
-            Me.gcDate1.DropDownCalendar.TodayImage = CType(resources.GetObject("gcDate1.DropDownCalendar.TodayImage"), System.Drawing.Image)
+            gcDate1.DisplayFields.AddRange(New GrapeCity.Win.Editors.Fields.DateDisplayField() {DateYearDisplayField1, DateLiteralDisplayField1, DateMonthDisplayField1, DateLiteralDisplayField2, DateDayDisplayField1, DateLiteralDisplayField3})
+            gcDate1.DropDownCalendar.TodayImage = CType(resources.GetObject("gcDate1.DropDownCalendar.TodayImage"), Drawing.Image)
             DateLiteralField3.Text = "/"
             DateLiteralField4.Text = "/"
-            Me.gcDate1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.DateField() {DateYearField1, DateLiteralField3, DateMonthField1, DateLiteralField4, DateDayField1})
-            Me.gcDate1.Location = New System.Drawing.Point(8, 122)
-            Me.gcDate1.Margin = New System.Windows.Forms.Padding(2)
-            Me.gcDate1.Name = "gcDate1"
-            Me.gcShortcut1.SetShortcuts(Me.gcDate1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.F5, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcDate1, Object), CType(Me.gcDate1, Object), CType(Me.gcDate1, Object)}, New String() {"ShortcutClear", "SetNow", "ApplyRecommendedValue"}))
-            Me.gcDate1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton5})
-            Me.gcDate1.Size = New System.Drawing.Size(124, 24)
-            Me.gcDate1.TabIndex = 5
-            Me.gcDate1.Value = New Date(2015, 1, 1, 0, 0, 0, 0)
-            '
-            'dropDownButton5
-            '
-            Me.dropDownButton5.Name = "dropDownButton5"
-            '
-            'gcComboBox2
-            '
-            Me.gcComboBox2.AutoSize = True
-            Me.gcComboBox2.DropDown.AutoWidth = True
-            Me.gcComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-            Me.gcComboBox2.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd
+            gcDate1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.DateField() {DateYearField1, DateLiteralField3, DateMonthField1, DateLiteralField4, DateDayField1})
+            gcDate1.Location = New System.Drawing.Point(8, 122)
+            gcDate1.Margin = New System.Windows.Forms.Padding(2)
+            gcDate1.Name = "gcDate1"
+            gcShortcut1.SetShortcuts(gcDate1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.F5, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {gcDate1, gcDate1, gcDate1}, New String() {"ShortcutClear", "SetNow", "ApplyRecommendedValue"}))
+            gcDate1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton5})
+            gcDate1.Size = New System.Drawing.Size(124, 24)
+            gcDate1.TabIndex = 5
+            gcDate1.Value = New Date(2015, 1, 1, 0, 0, 0, 0)
+            ' 
+            ' dropDownButton5
+            ' 
+            dropDownButton5.Name = "dropDownButton5"
+            ' 
+            ' gcComboBox2
+            ' 
+            gcComboBox2.AutoSize = True
+            gcComboBox2.DropDown.AutoWidth = True
+            gcComboBox2.DropDownStyle = Windows.Forms.ComboBoxStyle.DropDownList
+            gcComboBox2.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd
             SubItem1.Value = "Flat"
             SubItem2.Value = "コントロールがフラットに表示されます。"
             ListItem1.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem1, SubItem2})
@@ -326,110 +335,120 @@
             SubItem17.Value = "Office2007Silver"
             SubItem18.Value = "コントロールの外観をOffice 2007の銀色のスタイルにします。"
             ListItem9.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem17, SubItem18})
-            Me.gcComboBox2.Items.AddRange(New GrapeCity.Win.Editors.ListItem() {ListItem1, ListItem2, ListItem3, ListItem4, ListItem5, ListItem6, ListItem7, ListItem8, ListItem9})
-            Me.gcComboBox2.ListColumns.AddRange(New GrapeCity.Win.Editors.ListColumn() {Me.listColumn39, Me.listColumn40})
-            Me.gcComboBox2.ListHeaderPane.Height = 25
-            Me.gcComboBox2.Location = New System.Drawing.Point(143, 5)
-            Me.gcComboBox2.Name = "gcComboBox2"
-            Me.gcShortcut1.SetShortcuts(Me.gcComboBox2, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcComboBox2, Object), CType(Me.gcComboBox2, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
-            Me.gcComboBox2.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton21})
-            Me.gcComboBox2.Size = New System.Drawing.Size(120, 26)
-            Me.gcComboBox2.TabIndex = 1
-            Me.gcComboBox2.UseCompatibleDrawing = True
-            '
-            'listColumn39
-            '
-            Me.listColumn39.AutoWidth = True
-            Me.listColumn39.Header.Text = "値"
-            '
-            'listColumn40
-            '
-            Me.listColumn40.AutoWidth = True
-            Me.listColumn40.Header.Text = "説明"
-            '
-            'dropDownButton21
-            '
-            Me.dropDownButton21.Name = "dropDownButton21"
-            '
-            'gcColorPicker2
-            '
-            Me.gcColorPicker2.AutoSize = True
-            Me.gcColorPicker2.DropDown.AutoWidth = True
-            Me.gcColorPicker2.Location = New System.Drawing.Point(143, 66)
-            Me.gcColorPicker2.Name = "gcColorPicker2"
-            Me.gcShortcut1.SetShortcuts(Me.gcColorPicker2, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcColorPicker2, Object), CType(Me.gcColorPicker2, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
-            Me.gcColorPicker2.ShowListBoxImage = True
-            Me.gcColorPicker2.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton6})
-            Me.gcColorPicker2.Size = New System.Drawing.Size(120, 26)
-            Me.gcColorPicker2.TabIndex = 5
-            Me.gcColorPicker2.UnSelectedImageIndex = 0
-            '
-            'dropDownButton6
-            '
-            Me.dropDownButton6.Name = "dropDownButton6"
-            '
-            'gcComboBox3
-            '
-            Me.gcComboBox3.AutoSize = True
-            Me.gcComboBox3.DropDown.AutoWidth = True
-            Me.gcComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-            Me.gcComboBox3.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd
-            SubItem19.Value = "LeftInside"
-            SubItem20.Value = "コントロールの内部左端に配置されます。"
+            SubItem19.Value = "Office2021DarkGray"
+            SubItem20.Value = "コントロールの外観をOffice 2021のダークグレイのスタイルにします。"
             ListItem10.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem19, SubItem20})
-            SubItem21.Value = "LeftOutside"
-            SubItem22.Value = "コントロールの外部左端に配置されます。"
+            SubItem21.Value = "Office2021Black"
+            SubItem22.Value = "コントロールの外観をOffice 2021の黒のスタイルにします。"
             ListItem11.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem21, SubItem22})
-            SubItem23.Value = "RightInside"
-            SubItem24.Value = "コントロールの内部右端に配置されます。"
+            SubItem23.Value = "Office2021White"
+            SubItem24.Value = "コントロールの外観をOffice 2021の白のスタイルにします。"
             ListItem12.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem23, SubItem24})
-            SubItem25.Value = "RightOutside"
-            SubItem26.Value = "コントロールの外部右端に配置されます。"
+            gcComboBox2.Items.AddRange(New GrapeCity.Win.Editors.ListItem() {ListItem1, ListItem2, ListItem3, ListItem4, ListItem5, ListItem6, ListItem7, ListItem8, ListItem9, ListItem10, ListItem11, ListItem12})
+            gcComboBox2.ListColumns.AddRange(New GrapeCity.Win.Editors.ListColumn() {listColumn39, listColumn40})
+            gcComboBox2.ListHeaderPane.Height = 25
+            gcComboBox2.Location = New System.Drawing.Point(143, 5)
+            gcComboBox2.MaxDropDownItems = 10
+            gcComboBox2.Name = "gcComboBox2"
+            gcShortcut1.SetShortcuts(gcComboBox2, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {gcComboBox2, gcComboBox2}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
+            gcComboBox2.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton21})
+            gcComboBox2.Size = New System.Drawing.Size(120, 26)
+            gcComboBox2.TabIndex = 1
+            gcComboBox2.UseCompatibleDrawing = True
+            ' 
+            ' listColumn39
+            ' 
+            listColumn39.AutoWidth = True
+            listColumn39.Header.Text = "値"
+            ' 
+            ' listColumn40
+            ' 
+            listColumn40.AutoWidth = True
+            listColumn40.Header.Text = "説明"
+            ' 
+            ' dropDownButton21
+            ' 
+            dropDownButton21.Name = "dropDownButton21"
+            ' 
+            ' gcColorPicker2
+            ' 
+            gcColorPicker2.AutoSize = True
+            gcColorPicker2.DropDown.AutoWidth = True
+            gcColorPicker2.Location = New System.Drawing.Point(143, 66)
+            gcColorPicker2.Name = "gcColorPicker2"
+            gcShortcut1.SetShortcuts(gcColorPicker2, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {gcColorPicker2, gcColorPicker2}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
+            gcColorPicker2.ShowListBoxImage = True
+            gcColorPicker2.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton6})
+            gcColorPicker2.Size = New System.Drawing.Size(120, 26)
+            gcColorPicker2.TabIndex = 5
+            gcColorPicker2.UnSelectedImageIndex = 0
+            ' 
+            ' dropDownButton6
+            ' 
+            dropDownButton6.Name = "dropDownButton6"
+            ' 
+            ' gcComboBox3
+            ' 
+            gcComboBox3.AutoSize = True
+            gcComboBox3.DropDown.AutoWidth = True
+            gcComboBox3.DropDownStyle = Windows.Forms.ComboBoxStyle.DropDownList
+            gcComboBox3.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd
+            SubItem25.Value = "LeftInside"
+            SubItem26.Value = "コントロールの内部左端に配置されます。"
             ListItem13.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem25, SubItem26})
-            Me.gcComboBox3.Items.AddRange(New GrapeCity.Win.Editors.ListItem() {ListItem10, ListItem11, ListItem12, ListItem13})
-            Me.gcComboBox3.ListColumns.AddRange(New GrapeCity.Win.Editors.ListColumn() {Me.listColumn1, Me.listColumn2})
-            Me.gcComboBox3.ListHeaderPane.Height = 25
-            Me.gcComboBox3.Location = New System.Drawing.Point(143, 96)
-            Me.gcComboBox3.Name = "gcComboBox3"
-            Me.gcShortcut1.SetShortcuts(Me.gcComboBox3, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcComboBox3, Object), CType(Me.gcComboBox3, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
-            Me.gcComboBox3.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton7})
-            Me.gcComboBox3.Size = New System.Drawing.Size(120, 26)
-            Me.gcComboBox3.TabIndex = 7
-            Me.gcComboBox3.UseCompatibleDrawing = True
-            '
-            'listColumn1
-            '
-            Me.listColumn1.AutoWidth = True
-            Me.listColumn1.Header.Text = "値"
-            '
-            'listColumn2
-            '
-            Me.listColumn2.AutoWidth = True
-            Me.listColumn2.Header.Text = "説明"
-            '
-            'dropDownButton7
-            '
-            Me.dropDownButton7.Name = "dropDownButton7"
-            '
-            'gcColorPicker1
-            '
-            Me.gcColorPicker1.AutoSize = True
-            Me.gcColorPicker1.Location = New System.Drawing.Point(143, 35)
-            Me.gcColorPicker1.Name = "gcColorPicker1"
-            Me.gcShortcut1.SetShortcuts(Me.gcColorPicker1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcColorPicker1, Object), CType(Me.gcColorPicker1, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
-            Me.gcColorPicker1.ShowListBoxImage = True
-            Me.gcColorPicker1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton8})
-            Me.gcColorPicker1.Size = New System.Drawing.Size(120, 26)
-            Me.gcColorPicker1.TabIndex = 3
-            Me.gcColorPicker1.UnSelectedImageIndex = 0
-            '
-            'dropDownButton8
-            '
-            Me.dropDownButton8.Name = "dropDownButton8"
-            '
-            'GcMaskedComboBox1
-            '
-            Me.GcMaskedComboBox1.AutoSize = True
+            SubItem27.Value = "LeftOutside"
+            SubItem28.Value = "コントロールの外部左端に配置されます。"
+            ListItem14.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem27, SubItem28})
+            SubItem29.Value = "RightInside"
+            SubItem30.Value = "コントロールの内部右端に配置されます。"
+            ListItem15.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem29, SubItem30})
+            SubItem31.Value = "RightOutside"
+            SubItem32.Value = "コントロールの外部右端に配置されます。"
+            ListItem16.SubItems.AddRange(New GrapeCity.Win.Editors.SubItem() {SubItem31, SubItem32})
+            gcComboBox3.Items.AddRange(New GrapeCity.Win.Editors.ListItem() {ListItem13, ListItem14, ListItem15, ListItem16})
+            gcComboBox3.ListColumns.AddRange(New GrapeCity.Win.Editors.ListColumn() {listColumn1, listColumn2})
+            gcComboBox3.ListHeaderPane.Height = 25
+            gcComboBox3.Location = New System.Drawing.Point(143, 96)
+            gcComboBox3.Name = "gcComboBox3"
+            gcShortcut1.SetShortcuts(gcComboBox3, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {gcComboBox3, gcComboBox3}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
+            gcComboBox3.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton7})
+            gcComboBox3.Size = New System.Drawing.Size(120, 26)
+            gcComboBox3.TabIndex = 7
+            gcComboBox3.UseCompatibleDrawing = True
+            ' 
+            ' listColumn1
+            ' 
+            listColumn1.AutoWidth = True
+            listColumn1.Header.Text = "値"
+            ' 
+            ' listColumn2
+            ' 
+            listColumn2.AutoWidth = True
+            listColumn2.Header.Text = "説明"
+            ' 
+            ' dropDownButton7
+            ' 
+            dropDownButton7.Name = "dropDownButton7"
+            ' 
+            ' gcColorPicker1
+            ' 
+            gcColorPicker1.AutoSize = True
+            gcColorPicker1.Location = New System.Drawing.Point(143, 35)
+            gcColorPicker1.Name = "gcColorPicker1"
+            gcShortcut1.SetShortcuts(gcColorPicker1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {gcColorPicker1, gcColorPicker1}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
+            gcColorPicker1.ShowListBoxImage = True
+            gcColorPicker1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton8})
+            gcColorPicker1.Size = New System.Drawing.Size(120, 26)
+            gcColorPicker1.TabIndex = 3
+            gcColorPicker1.UnSelectedImageIndex = 0
+            ' 
+            ' dropDownButton8
+            ' 
+            dropDownButton8.Name = "dropDownButton8"
+            ' 
+            ' GcMaskedComboBox1
+            ' 
+            GcMaskedComboBox1.AutoSize = True
             MaskPatternField1.MaxLength = 4
             MaskPatternField1.MinLength = 2
             MaskPatternField1.Pattern = "\D"
@@ -441,197 +460,197 @@
             MaskPatternField3.MaxLength = 4
             MaskPatternField3.MinLength = 4
             MaskPatternField3.Pattern = "\D"
-            Me.GcMaskedComboBox1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.MaskField() {MaskPatternField1, MaskLiteralField1, MaskPatternField2, MaskLiteralField2, MaskPatternField3})
-            Me.GcMaskedComboBox1.ListHeaderPane.Height = 25
-            Me.GcMaskedComboBox1.Location = New System.Drawing.Point(8, 270)
-            Me.GcMaskedComboBox1.Name = "GcMaskedComboBox1"
-            Me.gcShortcut1.SetShortcuts(Me.GcMaskedComboBox1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.GcMaskedComboBox1, Object), CType(Me.GcMaskedComboBox1, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
-            Me.GcMaskedComboBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.DropDownButton9})
-            Me.GcMaskedComboBox1.Size = New System.Drawing.Size(254, 26)
-            Me.GcMaskedComboBox1.TabIndex = 32
-            Me.GcMaskedComboBox1.TextSubItemIndex = 1
-            '
-            'DropDownButton9
-            '
-            Me.DropDownButton9.Name = "DropDownButton9"
-            '
-            'label2
-            '
-            Me.label2.AutoSize = True
-            Me.label2.Location = New System.Drawing.Point(5, 8)
-            Me.label2.Name = "label2"
-            Me.label2.Size = New System.Drawing.Size(68, 18)
-            Me.label2.TabIndex = 0
-            Me.label2.Text = "テキスト："
-            '
-            'label3
-            '
-            Me.label3.AutoSize = True
-            Me.label3.Location = New System.Drawing.Point(5, 55)
-            Me.label3.Name = "label3"
-            Me.label3.Size = New System.Drawing.Size(68, 18)
-            Me.label3.TabIndex = 2
-            Me.label3.Text = "日付時刻："
-            '
-            'dataSet1
-            '
-            Me.dataSet1.DataSetName = "NewDataSet"
-            '
-            'label4
-            '
-            Me.label4.AutoSize = True
-            Me.label4.Location = New System.Drawing.Point(5, 148)
-            Me.label4.Name = "label4"
-            Me.label4.Size = New System.Drawing.Size(44, 18)
-            Me.label4.TabIndex = 6
-            Me.label4.Text = "数値："
-            '
-            'label5
-            '
-            Me.label5.AutoSize = True
-            Me.label5.Location = New System.Drawing.Point(3, 195)
-            Me.label5.Name = "label5"
-            Me.label5.Size = New System.Drawing.Size(56, 18)
-            Me.label5.TabIndex = 8
-            Me.label5.Text = "コンボ："
-            '
-            'label6
-            '
-            Me.label6.AutoSize = True
-            Me.label6.Location = New System.Drawing.Point(5, 102)
-            Me.label6.Name = "label6"
-            Me.label6.Size = New System.Drawing.Size(44, 18)
-            Me.label6.TabIndex = 4
-            Me.label6.Text = "日付："
-            '
-            'checkBox1
-            '
-            Me.checkBox1.AutoSize = True
-            Me.checkBox1.Location = New System.Drawing.Point(8, 128)
-            Me.checkBox1.Name = "checkBox1"
-            Me.checkBox1.Size = New System.Drawing.Size(243, 22)
-            Me.checkBox1.TabIndex = 8
-            Me.checkBox1.Text = "既定のドロップダウン機能を有効にする"
-            Me.checkBox1.TextAlign = System.Drawing.ContentAlignment.TopLeft
-            Me.checkBox1.UseVisualStyleBackColor = True
-            '
-            'label8
-            '
-            Me.label8.AutoSize = True
-            Me.label8.Location = New System.Drawing.Point(5, 8)
-            Me.label8.Name = "label8"
-            Me.label8.Size = New System.Drawing.Size(128, 18)
-            Me.label8.TabIndex = 0
-            Me.label8.Text = "コントロールの外観："
-            '
-            'label9
-            '
-            Me.label9.AutoSize = True
-            Me.label9.Location = New System.Drawing.Point(5, 99)
-            Me.label9.Name = "label9"
-            Me.label9.Size = New System.Drawing.Size(128, 18)
-            Me.label9.TabIndex = 6
-            Me.label9.Text = "サイドボタンの位置："
-            '
-            'label10
-            '
-            Me.label10.AutoSize = True
-            Me.label10.Location = New System.Drawing.Point(5, 68)
-            Me.label10.Name = "label10"
-            Me.label10.Size = New System.Drawing.Size(140, 18)
-            Me.label10.TabIndex = 4
-            Me.label10.Text = "サイドボタンの背景色："
-            '
-            'label11
-            '
-            Me.label11.AutoSize = True
-            Me.label11.Location = New System.Drawing.Point(5, 38)
-            Me.label11.Name = "label11"
-            Me.label11.Size = New System.Drawing.Size(140, 18)
-            Me.label11.TabIndex = 2
-            Me.label11.Text = "サイドボタンの前景色："
-            '
-            'checkBox2
-            '
-            Me.checkBox2.Location = New System.Drawing.Point(8, 156)
-            Me.checkBox2.Name = "checkBox2"
-            Me.checkBox2.Size = New System.Drawing.Size(258, 40)
-            Me.checkBox2.TabIndex = 9
-            Me.checkBox2.Text = "マウスホイールでのドロップダウンカレンダーの月の移動を有効にする"
-            Me.checkBox2.UseVisualStyleBackColor = True
-            '
-            'Label15
-            '
-            Me.Label15.AutoSize = True
-            Me.Label15.Location = New System.Drawing.Point(5, 249)
-            Me.Label15.Name = "Label15"
-            Me.Label15.Size = New System.Drawing.Size(92, 18)
-            Me.Label15.TabIndex = 33
-            Me.Label15.Text = "マスクコンボ："
-            '
-            'DataSet2
-            '
-            Me.DataSet2.DataSetName = "NewDataSet"
-            '
-            'label7
-            '
-            Me.label7.AutoSize = True
-            Me.label7.Location = New System.Drawing.Point(135, 102)
-            Me.label7.Name = "label7"
-            Me.label7.Size = New System.Drawing.Size(44, 18)
-            Me.label7.TabIndex = 34
-            Me.label7.Text = "時刻："
-            '
-            'gcTime1
-            '
-            Me.gcTime1.AutoSize = True
+            GcMaskedComboBox1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.MaskField() {MaskPatternField1, MaskLiteralField1, MaskPatternField2, MaskLiteralField2, MaskPatternField3})
+            GcMaskedComboBox1.ListHeaderPane.Height = 25
+            GcMaskedComboBox1.Location = New System.Drawing.Point(8, 270)
+            GcMaskedComboBox1.Name = "GcMaskedComboBox1"
+            gcShortcut1.SetShortcuts(GcMaskedComboBox1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {GcMaskedComboBox1, GcMaskedComboBox1}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
+            GcMaskedComboBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {DropDownButton9})
+            GcMaskedComboBox1.Size = New System.Drawing.Size(254, 26)
+            GcMaskedComboBox1.TabIndex = 32
+            GcMaskedComboBox1.TextSubItemIndex = 1
+            ' 
+            ' DropDownButton9
+            ' 
+            DropDownButton9.Name = "DropDownButton9"
+            ' 
+            ' gcTime1
+            ' 
+            gcTime1.AutoSize = True
             DateLiteralField1.Text = ":"
             DateLiteralField2.Text = ":"
-            Me.gcTime1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.DateField() {DateHourField1, DateLiteralField1, DateMinuteField1, DateLiteralField2, DateSecondField1})
-            Me.gcTime1.Location = New System.Drawing.Point(138, 122)
-            Me.gcTime1.Name = "gcTime1"
-            Me.gcShortcut1.SetShortcuts(Me.gcTime1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.F5, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcTime1, Object), CType(Me.gcTime1, Object), CType(Me.gcTime1, Object)}, New String() {"ShortcutClear", "SetNow", "ApplyRecommendedValue"}))
-            Me.gcTime1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton10})
-            Me.gcTime1.Size = New System.Drawing.Size(124, 24)
-            Me.gcTime1.TabIndex = 35
-            '
-            'dropDownButton10
-            '
-            Me.dropDownButton10.Name = "dropDownButton10"
-            '
-            'DropDownButton
-            '
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 18.0!)
-            Me.Description = "ドロップダウンボタンは、主にドロップダウンウィンドウを表示するために使用するサイドボタンです。"
-            Me.Margin = New System.Windows.Forms.Padding(2)
-            Me.Name = "DropDownButton"
-            Me.Padding = New System.Windows.Forms.Padding(11, 16, 11, 3)
-            Me.Title = "ドロップダウンボタン"
-            Me.splitContainer1.Panel1.ResumeLayout(False)
-            Me.splitContainer1.Panel1.PerformLayout()
-            Me.splitContainer1.Panel2.ResumeLayout(False)
-            Me.splitContainer1.Panel2.PerformLayout()
-            CType(Me.splitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
-            Me.splitContainer1.ResumeLayout(False)
-            CType(Me.gcTextBox1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcNumber1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcDateTime1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcComboBox1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcDate1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcComboBox2, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcColorPicker2, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcComboBox3, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcColorPicker1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.GcMaskedComboBox1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.dataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.DataSet2, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.gcTime1, System.ComponentModel.ISupportInitialize).EndInit()
-            Me.ResumeLayout(False)
-            Me.PerformLayout()
+            gcTime1.Fields.AddRange(New GrapeCity.Win.Editors.Fields.DateField() {DateHourField1, DateLiteralField1, DateMinuteField1, DateLiteralField2, DateSecondField1})
+            gcTime1.Location = New System.Drawing.Point(138, 122)
+            gcTime1.Name = "gcTime1"
+            gcShortcut1.SetShortcuts(gcTime1, New GrapeCity.Win.Editors.ShortcutCollection(New Windows.Forms.Keys() {Windows.Forms.Keys.F2, Windows.Forms.Keys.F5, Windows.Forms.Keys.Control Or Windows.Forms.Keys.Return}, New Object() {gcTime1, gcTime1, gcTime1}, New String() {"ShortcutClear", "SetNow", "ApplyRecommendedValue"}))
+            gcTime1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {dropDownButton10})
+            gcTime1.Size = New System.Drawing.Size(124, 24)
+            gcTime1.TabIndex = 35
+            ' 
+            ' dropDownButton10
+            ' 
+            dropDownButton10.Name = "dropDownButton10"
+            ' 
+            ' label2
+            ' 
+            label2.AutoSize = True
+            label2.Location = New System.Drawing.Point(5, 8)
+            label2.Name = "label2"
+            label2.Size = New System.Drawing.Size(68, 18)
+            label2.TabIndex = 0
+            label2.Text = "テキスト："
+            ' 
+            ' label3
+            ' 
+            label3.AutoSize = True
+            label3.Location = New System.Drawing.Point(5, 55)
+            label3.Name = "label3"
+            label3.Size = New System.Drawing.Size(68, 18)
+            label3.TabIndex = 2
+            label3.Text = "日付時刻："
+            ' 
+            ' dataSet1
+            ' 
+            dataSet1.DataSetName = "NewDataSet"
+            ' 
+            ' label4
+            ' 
+            label4.AutoSize = True
+            label4.Location = New System.Drawing.Point(5, 148)
+            label4.Name = "label4"
+            label4.Size = New System.Drawing.Size(44, 18)
+            label4.TabIndex = 6
+            label4.Text = "数値："
+            ' 
+            ' label5
+            ' 
+            label5.AutoSize = True
+            label5.Location = New System.Drawing.Point(3, 195)
+            label5.Name = "label5"
+            label5.Size = New System.Drawing.Size(56, 18)
+            label5.TabIndex = 8
+            label5.Text = "コンボ："
+            ' 
+            ' label6
+            ' 
+            label6.AutoSize = True
+            label6.Location = New System.Drawing.Point(5, 102)
+            label6.Name = "label6"
+            label6.Size = New System.Drawing.Size(44, 18)
+            label6.TabIndex = 4
+            label6.Text = "日付："
+            ' 
+            ' checkBox1
+            ' 
+            checkBox1.AutoSize = True
+            checkBox1.Location = New System.Drawing.Point(8, 128)
+            checkBox1.Name = "checkBox1"
+            checkBox1.Size = New System.Drawing.Size(243, 22)
+            checkBox1.TabIndex = 8
+            checkBox1.Text = "既定のドロップダウン機能を有効にする"
+            checkBox1.TextAlign = Drawing.ContentAlignment.TopLeft
+            checkBox1.UseVisualStyleBackColor = True
+            ' 
+            ' label8
+            ' 
+            label8.AutoSize = True
+            label8.Location = New System.Drawing.Point(5, 8)
+            label8.Name = "label8"
+            label8.Size = New System.Drawing.Size(128, 18)
+            label8.TabIndex = 0
+            label8.Text = "コントロールの外観："
+            ' 
+            ' label9
+            ' 
+            label9.AutoSize = True
+            label9.Location = New System.Drawing.Point(5, 99)
+            label9.Name = "label9"
+            label9.Size = New System.Drawing.Size(128, 18)
+            label9.TabIndex = 6
+            label9.Text = "サイドボタンの位置："
+            ' 
+            ' label10
+            ' 
+            label10.AutoSize = True
+            label10.Location = New System.Drawing.Point(5, 68)
+            label10.Name = "label10"
+            label10.Size = New System.Drawing.Size(140, 18)
+            label10.TabIndex = 4
+            label10.Text = "サイドボタンの背景色："
+            ' 
+            ' label11
+            ' 
+            label11.AutoSize = True
+            label11.Location = New System.Drawing.Point(5, 38)
+            label11.Name = "label11"
+            label11.Size = New System.Drawing.Size(140, 18)
+            label11.TabIndex = 2
+            label11.Text = "サイドボタンの前景色："
+            ' 
+            ' checkBox2
+            ' 
+            checkBox2.Location = New System.Drawing.Point(8, 156)
+            checkBox2.Name = "checkBox2"
+            checkBox2.Size = New System.Drawing.Size(258, 40)
+            checkBox2.TabIndex = 9
+            checkBox2.Text = "マウスホイールでのドロップダウンカレンダーの月の移動を有効にする"
+            checkBox2.UseVisualStyleBackColor = True
+            ' 
+            ' Label15
+            ' 
+            Label15.AutoSize = True
+            Label15.Location = New System.Drawing.Point(5, 249)
+            Label15.Name = "Label15"
+            Label15.Size = New System.Drawing.Size(92, 18)
+            Label15.TabIndex = 33
+            Label15.Text = "マスクコンボ："
+            ' 
+            ' DataSet2
+            ' 
+            DataSet2.DataSetName = "NewDataSet"
+            ' 
+            ' label7
+            ' 
+            label7.AutoSize = True
+            label7.Location = New System.Drawing.Point(135, 102)
+            label7.Name = "label7"
+            label7.Size = New System.Drawing.Size(44, 18)
+            label7.TabIndex = 34
+            label7.Text = "時刻："
+            ' 
+            ' DropDownButton
+            ' 
+            AutoScaleDimensions = New System.Drawing.SizeF(7F, 18F)
+            Description = "ドロップダウンボタンは、主にドロップダウンウィンドウを表示するために使用するサイドボタンです。"
+            Margin = New System.Windows.Forms.Padding(2)
+            Name = "DropDownButton"
+            Padding = New System.Windows.Forms.Padding(11, 16, 11, 3)
+            Title = "ドロップダウンボタン"
+            splitContainer1.Panel1.ResumeLayout(False)
+            splitContainer1.Panel1.PerformLayout()
+            splitContainer1.Panel2.ResumeLayout(False)
+            splitContainer1.Panel2.PerformLayout()
+            CType(splitContainer1, ComponentModel.ISupportInitialize).EndInit()
+            splitContainer1.ResumeLayout(False)
+            CType(gcTextBox1, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcNumber1, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcDateTime1, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcComboBox1, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcDate1, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcComboBox2, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcColorPicker2, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcComboBox3, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcColorPicker1, ComponentModel.ISupportInitialize).EndInit()
+            CType(GcMaskedComboBox1, ComponentModel.ISupportInitialize).EndInit()
+            CType(gcTime1, ComponentModel.ISupportInitialize).EndInit()
+            CType(dataSet1, ComponentModel.ISupportInitialize).EndInit()
+            CType(DataSet2, ComponentModel.ISupportInitialize).EndInit()
+            ResumeLayout(False)
+            PerformLayout()
 
         End Sub
 
-		#End Region
+#End Region
 
         Private WithEvents gcShortcut1 As GrapeCity.Win.Editors.GcShortcut
         Private WithEvents gcDate1 As GrapeCity.Win.Editors.GcDate
