@@ -1,28 +1,28 @@
 ﻿Namespace _01_Controls
-	Partial Class Controls
-		''' <summary>
-		''' 必要なデザイナ変数です。
-		''' </summary>
-		Private components As System.ComponentModel.IContainer = Nothing
+    Partial Class Controls
+        ''' <summary>
+        ''' 必要なデザイナ変数です。
+        ''' </summary>
+        Private components As System.ComponentModel.IContainer = Nothing
 
-		''' <summary>
-		''' 使用中のリソースをすべてクリーンアップします。
-		''' </summary>
-		''' <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
-		Protected Overrides Sub Dispose(disposing As Boolean)
-			If disposing AndAlso (components IsNot Nothing) Then
-				components.Dispose()
-			End If
-			MyBase.Dispose(disposing)
-		End Sub
+        ''' <summary>
+        ''' 使用中のリソースをすべてクリーンアップします。
+        ''' </summary>
+        ''' <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
+        Protected Overrides Sub Dispose(disposing As Boolean)
+            If disposing AndAlso (components IsNot Nothing) Then
+                components.Dispose()
+            End If
+            MyBase.Dispose(disposing)
+        End Sub
 
-		#Region "Windows フォーム デザイナで生成されたコード"
+#Region "Windows フォーム デザイナで生成されたコード"
 
-		''' <summary>
-		''' デザイナ サポートに必要なメソッドです。このメソッドの内容を
-		''' コード エディタで変更しないでください。
-		''' </summary>
-		Private Sub InitializeComponent()
+        ''' <summary>
+        ''' デザイナ サポートに必要なメソッドです。このメソッドの内容を
+        ''' コード エディタで変更しないでください。
+        ''' </summary>
+        Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
             Dim NumberSignDisplayField1 As GrapeCity.Win.Editors.Fields.NumberSignDisplayField = New GrapeCity.Win.Editors.Fields.NumberSignDisplayField()
             Dim NumberIntegerPartDisplayField1 As GrapeCity.Win.Editors.Fields.NumberIntegerPartDisplayField = New GrapeCity.Win.Editors.Fields.NumberIntegerPartDisplayField()
@@ -233,6 +233,7 @@
             Me.dropDownButton3 = New GrapeCity.Win.Editors.DropDownButton()
             Me.gcMaskedComboBox1 = New GrapeCity.Win.Editors.GcMaskedComboBox(Me.components)
             Me.dropDownButton4 = New GrapeCity.Win.Editors.DropDownButton()
+            Me.GcTextBox2 = New GrapeCity.Win.Editors.GcTextBox(Me.components)
             Me.label11 = New System.Windows.Forms.Label()
             Me.label12 = New System.Windows.Forms.Label()
             Me.label13 = New System.Windows.Forms.Label()
@@ -242,8 +243,9 @@
             Me.gcListBox1 = New GrapeCity.Win.Editors.GcListBox()
             Me.listColumn3 = New GrapeCity.Win.Editors.ListColumn()
             Me.listColumn4 = New GrapeCity.Win.Editors.ListColumn()
-            Me.GcTextBox2 = New GrapeCity.Win.Editors.GcTextBox(Me.components)
             Me.Label16 = New System.Windows.Forms.Label()
+            Me.gcSlider1 = New GrapeCity.Win.Editors.GcSlider()
+            Me.label17 = New System.Windows.Forms.Label()
             Me.panel1.SuspendLayout()
             CType(Me.gcNumber1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.gcTimeSpan1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -257,13 +259,15 @@
             CType(Me.gcAddressBox1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.gcComboBox1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.gcMaskedComboBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.GcTextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.DataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.gcListBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.GcTextBox2, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             '
             'panel1
             '
+            Me.panel1.Controls.Add(Me.gcSlider1)
+            Me.panel1.Controls.Add(Me.label17)
             Me.panel1.Controls.Add(Me.GcTextBox2)
             Me.panel1.Controls.Add(Me.Label16)
             Me.panel1.Controls.Add(Me.gcMaskedComboBox1)
@@ -396,7 +400,7 @@
             Me.gcNumber1.Name = "gcNumber1"
             Me.gcShortcut1.SetShortcuts(Me.gcNumber1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.Subtract, System.Windows.Forms.Keys.OemMinus, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcNumber1, Object), CType(Me.gcNumber1, Object), CType(Me.gcNumber1, Object), CType(Me.gcNumber1, Object)}, New String() {"SetZero", "SwitchSign", "SwitchSign", "ApplyRecommendedValue"}))
             Me.gcNumber1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.spinButton1})
-            Me.gcNumber1.Size = New System.Drawing.Size(87, 22)
+            Me.gcNumber1.Size = New System.Drawing.Size(87, 24)
             Me.gcNumber1.TabIndex = 15
             Me.gcNumber1.ValueSign = GrapeCity.Win.Editors.ValueSignControl.Positive
             '
@@ -425,7 +429,7 @@
             Me.gcTimeSpan1.Location = New System.Drawing.Point(338, 29)
             Me.gcTimeSpan1.Name = "gcTimeSpan1"
             Me.gcShortcut1.SetShortcuts(Me.gcTimeSpan1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.Subtract, System.Windows.Forms.Keys.OemMinus, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcTimeSpan1, Object), CType(Me.gcTimeSpan1, Object), CType(Me.gcTimeSpan1, Object), CType(Me.gcTimeSpan1, Object)}, New String() {"ShortcutClear", "SwitchSign", "SwitchSign", "ApplyRecommendedValue"}))
-            Me.gcTimeSpan1.Size = New System.Drawing.Size(144, 22)
+            Me.gcTimeSpan1.Size = New System.Drawing.Size(144, 24)
             Me.gcTimeSpan1.TabIndex = 25
             Me.gcTimeSpan1.Value = System.TimeSpan.Parse("99.23:59:00")
             '
@@ -451,7 +455,7 @@
             Me.gcDate1.Name = "gcDate1"
             Me.gcShortcut1.SetShortcuts(Me.gcDate1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.F5, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcDate1, Object), CType(Me.gcDate1, Object), CType(Me.gcDate1, Object)}, New String() {"ShortcutClear", "SetNow", "ApplyRecommendedValue"}))
             Me.gcDate1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton1})
-            Me.gcDate1.Size = New System.Drawing.Size(144, 22)
+            Me.gcDate1.Size = New System.Drawing.Size(144, 24)
             Me.gcDate1.TabIndex = 7
             Me.gcDate1.Value = New Date(2015, 5, 10, 10, 15, 27, 0)
             '
@@ -518,7 +522,7 @@
             Me.gcMask1.Location = New System.Drawing.Point(7, 76)
             Me.gcMask1.Name = "gcMask1"
             Me.gcShortcut1.SetShortcuts(Me.gcMask1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcMask1, Object), CType(Me.gcMask1, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
-            Me.gcMask1.Size = New System.Drawing.Size(144, 22)
+            Me.gcMask1.Size = New System.Drawing.Size(144, 24)
             Me.gcMask1.TabIndex = 3
             '
             'gcTextBox1
@@ -530,10 +534,8 @@
             Me.gcTextBox1.ImeMode = System.Windows.Forms.ImeMode.[On]
             Me.gcTextBox1.Location = New System.Drawing.Point(7, 29)
             Me.gcTextBox1.Name = "gcTextBox1"
-            Me.gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度"
-            Me.gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。"
             Me.gcShortcut1.SetShortcuts(Me.gcTextBox1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2}, New Object() {CType(Me.gcTextBox1, Object)}, New String() {"ShortcutClear"}))
-            Me.gcTextBox1.Size = New System.Drawing.Size(144, 22)
+            Me.gcTextBox1.Size = New System.Drawing.Size(144, 24)
             Me.gcTextBox1.TabIndex = 1
             '
             'gcDate2
@@ -552,7 +554,7 @@
             Me.gcDate2.Name = "gcDate2"
             Me.gcShortcut1.SetShortcuts(Me.gcDate2, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.F5, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcDate2, Object), CType(Me.gcDate2, Object), CType(Me.gcDate2, Object)}, New String() {"ShortcutClear", "SetNow", "ApplyRecommendedValue"}))
             Me.gcDate2.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton2})
-            Me.gcDate2.Size = New System.Drawing.Size(144, 22)
+            Me.gcDate2.Size = New System.Drawing.Size(144, 24)
             Me.gcDate2.TabIndex = 9
             Me.gcDate2.Value = New Date(2015, 1, 1, 0, 0, 0, 0)
             '
@@ -574,7 +576,7 @@
             Me.gcTime1.Name = "gcTime1"
             Me.gcShortcut1.SetShortcuts(Me.gcTime1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, System.Windows.Forms.Keys.F5, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcTime1, Object), CType(Me.gcTime1, Object), CType(Me.gcTime1, Object)}, New String() {"ShortcutClear", "SetNow", "ApplyRecommendedValue"}))
             Me.gcTime1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.spinButton2})
-            Me.gcTime1.Size = New System.Drawing.Size(87, 22)
+            Me.gcTime1.Size = New System.Drawing.Size(87, 24)
             Me.gcTime1.TabIndex = 11
             Me.gcTime1.Value = System.TimeSpan.Parse("11:59:00")
             '
@@ -595,7 +597,7 @@
             Me.gcPostal1.Location = New System.Drawing.Point(171, 227)
             Me.gcPostal1.Name = "gcPostal1"
             Me.gcShortcut1.SetShortcuts(Me.gcPostal1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2}, New Object() {CType(Me.gcPostal1, Object)}, New String() {"ShortcutClear"}))
-            Me.gcPostal1.Size = New System.Drawing.Size(87, 22)
+            Me.gcPostal1.Size = New System.Drawing.Size(87, 24)
             Me.gcPostal1.TabIndex = 21
             '
             'gcAddressBox1
@@ -604,7 +606,7 @@
             Me.gcAddressBox1.Location = New System.Drawing.Point(171, 272)
             Me.gcAddressBox1.Name = "gcAddressBox1"
             Me.gcShortcut1.SetShortcuts(Me.gcAddressBox1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2}, New Object() {CType(Me.gcAddressBox1, Object)}, New String() {"ShortcutClear"}))
-            Me.gcAddressBox1.Size = New System.Drawing.Size(144, 22)
+            Me.gcAddressBox1.Size = New System.Drawing.Size(144, 24)
             Me.gcAddressBox1.TabIndex = 23
             '
             'gcRichTextBox1
@@ -809,7 +811,7 @@
             Me.gcShortcut1.SetShortcuts(Me.gcComboBox1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcComboBox1, Object), CType(Me.gcComboBox1, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
             Me.gcComboBox1.ShowListBoxImage = True
             Me.gcComboBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton3})
-            Me.gcComboBox1.Size = New System.Drawing.Size(144, 24)
+            Me.gcComboBox1.Size = New System.Drawing.Size(144, 26)
             Me.gcComboBox1.TabIndex = 17
             Me.gcComboBox1.TextFormat = "[0]：[1]"
             '
@@ -886,13 +888,27 @@
             Me.gcMaskedComboBox1.Name = "gcMaskedComboBox1"
             Me.gcShortcut1.SetShortcuts(Me.gcMaskedComboBox1, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2, CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.[Return]), System.Windows.Forms.Keys)}, New Object() {CType(Me.gcMaskedComboBox1, Object), CType(Me.gcMaskedComboBox1, Object)}, New String() {"ShortcutClear", "ApplyRecommendedValue"}))
             Me.gcMaskedComboBox1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton4})
-            Me.gcMaskedComboBox1.Size = New System.Drawing.Size(144, 24)
+            Me.gcMaskedComboBox1.Size = New System.Drawing.Size(144, 26)
             Me.gcMaskedComboBox1.TabIndex = 19
             Me.gcMaskedComboBox1.TextSubItemIndex = 1
             '
             'dropDownButton4
             '
             Me.dropDownButton4.Name = "dropDownButton4"
+            '
+            'GcTextBox2
+            '
+            Me.GcTextBox2.AlternateText.DisplayNull.ForeColor = System.Drawing.Color.Gray
+            Me.GcTextBox2.AutoSize = True
+            Me.GcTextBox2.ImeMode = System.Windows.Forms.ImeMode.[On]
+            Me.GcTextBox2.Location = New System.Drawing.Point(171, 29)
+            Me.GcTextBox2.Name = "GcTextBox2"
+            Me.GcTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+            Me.GcTextBox2.PasswordStrength.Enable = True
+            Me.gcShortcut1.SetShortcuts(Me.GcTextBox2, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2}, New Object() {CType(Me.GcTextBox2, Object)}, New String() {"ShortcutClear"}))
+            Me.GcTextBox2.Size = New System.Drawing.Size(144, 24)
+            Me.GcTextBox2.TabIndex = 13
+            Me.GcTextBox2.Text = "P@ssword!23"
             '
             'label11
             '
@@ -1009,7 +1025,7 @@
             Me.gcListBox1.SelectedItemStyle.ForeColor = System.Drawing.Color.Black
             Me.gcListBox1.ShowItemImage = True
             Me.gcListBox1.ShowOverflowTip = True
-            Me.gcListBox1.Size = New System.Drawing.Size(199, 125)
+            Me.gcListBox1.Size = New System.Drawing.Size(199, 80)
             Me.gcListBox1.StatusBar.Text = "GcSoftKeyboard"
             Me.gcListBox1.TabIndex = 29
             '
@@ -1024,22 +1040,6 @@
             Me.listColumn4.AutoWidth = True
             Me.listColumn4.Header.Text = "名称"
             '
-            'GcTextBox2
-            '
-            Me.GcTextBox2.AlternateText.DisplayNull.ForeColor = System.Drawing.Color.Gray
-            Me.GcTextBox2.AutoSize = True
-            Me.GcTextBox2.ImeMode = System.Windows.Forms.ImeMode.[On]
-            Me.GcTextBox2.Location = New System.Drawing.Point(171, 29)
-            Me.GcTextBox2.Name = "GcTextBox2"
-            Me.GcTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-            Me.GcTextBox2.PasswordStrength.Enable = True
-            Me.GcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度"
-            Me.GcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。"
-            Me.gcShortcut1.SetShortcuts(Me.GcTextBox2, New GrapeCity.Win.Editors.ShortcutCollection(New System.Windows.Forms.Keys() {System.Windows.Forms.Keys.F2}, New Object() {CType(Me.GcTextBox2, Object)}, New String() {"ShortcutClear"}))
-            Me.GcTextBox2.Size = New System.Drawing.Size(144, 22)
-            Me.GcTextBox2.TabIndex = 13
-            Me.GcTextBox2.Text = "P@ssword!23"
-            '
             'Label16
             '
             Me.Label16.AutoSize = True
@@ -1048,6 +1048,25 @@
             Me.Label16.Size = New System.Drawing.Size(152, 18)
             Me.Label16.TabIndex = 12
             Me.Label16.Text = "テキスト（パスワード）："
+            '
+            'gcSlider1
+            '
+            Me.gcSlider1.KeyStep = 3
+            Me.gcSlider1.Location = New System.Drawing.Point(336, 275)
+            Me.gcSlider1.Name = "gcSlider1"
+            Me.gcSlider1.Size = New System.Drawing.Size(199, 24)
+            Me.gcSlider1.Step = New Decimal(New Integer() {10, 0, 0, 0})
+            Me.gcSlider1.TabIndex = 33
+            Me.gcSlider1.Text = "0"
+            '
+            'label17
+            '
+            Me.label17.AutoSize = True
+            Me.label17.Location = New System.Drawing.Point(333, 254)
+            Me.label17.Name = "label17"
+            Me.label17.Size = New System.Drawing.Size(80, 18)
+            Me.label17.TabIndex = 32
+            Me.label17.Text = "スライダー："
             '
             'Controls
             '
@@ -1071,9 +1090,9 @@
             CType(Me.gcAddressBox1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.gcComboBox1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.gcMaskedComboBox1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.GcTextBox2, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.DataSet1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.gcListBox1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.GcTextBox2, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
             Me.PerformLayout()
 
@@ -1141,5 +1160,7 @@
         Private WithEvents dropDownButton4 As GrapeCity.Win.Editors.DropDownButton
         Private WithEvents GcTextBox2 As GrapeCity.Win.Editors.GcTextBox
         Private WithEvents Label16 As Windows.Forms.Label
+        Private WithEvents gcSlider1 As GrapeCity.Win.Editors.GcSlider
+        Private WithEvents label17 As Windows.Forms.Label
     End Class
 End Namespace

@@ -10,7 +10,7 @@ Namespace _08_SideButton
         End Sub
 
         Private Sub InitializeForm()
-           ' ***** 初期値
+            ' ***** 初期値
             gcComboBox2.SelectedIndex = Convert.ToInt32(gcTextBox1.FlatStyle)
             gcComboBox3.SelectedIndex = Convert.ToInt32(gcTextBox1.SideButtons(0).Position)
             checkBox1.Checked = DirectCast(gcTextBox1.SideButtons(0), GrapeCity.Win.Editors.DropDownButton).IsDefaultBehavior

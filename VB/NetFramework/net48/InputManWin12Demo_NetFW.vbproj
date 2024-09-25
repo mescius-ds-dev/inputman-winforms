@@ -87,7 +87,7 @@
     <Import Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="GrapeCity.Framework.InputMan.v44, Version=4.4.4800.2017, Culture=neutral, PublicKeyToken=fdd90f5c44b73170, processorArchitecture=MSIL" />
+    <Reference Include="GrapeCity.Framework.InputMan.v44, Version=4.4.4801.2017, Culture=neutral, PublicKeyToken=fdd90f5c44b73170, processorArchitecture=MSIL" />
     <Reference Include="GrapeCity.Win.Editors.GcCountDownTimer.v120">
       <HintPath>Resources\GrapeCity.Win.Editors.GcCountDownTimer.v120.dll</HintPath>
     </Reference>
@@ -106,7 +106,7 @@
     <Reference Include="GrapeCity.Win.Editors.GcValidateItem.v120">
       <HintPath>Resources\GrapeCity.Win.Editors.GcValidateItem.v120.dll</HintPath>
     </Reference>
-    <Reference Include="GrapeCity.Win.Editors.v120, Version=12.0.4800.2017, Culture=neutral, PublicKeyToken=0ce01a33ce55ca12, processorArchitecture=MSIL" />
+    <Reference Include="GrapeCity.Win.Editors.v120, Version=12.0.4801.2017, Culture=neutral, PublicKeyToken=0ce01a33ce55ca12, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
@@ -253,6 +253,12 @@
       <DependentUpon>Ellipsis.vb</DependentUpon>
     </Compile>
     <Compile Include="06_Display\Ellipsis.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="06_Display\PlaceHolder.Designer.vb">
+      <DependentUpon>PlaceHolder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="06_Display\PlaceHolder.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="06_Display\ReadOnlyColor.Designer.vb">
@@ -535,6 +541,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="06_Display\Ellipsis.resx">
       <DependentUpon>Ellipsis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_Display\PlaceHolder.resx">
+      <DependentUpon>PlaceHolder.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="06_Display\ReadOnlyColor.resx">
       <DependentUpon>ReadOnlyColor.vb</DependentUpon>

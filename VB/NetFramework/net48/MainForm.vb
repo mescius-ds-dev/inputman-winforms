@@ -195,6 +195,9 @@ Public Partial Class MainForm
                     Case "読み取り専用コントロールのスタイル"
                         Me.setMainPanel(New InputManWin12_Demo._06_Display.ReadOnlyColor())
                         Exit Select
+                    Case "フローティングラベルの表示"
+                        Me.setMainPanel(New InputManWin12_Demo._06_Display.PlaceHolder())
+                        Exit Select
                     Case Else
                         Exit Select
                 End Select
@@ -207,7 +210,7 @@ Public Partial Class MainForm
                     Case "ドロップダウンカレンダー"
                         Me.setMainPanel(New InputManWin12_Demo._07_DropDown.DropDownCalendar())
                         Exit Select
-                    Case "ドロップダウン日付時刻ピッカー"
+                    Case "ドロップダウン日付時刻／カレンダーピッカー"
                         Me.setMainPanel(New InputManWin12_Demo._07_DropDown.DropDownDateTimePicker())
                         Exit Select
                     Case Else

@@ -1,28 +1,28 @@
 ﻿Namespace _01_Controls
-	Partial Class Components
-		''' <summary>
-		''' 必要なデザイナー変数です。
-		''' </summary>
-		Private components As System.ComponentModel.IContainer = Nothing
+    Partial Class Components
+        ''' <summary>
+        ''' 必要なデザイナー変数です。
+        ''' </summary>
+        Private components As System.ComponentModel.IContainer = Nothing
 
-		''' <summary>
-		''' 使用中のリソースをすべてクリーンアップします。
-		''' </summary>
-		''' <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
-		Protected Overrides Sub Dispose(disposing As Boolean)
-			If disposing AndAlso (components IsNot Nothing) Then
-				components.Dispose()
-			End If
-			MyBase.Dispose(disposing)
-		End Sub
+        ''' <summary>
+        ''' 使用中のリソースをすべてクリーンアップします。
+        ''' </summary>
+        ''' <param name="disposing">マネージ リソースが破棄される場合 true、破棄されない場合は false です。</param>
+        Protected Overrides Sub Dispose(disposing As Boolean)
+            If disposing AndAlso (components IsNot Nothing) Then
+                components.Dispose()
+            End If
+            MyBase.Dispose(disposing)
+        End Sub
 
-		#Region "Windows フォーム デザイナーで生成されたコード"
+#Region "Windows フォーム デザイナーで生成されたコード"
 
-		''' <summary>
-		''' デザイナー サポートに必要なメソッドです。このメソッドの内容を
-		''' コード エディターで変更しないでください。
-		''' </summary>
-		Private Sub InitializeComponent()
+        ''' <summary>
+        ''' デザイナー サポートに必要なメソッドです。このメソッドの内容を
+        ''' コード エディターで変更しないでください。
+        ''' </summary>
+        Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
             Dim DateEraDisplayField1 As GrapeCity.Win.Editors.Fields.DateEraDisplayField = New GrapeCity.Win.Editors.Fields.DateEraDisplayField()
             Dim DateLiteralDisplayField3 As GrapeCity.Win.Editors.Fields.DateLiteralDisplayField = New GrapeCity.Win.Editors.Fields.DateLiteralDisplayField()
@@ -69,9 +69,9 @@
             Dim DateLiteralField16 As GrapeCity.Win.Editors.Fields.DateLiteralField = New GrapeCity.Win.Editors.Fields.DateLiteralField()
             Dim DateSecondField2 As GrapeCity.Win.Editors.Fields.DateSecondField = New GrapeCity.Win.Editors.Fields.DateSecondField()
             Dim ThreeStateBorderNotify1 As GrapeCity.Win.Editors.ThreeStateBorderNotify = New GrapeCity.Win.Editors.ThreeStateBorderNotify()
-            Dim CompareValue2 As GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue = New GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue()
-            Dim TipNotify1 As GrapeCity.Win.Editors.TipNotify = New GrapeCity.Win.Editors.TipNotify()
-            Dim CompareValue1 As GrapeCity.Win.Editors.GcNumberValidator.CompareValue = New GrapeCity.Win.Editors.GcNumberValidator.CompareValue()
+            Dim CompareValue3 As GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue = New GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue()
+            Dim TipNotify2 As GrapeCity.Win.Editors.TipNotify = New GrapeCity.Win.Editors.TipNotify()
+            Dim CompareValue2 As GrapeCity.Win.Editors.GcNumberValidator.CompareValue = New GrapeCity.Win.Editors.GcNumberValidator.CompareValue()
             Dim TimeSpanSignField1 As GrapeCity.Win.Editors.Fields.TimeSpanSignField = New GrapeCity.Win.Editors.Fields.TimeSpanSignField()
             Dim TimeSpanDayField1 As GrapeCity.Win.Editors.Fields.TimeSpanDayField = New GrapeCity.Win.Editors.Fields.TimeSpanDayField()
             Dim TimeSpanLiteralField1 As GrapeCity.Win.Editors.Fields.TimeSpanLiteralField = New GrapeCity.Win.Editors.Fields.TimeSpanLiteralField()
@@ -97,6 +97,8 @@
             Dim DateMinuteField1 As GrapeCity.Win.Editors.Fields.DateMinuteField = New GrapeCity.Win.Editors.Fields.DateMinuteField()
             Dim DateLiteralField5 As GrapeCity.Win.Editors.Fields.DateLiteralField = New GrapeCity.Win.Editors.Fields.DateLiteralField()
             Dim DateSecondField1 As GrapeCity.Win.Editors.Fields.DateSecondField = New GrapeCity.Win.Editors.Fields.DateSecondField()
+            Dim TipNotify1 As GrapeCity.Win.Editors.TipNotify = New GrapeCity.Win.Editors.TipNotify()
+            Dim CompareValue1 As GrapeCity.Win.Editors.GcNumberValidator.CompareValue = New GrapeCity.Win.Editors.GcNumberValidator.CompareValue()
             Me.gcTextBox1 = New GrapeCity.Win.Editors.GcTextBox(Me.components)
             Me.gcShortcut1 = New GrapeCity.Win.Editors.GcShortcut(Me.components)
             Me.gcTextBox5 = New GrapeCity.Win.Editors.GcTextBox(Me.components)
@@ -144,8 +146,12 @@
             Me.gcFieldStyler1 = New GrapeCity.Win.Editors.GcFieldStyler(Me.components)
             Me.Label19 = New System.Windows.Forms.Label()
             Me.TextBox1 = New System.Windows.Forms.TextBox()
-            Me.GcSoftKeyboard1 = New GrapeCity.Win.Editors.GcSoftKeyboard()
+            Me.GcSoftKeyboard1 = New GrapeCity.Win.Editors.GcSoftKeyboard(Me.components)
             Me.Label20 = New System.Windows.Forms.Label()
+            Me.gcNumber2 = New GrapeCity.Win.Editors.GcNumber(Me.components)
+            Me.dropDownButton2 = New GrapeCity.Win.Editors.DropDownButton()
+            Me.label21 = New System.Windows.Forms.Label()
+            Me.label22 = New System.Windows.Forms.Label()
             Me.panel1.SuspendLayout()
             CType(Me.gcTextBox1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.gcTextBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -160,10 +166,14 @@
             CType(Me.gcTimeSpan1, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.gcTextBox6, System.ComponentModel.ISupportInitialize).BeginInit()
             CType(Me.gcDate2, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.gcNumber2, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             '
             'panel1
             '
+            Me.panel1.Controls.Add(Me.gcNumber2)
+            Me.panel1.Controls.Add(Me.label21)
+            Me.panel1.Controls.Add(Me.label22)
             Me.panel1.Controls.Add(Me.Label20)
             Me.panel1.Controls.Add(Me.TextBox1)
             Me.panel1.Controls.Add(Me.Label19)
@@ -477,9 +487,9 @@
             ThreeStateBorderNotify1.ValidLineStyle = GrapeCity.Win.Editors.LineDashStyle.Solid
             ThreeStateBorderNotify1.ValidLineWidth = 2
             Me.gcDateTimeValidator1.GetValidateActions(Me.gcDate1).AddRange(New GrapeCity.Win.Editors.ValidateAction() {ThreeStateBorderNotify1})
-            CompareValue2.ComparedValue = New Date(2013, 1, 1, 0, 0, 0, 0)
-            CompareValue2.Name = "2013/01/01よりも大きい値を入力してください"
-            Me.gcDateTimeValidator1.GetValidateItems(Me.gcDate1).AddRange(New Object() {CompareValue2})
+            CompareValue3.ComparedValue = New Date(2013, 1, 1, 0, 0, 0, 0)
+            CompareValue3.Name = "2013/01/01よりも大きい値を入力してください"
+            Me.gcDateTimeValidator1.GetValidateItems(Me.gcDate1).AddRange(New Object() {CompareValue3})
             Me.gcDate1.Value = New Date(2014, 12, 31, 12, 0, 0, 0)
             '
             'dropDownButton5
@@ -534,13 +544,13 @@
             Me.gcNumber1.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton7})
             Me.gcNumber1.Size = New System.Drawing.Size(144, 24)
             Me.gcNumber1.TabIndex = 25
-            TipNotify1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Warning
-            TipNotify1.ToolTipText = "100よりも小さい値でなくてはいけません"
-            TipNotify1.ToolTipTitle = "範囲エラー"
-            Me.gcNumberValidator1.GetValidateActions(Me.gcNumber1).AddRange(New GrapeCity.Win.Editors.ValidateAction() {TipNotify1})
-            CompareValue1.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan
-            CompareValue1.ComparedValue = New Decimal(New Integer() {100, 0, 0, 0})
-            Me.gcNumberValidator1.GetValidateItems(Me.gcNumber1).AddRange(New Object() {CompareValue1})
+            TipNotify2.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Warning
+            TipNotify2.ToolTipText = "100よりも小さい値でなくてはいけません"
+            TipNotify2.ToolTipTitle = "範囲エラー"
+            Me.gcNumberValidator1.GetValidateActions(Me.gcNumber1).AddRange(New GrapeCity.Win.Editors.ValidateAction() {TipNotify2})
+            CompareValue2.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan
+            CompareValue2.ComparedValue = New Decimal(New Integer() {100, 0, 0, 0})
+            Me.gcNumberValidator1.GetValidateItems(Me.gcNumber1).AddRange(New Object() {CompareValue2})
             Me.gcNumber1.Value = New Decimal(New Integer() {200, 0, 0, 0})
             '
             'dropDownButton7
@@ -647,6 +657,54 @@
             Me.Label20.TabIndex = 32
             Me.Label20.Text = "（ひらがな入力用キーボードを表示）"
             '
+            'gcNumber2
+            '
+            Me.gcNumber2.AutoSize = True
+            Me.gcNumber2.DropDown.DropDownType = GrapeCity.Win.Editors.NumberDropDownType.Slider
+            Me.gcNumber2.Fields.IntegerPart.MinDigits = 1
+            Me.gcNumber2.ImeMode = System.Windows.Forms.ImeMode.Off
+            Me.gcNumber2.Location = New System.Drawing.Point(138, 336)
+            Me.gcNumber2.MaxValue = New Decimal(New Integer() {50, 0, 0, 0})
+            Me.gcNumber2.MinValue = New Decimal(New Integer() {0, 0, 0, 0})
+            Me.gcNumber2.Name = "gcNumber2"
+            Me.gcNumber2.NumberSlider.ShowMarkLabel = True
+            Me.gcNumber2.NumberSlider.Step = New Decimal(New Integer() {10, 0, 0, 0})
+            Me.gcNumber2.NumberSlider.Visible = True
+            Me.gcNumber2.SideButtons.AddRange(New GrapeCity.Win.Editors.SideButtonBase() {Me.dropDownButton2})
+            Me.gcNumber2.Size = New System.Drawing.Size(144, 36)
+            Me.gcNumber2.TabIndex = 37
+            TipNotify1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Warning
+            TipNotify1.ToolTipText = "100よりも小さい値でなくてはいけません"
+            TipNotify1.ToolTipTitle = "範囲エラー"
+            Me.gcNumberValidator1.GetValidateActions(Me.gcNumber2).AddRange(New GrapeCity.Win.Editors.ValidateAction() {TipNotify1})
+            CompareValue1.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan
+            CompareValue1.ComparedValue = New Decimal(New Integer() {100, 0, 0, 0})
+            Me.gcNumberValidator1.GetValidateItems(Me.gcNumber2).AddRange(New Object() {CompareValue1})
+            Me.gcNumber2.Value = New Decimal(New Integer() {30, 0, 0, 0})
+            '
+            'dropDownButton2
+            '
+            Me.dropDownButton2.Name = "dropDownButton2"
+            '
+            'label21
+            '
+            Me.label21.AutoSize = True
+            Me.label21.Location = New System.Drawing.Point(3, 338)
+            Me.label21.Name = "label21"
+            Me.label21.Size = New System.Drawing.Size(80, 18)
+            Me.label21.TabIndex = 36
+            Me.label21.Text = "スライダー："
+            '
+            'label22
+            '
+            Me.label22.AutoSize = True
+            Me.label22.Font = New System.Drawing.Font("メイリオ", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+            Me.label22.Location = New System.Drawing.Point(296, 338)
+            Me.label22.Name = "label22"
+            Me.label22.Size = New System.Drawing.Size(272, 18)
+            Me.label22.TabIndex = 38
+            Me.label22.Text = "（入力用とドロップダウンのスライダーを表示）"
+            '
             'Components
             '
             Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 18.0!)
@@ -668,6 +726,7 @@
             CType(Me.gcTimeSpan1, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.gcTextBox6, System.ComponentModel.ISupportInitialize).EndInit()
             CType(Me.gcDate2, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.gcNumber2, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
             Me.PerformLayout()
 
@@ -724,5 +783,9 @@
         Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
         Friend WithEvents GcSoftKeyboard1 As GrapeCity.Win.Editors.GcSoftKeyboard
         Private WithEvents Label19 As System.Windows.Forms.Label
-	End Class
+        Private WithEvents gcNumber2 As GrapeCity.Win.Editors.GcNumber
+        Private WithEvents dropDownButton2 As GrapeCity.Win.Editors.DropDownButton
+        Private WithEvents label21 As Windows.Forms.Label
+        Private WithEvents label22 As Windows.Forms.Label
+    End Class
 End Namespace

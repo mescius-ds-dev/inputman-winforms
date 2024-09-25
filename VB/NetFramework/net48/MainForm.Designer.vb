@@ -22,7 +22,6 @@ Partial Class MainForm
 	''' コード エディタで変更しないでください。
 	''' </summary>
 	Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("入力コントロール")
         Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("入力支援機能")
         Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("継承コントロール")
@@ -66,30 +65,32 @@ Partial Class MainForm
         Dim TreeNode41 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("省略文字の表示")
         Dim TreeNode42 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("オーバーフローチップの表示")
         Dim TreeNode43 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("テキストの配置")
-        Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("表示機能", New System.Windows.Forms.TreeNode() {TreeNode38, TreeNode39, TreeNode40, TreeNode41, TreeNode42, TreeNode43})
-        Dim TreeNode45 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンのカスタマイズ")
-        Dim TreeNode46 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンカレンダー")
-        Dim TreeNode47 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウン日付時刻ピッカー")
-        Dim TreeNode48 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンによる入力補助", New System.Windows.Forms.TreeNode() {TreeNode45, TreeNode46, TreeNode47})
-        Dim TreeNode49 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンボタン")
-        Dim TreeNode50 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("スピンボタン")
-        Dim TreeNode51 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("サイドボタン")
-        Dim TreeNode52 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("シンボルボタン")
-        Dim TreeNode53 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("スピン操作")
-        Dim TreeNode54 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("コントロールに追加可能なボタン", New System.Windows.Forms.TreeNode() {TreeNode49, TreeNode50, TreeNode51, TreeNode52, TreeNode53})
-        Dim TreeNode55 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("マルチカラムによるリスト表示")
-        Dim TreeNode56 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("オートコンプリートによる補完機能")
-        Dim TreeNode57 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("リストのフィルタと自動選択")
-        Dim TreeNode58 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("表示テキストのカスタマイズ")
-        Dim TreeNode59 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("コンボコントロール", New System.Windows.Forms.TreeNode() {TreeNode55, TreeNode56, TreeNode57, TreeNode58})
-        Dim TreeNode60 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("マルチカラムによるリスト表示")
-        Dim TreeNode61 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("リストコントロール", New System.Windows.Forms.TreeNode() {TreeNode60})
-        Dim TreeNode62 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("入力範囲の設定")
-        Dim TreeNode63 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("イベントを利用した検証")
-        Dim TreeNode64 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("検証エラーの通知")
-        Dim TreeNode65 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("入力値の検証", New System.Windows.Forms.TreeNode() {TreeNode62, TreeNode63, TreeNode64})
-        Dim TreeNode66 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("社員情報入力")
-        Dim TreeNode67 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("実用例", New System.Windows.Forms.TreeNode() {TreeNode66})
+        Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("フローティングラベルの表示")
+        Dim TreeNode45 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("表示機能", New System.Windows.Forms.TreeNode() {TreeNode38, TreeNode39, TreeNode40, TreeNode41, TreeNode42, TreeNode43, TreeNode44})
+        Dim TreeNode46 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンのカスタマイズ")
+        Dim TreeNode47 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンカレンダー")
+        Dim TreeNode48 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウン日付時刻／カレンダーピッカー")
+        Dim TreeNode49 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンによる入力補助", New System.Windows.Forms.TreeNode() {TreeNode46, TreeNode47, TreeNode48})
+        Dim TreeNode50 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("ドロップダウンボタン")
+        Dim TreeNode51 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("スピンボタン")
+        Dim TreeNode52 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("サイドボタン")
+        Dim TreeNode53 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("シンボルボタン")
+        Dim TreeNode54 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("スピン操作")
+        Dim TreeNode55 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("コントロールに追加可能なボタン", New System.Windows.Forms.TreeNode() {TreeNode50, TreeNode51, TreeNode52, TreeNode53, TreeNode54})
+        Dim TreeNode56 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("マルチカラムによるリスト表示")
+        Dim TreeNode57 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("オートコンプリートによる補完機能")
+        Dim TreeNode58 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("リストのフィルタと自動選択")
+        Dim TreeNode59 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("表示テキストのカスタマイズ")
+        Dim TreeNode60 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("コンボコントロール", New System.Windows.Forms.TreeNode() {TreeNode56, TreeNode57, TreeNode58, TreeNode59})
+        Dim TreeNode61 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("マルチカラムによるリスト表示")
+        Dim TreeNode62 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("リストコントロール", New System.Windows.Forms.TreeNode() {TreeNode61})
+        Dim TreeNode63 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("入力範囲の設定")
+        Dim TreeNode64 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("イベントを利用した検証")
+        Dim TreeNode65 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("検証エラーの通知")
+        Dim TreeNode66 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("入力値の検証", New System.Windows.Forms.TreeNode() {TreeNode63, TreeNode64, TreeNode65})
+        Dim TreeNode67 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("社員情報入力")
+        Dim TreeNode68 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("実用例", New System.Windows.Forms.TreeNode() {TreeNode67})
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.splitContainer2 = New System.Windows.Forms.SplitContainer()
         Me.product_logo = New System.Windows.Forms.PictureBox()
         Me.firstView = New System.Windows.Forms.LinkLabel()
@@ -98,10 +99,6 @@ Partial Class MainForm
         Me.splitContainer3 = New System.Windows.Forms.SplitContainer()
         Me.splitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.panel1 = New System.Windows.Forms.Panel()
-        Me.menuheader = New System.Windows.Forms.PictureBox()
-        Me.copyright = New System.Windows.Forms.Label()
-        Me.grapecity_logo = New System.Windows.Forms.PictureBox()
-        Me.pictureBox2 = New System.Windows.Forms.PictureBox()
         Me.myTabControl1 = New InputManWin12_Demo.MyTabControl()
         Me.tabPage1 = New System.Windows.Forms.TabPage()
         Me.treemenu = New InputManWin12_Demo.MyTreeView()
@@ -109,6 +106,10 @@ Partial Class MainForm
         Me.label1 = New System.Windows.Forms.Label()
         Me.searchlist = New System.Windows.Forms.ListBox()
         Me.searchtext = New System.Windows.Forms.TextBox()
+        Me.menuheader = New System.Windows.Forms.PictureBox()
+        Me.copyright = New System.Windows.Forms.Label()
+        Me.grapecity_logo = New System.Windows.Forms.PictureBox()
+        Me.pictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.splitContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.splitContainer2.Panel1.SuspendLayout()
         Me.splitContainer2.Panel2.SuspendLayout()
@@ -123,12 +124,12 @@ Partial Class MainForm
         Me.splitContainer1.Panel1.SuspendLayout()
         Me.splitContainer1.SuspendLayout()
         Me.panel1.SuspendLayout()
-        CType(Me.menuheader, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.grapecity_logo, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.myTabControl1.SuspendLayout()
         Me.tabPage1.SuspendLayout()
         Me.tabPage2.SuspendLayout()
+        CType(Me.menuheader, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grapecity_logo, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'splitContainer2
@@ -181,7 +182,7 @@ Partial Class MainForm
         Me.firstView.LinkColor = System.Drawing.Color.White
         Me.firstView.Location = New System.Drawing.Point(659, 48)
         Me.firstView.Name = "firstView"
-        Me.firstView.Size = New System.Drawing.Size(165, 25)
+        Me.firstView.Size = New System.Drawing.Size(126, 20)
         Me.firstView.TabIndex = 1
         Me.firstView.TabStop = True
         Me.firstView.Text = "イントロダクション"
@@ -195,7 +196,7 @@ Partial Class MainForm
         Me.product_title.ForeColor = System.Drawing.Color.White
         Me.product_title.Location = New System.Drawing.Point(309, 45)
         Me.product_title.Name = "product_title"
-        Me.product_title.Size = New System.Drawing.Size(219, 30)
+        Me.product_title.Size = New System.Drawing.Size(174, 24)
         Me.product_title.TabIndex = 0
         Me.product_title.Text = "for Windows Forms"
         '
@@ -269,49 +270,6 @@ Partial Class MainForm
         Me.panel1.Size = New System.Drawing.Size(253, 515)
         Me.panel1.TabIndex = 0
         '
-        'menuheader
-        '
-        Me.menuheader.BackgroundImage = CType(resources.GetObject("menuheader.BackgroundImage"), System.Drawing.Image)
-        Me.menuheader.Dock = System.Windows.Forms.DockStyle.Top
-        Me.menuheader.Location = New System.Drawing.Point(0, 0)
-        Me.menuheader.Name = "menuheader"
-        Me.menuheader.Size = New System.Drawing.Size(253, 38)
-        Me.menuheader.TabIndex = 1
-        Me.menuheader.TabStop = False
-        '
-        'copyright
-        '
-        Me.copyright.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.copyright.AutoSize = True
-        Me.copyright.Font = New System.Drawing.Font("メイリオ", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.copyright.ForeColor = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
-        Me.copyright.Location = New System.Drawing.Point(173, -83)
-        Me.copyright.Name = "copyright"
-        Me.copyright.Size = New System.Drawing.Size(277, 21)
-        Me.copyright.TabIndex = 0
-        Me.copyright.Text = "©️ MESCIUS inc. All rights reserved."
-        '
-        'grapecity_logo
-        '
-        Me.grapecity_logo.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.grapecity_logo.BackgroundImage = CType(resources.GetObject("grapecity_logo.BackgroundImage"), System.Drawing.Image)
-        Me.grapecity_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.grapecity_logo.Location = New System.Drawing.Point(12, -89)
-        Me.grapecity_logo.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.grapecity_logo.Name = "grapecity_logo"
-        Me.grapecity_logo.Size = New System.Drawing.Size(155, 29)
-        Me.grapecity_logo.TabIndex = 6
-        Me.grapecity_logo.TabStop = False
-        '
-        'pictureBox2
-        '
-        Me.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.pictureBox2.Location = New System.Drawing.Point(0, 0)
-        Me.pictureBox2.Name = "pictureBox2"
-        Me.pictureBox2.Size = New System.Drawing.Size(1008, 84)
-        Me.pictureBox2.TabIndex = 9
-        Me.pictureBox2.TabStop = False
-        '
         'myTabControl1
         '
         Me.myTabControl1.Controls.Add(Me.tabPage1)
@@ -327,9 +285,9 @@ Partial Class MainForm
         'tabPage1
         '
         Me.tabPage1.Controls.Add(Me.treemenu)
-        Me.tabPage1.Location = New System.Drawing.Point(4, 32)
+        Me.tabPage1.Location = New System.Drawing.Point(4, 27)
         Me.tabPage1.Name = "tabPage1"
-        Me.tabPage1.Size = New System.Drawing.Size(231, 467)
+        Me.tabPage1.Size = New System.Drawing.Size(231, 472)
         Me.tabPage1.TabIndex = 0
         Me.tabPage1.Text = "コンテンツ一覧"
         Me.tabPage1.UseVisualStyleBackColor = True
@@ -457,63 +415,65 @@ Partial Class MainForm
         TreeNode43.Name = "ノード1"
         TreeNode43.Text = "テキストの配置"
         TreeNode44.Name = "ノード0"
-        TreeNode44.Text = "表示機能"
-        TreeNode45.Name = "ノード1"
-        TreeNode45.Text = "ドロップダウンのカスタマイズ"
+        TreeNode44.Text = "フローティングラベルの表示"
+        TreeNode45.Name = "ノード0"
+        TreeNode45.Text = "表示機能"
         TreeNode46.Name = "ノード1"
-        TreeNode46.Text = "ドロップダウンカレンダー"
+        TreeNode46.Text = "ドロップダウンのカスタマイズ"
         TreeNode47.Name = "ノード1"
-        TreeNode47.Text = "ドロップダウン日付時刻ピッカー"
-        TreeNode48.Name = "ノード0"
-        TreeNode48.Text = "ドロップダウンによる入力補助"
-        TreeNode49.Name = "ノード1"
-        TreeNode49.Tag = "サイドボタン"
-        TreeNode49.Text = "ドロップダウンボタン"
+        TreeNode47.Text = "ドロップダウンカレンダー"
+        TreeNode48.Name = "ノード1"
+        TreeNode48.Text = "ドロップダウン日付時刻／カレンダーピッカー"
+        TreeNode49.Name = "ノード0"
+        TreeNode49.Text = "ドロップダウンによる入力補助"
         TreeNode50.Name = "ノード1"
         TreeNode50.Tag = "サイドボタン"
-        TreeNode50.Text = "スピンボタン"
+        TreeNode50.Text = "ドロップダウンボタン"
         TreeNode51.Name = "ノード1"
-        TreeNode51.Text = "サイドボタン"
+        TreeNode51.Tag = "サイドボタン"
+        TreeNode51.Text = "スピンボタン"
         TreeNode52.Name = "ノード1"
-        TreeNode52.Tag = "サイドボタン"
-        TreeNode52.Text = "シンボルボタン"
-        TreeNode53.Name = "ノード0"
+        TreeNode52.Text = "サイドボタン"
+        TreeNode53.Name = "ノード1"
         TreeNode53.Tag = "サイドボタン"
-        TreeNode53.Text = "スピン操作"
+        TreeNode53.Text = "シンボルボタン"
         TreeNode54.Name = "ノード0"
-        TreeNode54.Text = "コントロールに追加可能なボタン"
-        TreeNode55.Name = "ノード1"
-        TreeNode55.Tag = "コンボ"
-        TreeNode55.Text = "マルチカラムによるリスト表示"
+        TreeNode54.Tag = "サイドボタン"
+        TreeNode54.Text = "スピン操作"
+        TreeNode55.Name = "ノード0"
+        TreeNode55.Text = "コントロールに追加可能なボタン"
         TreeNode56.Name = "ノード1"
         TreeNode56.Tag = "コンボ"
-        TreeNode56.Text = "オートコンプリートによる補完機能"
+        TreeNode56.Text = "マルチカラムによるリスト表示"
         TreeNode57.Name = "ノード1"
         TreeNode57.Tag = "コンボ"
-        TreeNode57.Text = "リストのフィルタと自動選択"
+        TreeNode57.Text = "オートコンプリートによる補完機能"
         TreeNode58.Name = "ノード1"
-        TreeNode58.Text = "表示テキストのカスタマイズ"
-        TreeNode59.Name = "ノード0"
-        TreeNode59.Text = "コンボコントロール"
-        TreeNode60.Name = "ノード1"
-        TreeNode60.Text = "マルチカラムによるリスト表示"
-        TreeNode61.Name = "ノード0"
-        TreeNode61.Text = "リストコントロール"
-        TreeNode62.Name = "ノード1"
-        TreeNode62.Tag = "検証"
-        TreeNode62.Text = "入力範囲の設定"
+        TreeNode58.Tag = "コンボ"
+        TreeNode58.Text = "リストのフィルタと自動選択"
+        TreeNode59.Name = "ノード1"
+        TreeNode59.Text = "表示テキストのカスタマイズ"
+        TreeNode60.Name = "ノード0"
+        TreeNode60.Text = "コンボコントロール"
+        TreeNode61.Name = "ノード1"
+        TreeNode61.Text = "マルチカラムによるリスト表示"
+        TreeNode62.Name = "ノード0"
+        TreeNode62.Text = "リストコントロール"
         TreeNode63.Name = "ノード1"
-        TreeNode63.Text = "イベントを利用した検証"
+        TreeNode63.Tag = "検証"
+        TreeNode63.Text = "入力範囲の設定"
         TreeNode64.Name = "ノード1"
-        TreeNode64.Text = "検証エラーの通知"
-        TreeNode65.Name = "ノード0"
-        TreeNode65.Text = "入力値の検証"
-        TreeNode66.Name = "ノード1"
-        TreeNode66.Text = "社員情報入力"
-        TreeNode67.Name = "ノード0"
-        TreeNode67.Text = "実用例"
-        Me.treemenu.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode4, TreeNode10, TreeNode21, TreeNode24, TreeNode27, TreeNode30, TreeNode34, TreeNode37, TreeNode44, TreeNode48, TreeNode54, TreeNode59, TreeNode61, TreeNode65, TreeNode67})
-        Me.treemenu.Size = New System.Drawing.Size(231, 467)
+        TreeNode64.Text = "イベントを利用した検証"
+        TreeNode65.Name = "ノード1"
+        TreeNode65.Text = "検証エラーの通知"
+        TreeNode66.Name = "ノード0"
+        TreeNode66.Text = "入力値の検証"
+        TreeNode67.Name = "ノード1"
+        TreeNode67.Text = "社員情報入力"
+        TreeNode68.Name = "ノード0"
+        TreeNode68.Text = "実用例"
+        Me.treemenu.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode4, TreeNode10, TreeNode21, TreeNode24, TreeNode27, TreeNode30, TreeNode34, TreeNode37, TreeNode45, TreeNode49, TreeNode55, TreeNode60, TreeNode62, TreeNode66, TreeNode68})
+        Me.treemenu.Size = New System.Drawing.Size(231, 472)
         Me.treemenu.TabIndex = 0
         '
         'tabPage2
@@ -534,7 +494,7 @@ Partial Class MainForm
         Me.label1.AutoSize = True
         Me.label1.Location = New System.Drawing.Point(6, 10)
         Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(56, 23)
+        Me.label1.Size = New System.Drawing.Size(45, 18)
         Me.label1.TabIndex = 3
         Me.label1.Text = "検索 : "
         '
@@ -547,22 +507,65 @@ Partial Class MainForm
         Me.searchlist.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.searchlist.ForeColor = System.Drawing.Color.Black
         Me.searchlist.FormattingEnabled = True
-        Me.searchlist.ItemHeight = 23
+        Me.searchlist.ItemHeight = 18
         Me.searchlist.Location = New System.Drawing.Point(9, 38)
         Me.searchlist.Name = "searchlist"
-        Me.searchlist.Size = New System.Drawing.Size(216, 253)
+        Me.searchlist.Size = New System.Drawing.Size(216, 252)
         Me.searchlist.TabIndex = 2
         '
         'searchtext
         '
         Me.searchtext.Location = New System.Drawing.Point(62, 7)
         Me.searchtext.Name = "searchtext"
-        Me.searchtext.Size = New System.Drawing.Size(163, 30)
+        Me.searchtext.Size = New System.Drawing.Size(163, 25)
         Me.searchtext.TabIndex = 0
+        '
+        'menuheader
+        '
+        Me.menuheader.BackgroundImage = CType(resources.GetObject("menuheader.BackgroundImage"), System.Drawing.Image)
+        Me.menuheader.Dock = System.Windows.Forms.DockStyle.Top
+        Me.menuheader.Location = New System.Drawing.Point(0, 0)
+        Me.menuheader.Name = "menuheader"
+        Me.menuheader.Size = New System.Drawing.Size(253, 38)
+        Me.menuheader.TabIndex = 1
+        Me.menuheader.TabStop = False
+        '
+        'copyright
+        '
+        Me.copyright.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.copyright.AutoSize = True
+        Me.copyright.Font = New System.Drawing.Font("メイリオ", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.copyright.ForeColor = System.Drawing.Color.FromArgb(CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer), CType(CType(195, Byte), Integer))
+        Me.copyright.Location = New System.Drawing.Point(173, -85)
+        Me.copyright.Name = "copyright"
+        Me.copyright.Size = New System.Drawing.Size(215, 17)
+        Me.copyright.TabIndex = 0
+        Me.copyright.Text = "©️ MESCIUS inc. All rights reserved."
+        '
+        'grapecity_logo
+        '
+        Me.grapecity_logo.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.grapecity_logo.BackgroundImage = CType(resources.GetObject("grapecity_logo.BackgroundImage"), System.Drawing.Image)
+        Me.grapecity_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.grapecity_logo.Location = New System.Drawing.Point(12, -91)
+        Me.grapecity_logo.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.grapecity_logo.Name = "grapecity_logo"
+        Me.grapecity_logo.Size = New System.Drawing.Size(155, 29)
+        Me.grapecity_logo.TabIndex = 6
+        Me.grapecity_logo.TabStop = False
+        '
+        'pictureBox2
+        '
+        Me.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.pictureBox2.Name = "pictureBox2"
+        Me.pictureBox2.Size = New System.Drawing.Size(1008, 84)
+        Me.pictureBox2.TabIndex = 9
+        Me.pictureBox2.TabStop = False
         '
         'MainForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 23.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1008, 729)
@@ -591,13 +594,13 @@ Partial Class MainForm
         CType(Me.splitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.splitContainer1.ResumeLayout(False)
         Me.panel1.ResumeLayout(False)
-        CType(Me.menuheader, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.grapecity_logo, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.myTabControl1.ResumeLayout(False)
         Me.tabPage1.ResumeLayout(False)
         Me.tabPage2.ResumeLayout(False)
         Me.tabPage2.PerformLayout()
+        CType(Me.menuheader, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grapecity_logo, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
