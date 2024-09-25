@@ -249,6 +249,8 @@ namespace InputManWin12_Demo._01_Controls
             label15 = new Label();
             dataSet1 = new System.Data.DataSet();
             label16 = new Label();
+            label17 = new Label();
+            gcSlider1 = new GrapeCity.Win.Editors.GcSlider();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gcComboBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gcNumber1).BeginInit();
@@ -269,6 +271,8 @@ namespace InputManWin12_Demo._01_Controls
             // 
             // panel1
             // 
+            panel1.Controls.Add(gcSlider1);
+            panel1.Controls.Add(label17);
             panel1.Controls.Add(gcTextBox2);
             panel1.Controls.Add(label16);
             panel1.Controls.Add(label15);
@@ -452,7 +456,7 @@ namespace InputManWin12_Demo._01_Controls
             gcShortcut1.SetShortcuts(gcComboBox1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.Control | Keys.Return }, new object[] { gcComboBox1, gcComboBox1 }, new string[] { "ShortcutClear", "ApplyRecommendedValue" }));
             gcComboBox1.ShowListBoxImage = true;
             gcComboBox1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton3 });
-            gcComboBox1.Size = new Size(144, 24);
+            gcComboBox1.Size = new Size(144, 26);
             gcComboBox1.TabIndex = 17;
             gcComboBox1.TextFormat = "[0]：[1]";
             // 
@@ -523,7 +527,7 @@ namespace InputManWin12_Demo._01_Controls
             gcNumber1.Name = "gcNumber1";
             gcShortcut1.SetShortcuts(gcNumber1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.Subtract, Keys.OemMinus, Keys.Control | Keys.Return }, new object[] { gcNumber1, gcNumber1, gcNumber1, gcNumber1 }, new string[] { "SetZero", "SwitchSign", "SwitchSign", "ApplyRecommendedValue" }));
             gcNumber1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { spinButton1 });
-            gcNumber1.Size = new Size(87, 22);
+            gcNumber1.Size = new Size(87, 24);
             gcNumber1.TabIndex = 15;
             gcNumber1.ValueSign = GrapeCity.Win.Editors.ValueSignControl.Positive;
             // 
@@ -552,7 +556,7 @@ namespace InputManWin12_Demo._01_Controls
             gcTimeSpan1.Location = new Point(336, 29);
             gcTimeSpan1.Name = "gcTimeSpan1";
             gcShortcut1.SetShortcuts(gcTimeSpan1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.Subtract, Keys.OemMinus, Keys.Control | Keys.Return }, new object[] { gcTimeSpan1, gcTimeSpan1, gcTimeSpan1, gcTimeSpan1 }, new string[] { "ShortcutClear", "SwitchSign", "SwitchSign", "ApplyRecommendedValue" }));
-            gcTimeSpan1.Size = new Size(144, 22);
+            gcTimeSpan1.Size = new Size(144, 24);
             gcTimeSpan1.TabIndex = 25;
             gcTimeSpan1.Value = TimeSpan.Parse("99.23:59:00");
             // 
@@ -578,7 +582,7 @@ namespace InputManWin12_Demo._01_Controls
             gcDate1.Name = "gcDate1";
             gcShortcut1.SetShortcuts(gcDate1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.F5, Keys.Control | Keys.Return }, new object[] { gcDate1, gcDate1, gcDate1 }, new string[] { "ShortcutClear", "SetNow", "ApplyRecommendedValue" }));
             gcDate1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton1 });
-            gcDate1.Size = new Size(144, 22);
+            gcDate1.Size = new Size(144, 24);
             gcDate1.TabIndex = 7;
             gcDate1.Value = new DateTime(2015, 5, 10, 10, 15, 27, 0);
             // 
@@ -649,7 +653,7 @@ namespace InputManWin12_Demo._01_Controls
             gcMask1.Location = new Point(7, 76);
             gcMask1.Name = "gcMask1";
             gcShortcut1.SetShortcuts(gcMask1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.Control | Keys.Return }, new object[] { gcMask1, gcMask1 }, new string[] { "ShortcutClear", "ApplyRecommendedValue" }));
-            gcMask1.Size = new Size(144, 22);
+            gcMask1.Size = new Size(144, 24);
             gcMask1.TabIndex = 3;
             // 
             // gcTextBox1
@@ -661,10 +665,8 @@ namespace InputManWin12_Demo._01_Controls
             gcTextBox1.ImeMode = ImeMode.On;
             gcTextBox1.Location = new Point(7, 29);
             gcTextBox1.Name = "gcTextBox1";
-            gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
             gcShortcut1.SetShortcuts(gcTextBox1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2 }, new object[] { gcTextBox1 }, new string[] { "ShortcutClear" }));
-            gcTextBox1.Size = new Size(144, 22);
+            gcTextBox1.Size = new Size(144, 24);
             gcTextBox1.TabIndex = 1;
             // 
             // gcRichTextBox1
@@ -815,7 +817,7 @@ namespace InputManWin12_Demo._01_Controls
             gcDate2.Name = "gcDate2";
             gcShortcut1.SetShortcuts(gcDate2, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.F5, Keys.Control | Keys.Return }, new object[] { gcDate2, gcDate2, gcDate2 }, new string[] { "ShortcutClear", "SetNow", "ApplyRecommendedValue" }));
             gcDate2.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton2 });
-            gcDate2.Size = new Size(144, 22);
+            gcDate2.Size = new Size(144, 24);
             gcDate2.TabIndex = 9;
             gcDate2.Value = new DateTime(2015, 1, 1, 0, 0, 0, 0);
             // 
@@ -837,7 +839,7 @@ namespace InputManWin12_Demo._01_Controls
             gcTime1.Name = "gcTime1";
             gcShortcut1.SetShortcuts(gcTime1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.F5, Keys.Control | Keys.Return }, new object[] { gcTime1, gcTime1, gcTime1 }, new string[] { "ShortcutClear", "SetNow", "ApplyRecommendedValue" }));
             gcTime1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { spinButton2 });
-            gcTime1.Size = new Size(87, 22);
+            gcTime1.Size = new Size(87, 24);
             gcTime1.TabIndex = 11;
             gcTime1.Value = TimeSpan.Parse("11:59:00");
             // 
@@ -858,7 +860,7 @@ namespace InputManWin12_Demo._01_Controls
             gcPostal1.Location = new Point(171, 227);
             gcPostal1.Name = "gcPostal1";
             gcShortcut1.SetShortcuts(gcPostal1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2 }, new object[] { gcPostal1 }, new string[] { "ShortcutClear" }));
-            gcPostal1.Size = new Size(87, 22);
+            gcPostal1.Size = new Size(87, 24);
             gcPostal1.TabIndex = 21;
             // 
             // gcAddressBox1
@@ -867,7 +869,7 @@ namespace InputManWin12_Demo._01_Controls
             gcAddressBox1.Location = new Point(171, 272);
             gcAddressBox1.Name = "gcAddressBox1";
             gcShortcut1.SetShortcuts(gcAddressBox1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2 }, new object[] { gcAddressBox1 }, new string[] { "ShortcutClear" }));
-            gcAddressBox1.Size = new Size(144, 22);
+            gcAddressBox1.Size = new Size(144, 24);
             gcAddressBox1.TabIndex = 23;
             // 
             // gcMaskedComboBox1
@@ -902,7 +904,7 @@ namespace InputManWin12_Demo._01_Controls
             gcMaskedComboBox1.Name = "gcMaskedComboBox1";
             gcShortcut1.SetShortcuts(gcMaskedComboBox1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.Control | Keys.Return }, new object[] { gcMaskedComboBox1, gcMaskedComboBox1 }, new string[] { "ShortcutClear", "ApplyRecommendedValue" }));
             gcMaskedComboBox1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton4 });
-            gcMaskedComboBox1.Size = new Size(144, 24);
+            gcMaskedComboBox1.Size = new Size(144, 26);
             gcMaskedComboBox1.TabIndex = 19;
             gcMaskedComboBox1.TextSubItemIndex = 1;
             // 
@@ -919,10 +921,8 @@ namespace InputManWin12_Demo._01_Controls
             gcTextBox2.Name = "gcTextBox2";
             gcTextBox2.PasswordChar = '*';
             gcTextBox2.PasswordStrength.Enable = true;
-            gcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
             gcShortcut1.SetShortcuts(gcTextBox2, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2 }, new object[] { gcTextBox2 }, new string[] { "ShortcutClear" }));
-            gcTextBox2.Size = new Size(144, 22);
+            gcTextBox2.Size = new Size(144, 24);
             gcTextBox2.TabIndex = 13;
             gcTextBox2.Text = "P@ssword!23";
             // 
@@ -992,7 +992,7 @@ namespace InputManWin12_Demo._01_Controls
             gcListBox1.SelectedItemStyle.ForeColor = Color.Black;
             gcListBox1.ShowItemImage = true;
             gcListBox1.ShowOverflowTip = true;
-            gcListBox1.Size = new Size(199, 125);
+            gcListBox1.Size = new Size(199, 78);
             gcListBox1.StatusBar.Text = "GcSoftKeyboard";
             gcListBox1.TabIndex = 29;
             // 
@@ -1064,6 +1064,29 @@ namespace InputManWin12_Demo._01_Controls
             label16.Size = new Size(152, 18);
             label16.TabIndex = 12;
             label16.Text = "テキスト（パスワード）：";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(333, 252);
+            label17.Name = "label17";
+            label17.Size = new Size(80, 18);
+            label17.TabIndex = 30;
+            label17.Text = "スライダー：";
+            // 
+            // gcSlider1
+            // 
+            gcSlider1.KeyStep = 3;
+            gcSlider1.Location = new Point(338, 273);
+            gcSlider1.Name = "gcSlider1";
+            gcSlider1.Size = new Size(199, 24);
+            gcSlider1.Step = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            gcSlider1.TabIndex = 31;
+            gcSlider1.Text = "0";
             // 
             // Controls
             // 
@@ -1156,5 +1179,7 @@ namespace InputManWin12_Demo._01_Controls
         private System.Data.DataSet dataSet1;
         private GrapeCity.Win.Editors.GcTextBox gcTextBox2;
         private Label label16;
+        private GrapeCity.Win.Editors.GcSlider gcSlider1;
+        private Label label17;
     }
 }

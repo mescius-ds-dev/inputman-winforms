@@ -117,53 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="gcNumberValidator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 99</value>
-  </metadata>
-  <metadata name="gcSoftKeyboard1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>509, 99</value>
-  </metadata>
-  <metadata name="gcTimeSpanValidator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>329, 58</value>
-  </metadata>
-  <metadata name="gcFieldStyler1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>373, 99</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="gcDate2.DropDownCalendar.TodayImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAYAAAB4MH11AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEBSURBVDhPpdMxTgJBGMXxWQosCDFSio3BhsQT2OAN
-        KOxsLGht6OAElpBYcAUPYAMNB6CgsIfSxMQ1hpCoMSz/l8xshmETV7b4kczbb96QHTCJMVMkBc3RQRnq
-        TOnjGlmbDrGEDoqQHvCXo4zMd4khPuEOGuMEO4Nyhke8wv9moXCfVNGHO+gFx/5AF18Iy2SDGGu79veF
-        zqFyzY1ceG+DbzzhDlc4RQl+QR4XUF/sgjcbtOy6qDrU9+GChQ0adl3UA9Q3dYFeiYIZdNH+8H+18Qv1
-        3foPetBlrjBAE/7zPPQf+IHKJ4jCgRu8QwNF6E3UwGqfLugZWRvz0K+wArqM2QLsypxjjqLs4gAAAABJ
-        RU5ErkJggg==
-</value>
-  </data>
-  <metadata name="gcCommonValidator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>192, 99</value>
-  </metadata>
-  <metadata name="gcShortcut1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>202, 17</value>
-  </metadata>
-  <metadata name="gcTimeValidator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>172, 58</value>
-  </metadata>
-  <data name="gcDate3.DropDownCalendar.TodayImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAYAAAB4MH11AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEBSURBVDhPpdMxTgJBGMXxWQosCDFSio3BhsQT2OAN
-        KOxsLGht6OAElpBYcAUPYAMNB6CgsIfSxMQ1hpCoMSz/l8xshmETV7b4kczbb96QHTCJMVMkBc3RQRnq
-        TOnjGlmbDrGEDoqQHvCXo4zMd4khPuEOGuMEO4Nyhke8wv9moXCfVNGHO+gFx/5AF18Iy2SDGGu79veF
-        zqFyzY1ceG+DbzzhDlc4RQl+QR4XUF/sgjcbtOy6qDrU9+GChQ0adl3UA9Q3dYFeiYIZdNH+8H+18Qv1
-        3foPetBlrjBAE/7zPPQf+IHKJ4jCgRu8QwNF6E3UwGqfLugZWRvz0K+wArqM2QLsypxjjqLs4gAAAABJ
-        RU5ErkJggg==
-</value>
-  </data>
-  <metadata name="gcDateValidator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 58</value>
-  </metadata>
   <data name="gcDate1.DropDownCalendar.TodayImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAYAAAB4MH11AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -175,16 +129,30 @@
         RU5ErkJggg==
 </value>
   </data>
-  <metadata name="gcDateTimeValidator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="gcDateTime1.DropDownCalendar.TodayImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAMCAYAAAB4MH11AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAEBSURBVDhPpdMxTgJBGMXxWQosCDFSio3BhsQT2OAN
+        KOxsLGht6OAElpBYcAUPYAMNB6CgsIfSxMQ1hpCoMSz/l8xshmETV7b4kczbb96QHTCJMVMkBc3RQRnq
+        TOnjGlmbDrGEDoqQHvCXo4zMd4khPuEOGuMEO4Nyhke8wv9moXCfVNGHO+gFx/5AF18Iy2SDGGu79veF
+        zqFyzY1ceG+DbzzhDlc4RQl+QR4XUF/sgjcbtOy6qDrU9+GChQ0adl3UA9Q3dYFeiYIZdNH+8H+18Qv1
+        3foPetBlrjBAE/7zPPQf+IHKJ4jCgRu8QwNF6E3UwGqfLugZWRvz0K+wArqM2QLsypxjjqLs4gAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <metadata name="listColumn39.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="listColumn40.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gcShortcut1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>221, 17</value>
+  </metadata>
+  <metadata name="dataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="gcAddress1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>326, 17</value>
-  </metadata>
-  <metadata name="gcIme1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>447, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>72</value>
+  <metadata name="dataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>122, 17</value>
   </metadata>
 </root>

@@ -23,12 +23,6 @@ namespace InputManWin12_Demo
             // トライアル版へのリンク
             trial.LinkClicked += (s, e) => Navigate("https://developer.mescius.jp/download#input");
 
-            // フッタから製品情報へのリンク
-            product_info.LinkClicked += (s, e) => Navigate("https://developer.mescius.jp/inputmanplus-winforms");
-
-            // ツイッターへのリンク
-            twitter.LinkClicked += (s, e) => Navigate("https://twitter.com/MESCIUS_dev");
-
             searchtext.TextChanged += new EventHandler(searchtext_TextChanged);
             searchlist.SelectedIndexChanged += new EventHandler(searchlist_SelectedIndexChanged);
             myTabControl1.SelectedIndexChanged += new EventHandler(myTabControl1_SelectedIndexChanged);
@@ -212,6 +206,9 @@ namespace InputManWin12_Demo
                         case "読み取り専用コントロールのスタイル":
                             this.SetMainPanel(new InputManWin12_Demo._06_Display.ReadOnlyColor());
                             break;
+                        case "フローティングラベルの表示":
+                            this.SetMainPanel(new InputManWin12_Demo._06_Display.PlaceHolder());
+                            break;
                         default:
                             break;
                     }
@@ -225,7 +222,7 @@ namespace InputManWin12_Demo
                         case "ドロップダウンカレンダー":
                             this.SetMainPanel(new InputManWin12_Demo._07_DropDown.DropDownCalendar());
                             break;
-                        case "ドロップダウン日付時刻ピッカー":
+                        case "ドロップダウン日付時刻／カレンダーピッカー":
                             this.SetMainPanel(new InputManWin12_Demo._07_DropDown.DropDownDateTimePicker());
                             break;
                         default:

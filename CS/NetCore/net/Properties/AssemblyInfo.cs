@@ -29,6 +29,6 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("12.0.4800.2017")]
-[assembly: AssemblyFileVersion("12.0.4800.2017")]
+[assembly: AssemblyVersion("12.0.4801.2017")]
+[assembly: AssemblyFileVersion("12.0.4801.2017")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatform("windows")]

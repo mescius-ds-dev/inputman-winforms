@@ -74,9 +74,9 @@ namespace InputManWin12_Demo._01_Controls
             GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField16 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
             GrapeCity.Win.Editors.Fields.DateSecondField dateSecondField2 = new GrapeCity.Win.Editors.Fields.DateSecondField();
             GrapeCity.Win.Editors.ThreeStateBorderNotify threeStateBorderNotify1 = new GrapeCity.Win.Editors.ThreeStateBorderNotify();
-            GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue compareValue2 = new GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue();
-            GrapeCity.Win.Editors.TipNotify tipNotify1 = new GrapeCity.Win.Editors.TipNotify();
-            GrapeCity.Win.Editors.GcNumberValidator.CompareValue compareValue1 = new GrapeCity.Win.Editors.GcNumberValidator.CompareValue();
+            GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue compareValue3 = new GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue();
+            GrapeCity.Win.Editors.TipNotify tipNotify2 = new GrapeCity.Win.Editors.TipNotify();
+            GrapeCity.Win.Editors.GcNumberValidator.CompareValue compareValue2 = new GrapeCity.Win.Editors.GcNumberValidator.CompareValue();
             GrapeCity.Win.Editors.Fields.TimeSpanSignField timeSpanSignField1 = new GrapeCity.Win.Editors.Fields.TimeSpanSignField();
             GrapeCity.Win.Editors.Fields.TimeSpanDayField timeSpanDayField1 = new GrapeCity.Win.Editors.Fields.TimeSpanDayField();
             GrapeCity.Win.Editors.Fields.TimeSpanLiteralField timeSpanLiteralField1 = new GrapeCity.Win.Editors.Fields.TimeSpanLiteralField();
@@ -87,6 +87,8 @@ namespace InputManWin12_Demo._01_Controls
             GrapeCity.Win.Editors.Fields.TimeSpanSecondField timeSpanSecondField1 = new GrapeCity.Win.Editors.Fields.TimeSpanSecondField();
             GrapeCity.Win.Editors.ThreeStateIconNotify threeStateIconNotify1 = new GrapeCity.Win.Editors.ThreeStateIconNotify();
             GrapeCity.Win.Editors.GcTimeSpanValidator.InvalidRange invalidRange1 = new GrapeCity.Win.Editors.GcTimeSpanValidator.InvalidRange();
+            GrapeCity.Win.Editors.TipNotify tipNotify1 = new GrapeCity.Win.Editors.TipNotify();
+            GrapeCity.Win.Editors.GcNumberValidator.CompareValue compareValue1 = new GrapeCity.Win.Editors.GcNumberValidator.CompareValue();
             GrapeCity.Win.Editors.IconNotify iconNotify1 = new GrapeCity.Win.Editors.IconNotify();
             GrapeCity.Win.Editors.GcBalloonTipNotify gcBalloonTipNotify1 = new GrapeCity.Win.Editors.GcBalloonTipNotify();
             GrapeCity.Win.Editors.BalloonTipInformation balloonTipInformation1 = new GrapeCity.Win.Editors.BalloonTipInformation();
@@ -145,6 +147,8 @@ namespace InputManWin12_Demo._01_Controls
             gcTimeSpanValidator1 = new GrapeCity.Win.Editors.GcTimeSpanValidator();
             gcTimeSpan1 = new GrapeCity.Win.Editors.GcTimeSpan(components);
             gcNumberValidator1 = new GrapeCity.Win.Editors.GcNumberValidator();
+            gcNumber2 = new GrapeCity.Win.Editors.GcNumber(components);
+            dropDownButton2 = new GrapeCity.Win.Editors.DropDownButton();
             gcCommonValidator1 = new GrapeCity.Win.Editors.GcCommonValidator();
             gcTextBox6 = new GrapeCity.Win.Editors.GcTextBox(components);
             gcDate2 = new GrapeCity.Win.Editors.GcDateTime(components);
@@ -154,6 +158,8 @@ namespace InputManWin12_Demo._01_Controls
             textBox1 = new TextBox();
             label19 = new Label();
             label20 = new Label();
+            label21 = new Label();
+            Label22 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)gcTextBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gcTextBox5).BeginInit();
@@ -166,12 +172,16 @@ namespace InputManWin12_Demo._01_Controls
             ((System.ComponentModel.ISupportInitialize)gcDate1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gcNumber1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gcTimeSpan1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)gcNumber2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gcTextBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gcDate2).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(Label22);
+            panel1.Controls.Add(gcNumber2);
+            panel1.Controls.Add(label21);
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(label20);
             panel1.Controls.Add(label19);
@@ -212,9 +222,7 @@ namespace InputManWin12_Demo._01_Controls
             gcTextBox1.AutoSize = true;
             gcTextBox1.Location = new Point(226, 36);
             gcTextBox1.Name = "gcTextBox1";
-            gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
-            gcTextBox1.Size = new Size(246, 22);
+            gcTextBox1.Size = new Size(246, 24);
             gcTextBox1.TabIndex = 2;
             // 
             // gcTextBox5
@@ -224,10 +232,8 @@ namespace InputManWin12_Demo._01_Controls
             gcTextBox5.ImeMode = ImeMode.On;
             gcTextBox5.Location = new Point(289, 98);
             gcTextBox5.Name = "gcTextBox5";
-            gcTextBox5.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox5.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
             gcShortcut1.SetShortcuts(gcTextBox5, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2 }, new object[] { gcTextBox5 }, new string[] { "ShortcutClear" }));
-            gcTextBox5.Size = new Size(182, 22);
+            gcTextBox5.Size = new Size(182, 24);
             gcTextBox5.TabIndex = 8;
             gcTextBox5.Text = "F2で値をクリア";
             // 
@@ -239,10 +245,8 @@ namespace InputManWin12_Demo._01_Controls
             gcTextBox4.ImeMode = ImeMode.On;
             gcTextBox4.Location = new Point(138, 98);
             gcTextBox4.Name = "gcTextBox4";
-            gcTextBox4.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox4.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
             gcShortcut1.SetShortcuts(gcTextBox4, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.Return }, new object[] { gcShortcut1 }, new string[] { "NextControl" }));
-            gcTextBox4.Size = new Size(144, 22);
+            gcTextBox4.Size = new Size(144, 24);
             gcTextBox4.TabIndex = 7;
             // 
             // gcDate3
@@ -264,7 +268,7 @@ namespace InputManWin12_Demo._01_Controls
             gcDate3.Name = "gcDate3";
             gcShortcut1.SetShortcuts(gcDate3, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.F5, Keys.Control | Keys.Return }, new object[] { gcDate3, gcDate3, gcDate3 }, new string[] { "ShortcutClear", "SetNow", "ApplyRecommendedValue" }));
             gcDate3.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton1 });
-            gcDate3.Size = new Size(144, 22);
+            gcDate3.Size = new Size(144, 24);
             gcDate3.TabIndex = 16;
             gcDateValidator1.GetValidateActions(gcDate3).AddRange(new GrapeCity.Win.Editors.ValidateAction[] { lineNotify1 });
             invalidRange2.MaxValue = new DateTime(2100, 12, 31, 23, 59, 59, 0);
@@ -290,7 +294,7 @@ namespace InputManWin12_Demo._01_Controls
             gcTime1.Name = "gcTime1";
             gcShortcut1.SetShortcuts(gcTime1, new GrapeCity.Win.Editors.ShortcutCollection(new Keys[] { Keys.F2, Keys.F5, Keys.Control | Keys.Return }, new object[] { gcTime1, gcTime1, gcTime1 }, new string[] { "ShortcutClear", "SetNow", "ApplyRecommendedValue" }));
             gcTime1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { spinButton1 });
-            gcTime1.Size = new Size(144, 22);
+            gcTime1.Size = new Size(144, 24);
             gcTime1.TabIndex = 19;
             colorNotify1.InvalidBackColor = Color.FromArgb(255, 192, 192);
             colorNotify1.InvalidForeColor = Color.Red;
@@ -332,7 +336,7 @@ namespace InputManWin12_Demo._01_Controls
             gcMask1.ImeMode = ImeMode.Off;
             gcMask1.Location = new Point(138, 36);
             gcMask1.Name = "gcMask1";
-            gcMask1.Size = new Size(81, 22);
+            gcMask1.Size = new Size(81, 24);
             gcMask1.TabIndex = 1;
             // 
             // label11
@@ -364,10 +368,8 @@ namespace InputManWin12_Demo._01_Controls
             gcIme1.SetKanaMode(gcTextBox2, GrapeCity.Win.Editors.KanaMode.Hiragana);
             gcTextBox2.Location = new Point(138, 67);
             gcTextBox2.Name = "gcTextBox2";
-            gcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
             gcIme1.SetReadingStringOutput(gcTextBox2, new GrapeCity.Win.Editors.ReadingStringOutput(gcTextBox3, GrapeCity.Win.Editors.ReadingStringOutputMode.Append, false));
-            gcTextBox2.Size = new Size(144, 22);
+            gcTextBox2.Size = new Size(144, 24);
             gcTextBox2.TabIndex = 4;
             // 
             // gcTextBox3
@@ -377,9 +379,7 @@ namespace InputManWin12_Demo._01_Controls
             gcTextBox3.AutoSize = true;
             gcTextBox3.Location = new Point(289, 67);
             gcTextBox3.Name = "gcTextBox3";
-            gcTextBox3.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox3.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
-            gcTextBox3.Size = new Size(182, 22);
+            gcTextBox3.Size = new Size(182, 24);
             gcTextBox3.TabIndex = 5;
             // 
             // label12
@@ -488,16 +488,16 @@ namespace InputManWin12_Demo._01_Controls
             gcDate1.Location = new Point(138, 157);
             gcDate1.Name = "gcDate1";
             gcDate1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton5 });
-            gcDate1.Size = new Size(144, 22);
+            gcDate1.Size = new Size(144, 24);
             gcDate1.TabIndex = 13;
             threeStateBorderNotify1.InvalidLineWidth = 2;
             threeStateBorderNotify1.ValidLineColor = Color.Green;
             threeStateBorderNotify1.ValidLineStyle = GrapeCity.Win.Editors.LineDashStyle.Solid;
             threeStateBorderNotify1.ValidLineWidth = 2;
             gcDateTimeValidator1.GetValidateActions(gcDate1).AddRange(new GrapeCity.Win.Editors.ValidateAction[] { threeStateBorderNotify1 });
-            compareValue2.ComparedValue = new DateTime(2015, 1, 1, 0, 0, 0, 0);
-            compareValue2.Name = "2015/01/01よりも大きい値を入力してください";
-            gcDateTimeValidator1.GetValidateItems(gcDate1).AddRange(new object[] { compareValue2 });
+            compareValue3.ComparedValue = new DateTime(2015, 1, 1, 0, 0, 0, 0);
+            compareValue3.Name = "2015/01/01よりも大きい値を入力してください";
+            gcDateTimeValidator1.GetValidateItems(gcDate1).AddRange(new object[] { compareValue3 });
             gcDate1.Value = new DateTime(2014, 12, 31, 12, 0, 0, 0);
             // 
             // dropDownButton5
@@ -550,15 +550,15 @@ namespace InputManWin12_Demo._01_Controls
             gcNumber1.Location = new Point(138, 278);
             gcNumber1.Name = "gcNumber1";
             gcNumber1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton7 });
-            gcNumber1.Size = new Size(144, 22);
+            gcNumber1.Size = new Size(144, 24);
             gcNumber1.TabIndex = 25;
-            tipNotify1.ToolTipIcon = ToolTipIcon.Warning;
-            tipNotify1.ToolTipText = "100よりも小さい値でなくてはいけません";
-            tipNotify1.ToolTipTitle = "範囲エラー";
-            gcNumberValidator1.GetValidateActions(gcNumber1).AddRange(new GrapeCity.Win.Editors.ValidateAction[] { tipNotify1 });
-            compareValue1.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan;
-            compareValue1.ComparedValue = new decimal(new int[] { 100, 0, 0, 0 });
-            gcNumberValidator1.GetValidateItems(gcNumber1).AddRange(new object[] { compareValue1 });
+            tipNotify2.ToolTipIcon = ToolTipIcon.Warning;
+            tipNotify2.ToolTipText = "100よりも小さい値でなくてはいけません";
+            tipNotify2.ToolTipTitle = "範囲エラー";
+            gcNumberValidator1.GetValidateActions(gcNumber1).AddRange(new GrapeCity.Win.Editors.ValidateAction[] { tipNotify2 });
+            compareValue2.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan;
+            compareValue2.ComparedValue = new decimal(new int[] { 100, 0, 0, 0 });
+            gcNumberValidator1.GetValidateItems(gcNumber1).AddRange(new object[] { compareValue2 });
             gcNumber1.Value = new decimal(new int[] { 200, 0, 0, 0 });
             // 
             // dropDownButton7
@@ -578,7 +578,7 @@ namespace InputManWin12_Demo._01_Controls
             gcTimeSpan1.ImeMode = ImeMode.Off;
             gcTimeSpan1.Location = new Point(138, 247);
             gcTimeSpan1.Name = "gcTimeSpan1";
-            gcTimeSpan1.Size = new Size(144, 22);
+            gcTimeSpan1.Size = new Size(144, 24);
             gcTimeSpan1.TabIndex = 22;
             gcTimeSpanValidator1.GetValidateActions(gcTimeSpan1).AddRange(new GrapeCity.Win.Editors.ValidateAction[] { threeStateIconNotify1 });
             invalidRange1.InvalidMessage = "1.0:0:0～2.23:59:59が有効な範囲です";
@@ -587,15 +587,42 @@ namespace InputManWin12_Demo._01_Controls
             gcTimeSpanValidator1.GetValidateItems(gcTimeSpan1).AddRange(new object[] { invalidRange1 });
             gcTimeSpan1.Value = TimeSpan.Parse("3.23:59:59");
             // 
+            // gcNumber2
+            // 
+            gcNumber2.AutoSize = true;
+            gcNumber2.DropDown.DropDownType = GrapeCity.Win.Editors.NumberDropDownType.Slider;
+            gcNumber2.Fields.IntegerPart.MinDigits = 1;
+            gcNumber2.ImeMode = ImeMode.Off;
+            gcNumber2.Location = new Point(138, 335);
+            gcNumber2.MaxValue = new decimal(new int[] { 50, 0, 0, 0 });
+            gcNumber2.MinValue = new decimal(new int[] { 0, 0, 0, 0 });
+            gcNumber2.Name = "gcNumber2";
+            gcNumber2.NumberSlider.ShowMarkLabel = true;
+            gcNumber2.NumberSlider.Step = new decimal(new int[] { 10, 0, 0, 0 });
+            gcNumber2.NumberSlider.Visible = true;
+            gcNumber2.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton2 });
+            gcNumber2.Size = new Size(144, 36);
+            gcNumber2.TabIndex = 34;
+            tipNotify1.ToolTipIcon = ToolTipIcon.Warning;
+            tipNotify1.ToolTipText = "100よりも小さい値でなくてはいけません";
+            tipNotify1.ToolTipTitle = "範囲エラー";
+            gcNumberValidator1.GetValidateActions(gcNumber2).AddRange(new GrapeCity.Win.Editors.ValidateAction[] { tipNotify1 });
+            compareValue1.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan;
+            compareValue1.ComparedValue = new decimal(new int[] { 100, 0, 0, 0 });
+            gcNumberValidator1.GetValidateItems(gcNumber2).AddRange(new object[] { compareValue1 });
+            gcNumber2.Value = new decimal(new int[] { 30, 0, 0, 0 });
+            // 
+            // dropDownButton2
+            // 
+            dropDownButton2.Name = "dropDownButton2";
+            // 
             // gcTextBox6
             // 
             gcTextBox6.AutoSize = true;
             gcTextBox6.ImeMode = ImeMode.On;
             gcTextBox6.Location = new Point(138, 126);
             gcTextBox6.Name = "gcTextBox6";
-            gcTextBox6.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            gcTextBox6.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
-            gcTextBox6.Size = new Size(144, 22);
+            gcTextBox6.Size = new Size(144, 24);
             gcTextBox6.TabIndex = 10;
             balloonTipInformation1.Caption = "必須入力";
             balloonTipInformation1.CaptionFont = new Font("メイリオ", 9F, FontStyle.Bold, GraphicsUnit.Point);
@@ -603,7 +630,6 @@ namespace InputManWin12_Demo._01_Controls
             gradientEffect1.EndColor = Color.LightSalmon;
             balloonTipInformation1.GradientEffect = gradientEffect1;
             balloonTipInformation1.Shape = GrapeCity.Win.Editors.BalloonShape.Square;
-            balloonTipInformation1.Text = "";
             balloonTipInformation1.TextFont = new Font("メイリオ", 9F, FontStyle.Regular, GraphicsUnit.Point);
             balloonTipInformation1.TextForeColor = Color.MidnightBlue;
             balloonTipInformation1.UseVisualStyleBackColor = false;
@@ -644,7 +670,7 @@ namespace InputManWin12_Demo._01_Controls
             gcDate2.Location = new Point(138, 306);
             gcDate2.Name = "gcDate2";
             gcDate2.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] { dropDownButton8 });
-            gcDate2.Size = new Size(144, 22);
+            gcDate2.Size = new Size(144, 24);
             gcDate2.TabIndex = 28;
             gcDate2.Value = new DateTime(2015, 5, 1, 12, 0, 0, 0);
             // 
@@ -680,6 +706,25 @@ namespace InputManWin12_Demo._01_Controls
             label20.TabIndex = 32;
             label20.Text = "（ひらがな入力用キーボードを表示）";
             // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(3, 337);
+            label21.Name = "label21";
+            label21.Size = new Size(80, 18);
+            label21.TabIndex = 33;
+            label21.Text = "スライダー：";
+            // 
+            // Label22
+            // 
+            Label22.AutoSize = true;
+            Label22.Font = new Font("メイリオ", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            Label22.Location = new Point(296, 338);
+            Label22.Name = "Label22";
+            Label22.Size = new Size(272, 18);
+            Label22.TabIndex = 38;
+            Label22.Text = "（入力用とドロップダウンのスライダーを表示）";
+            // 
             // Components
             // 
             AutoScaleDimensions = new SizeF(7F, 18F);
@@ -699,6 +744,7 @@ namespace InputManWin12_Demo._01_Controls
             ((System.ComponentModel.ISupportInitialize)gcDate1).EndInit();
             ((System.ComponentModel.ISupportInitialize)gcNumber1).EndInit();
             ((System.ComponentModel.ISupportInitialize)gcTimeSpan1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)gcNumber2).EndInit();
             ((System.ComponentModel.ISupportInitialize)gcTextBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)gcDate2).EndInit();
             ResumeLayout(false);
@@ -756,5 +802,9 @@ namespace InputManWin12_Demo._01_Controls
         private GrapeCity.Win.Editors.GcSoftKeyboard gcSoftKeyboard1;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
+        private GrapeCity.Win.Editors.GcNumber gcNumber2;
+        private GrapeCity.Win.Editors.DropDownButton dropDownButton2;
+        private Label label21;
+        private Label Label22;
     }
 }
