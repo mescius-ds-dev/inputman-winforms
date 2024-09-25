@@ -29,39 +29,39 @@ namespace InputManWin12_Demo._07_DropDown
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            GrapeCity.Win.Editors.Fields.DateYearField dateYearField1 = new GrapeCity.Win.Editors.Fields.DateYearField();
-            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField3 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateMonthField dateMonthField1 = new GrapeCity.Win.Editors.Fields.DateMonthField();
-            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField4 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateDayField dateDayField1 = new GrapeCity.Win.Editors.Fields.DateDayField();
             GrapeCity.Win.Editors.Fields.DateYearField dateYearField2 = new GrapeCity.Win.Editors.Fields.DateYearField();
-            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField5 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateMonthField dateMonthField2 = new GrapeCity.Win.Editors.Fields.DateMonthField();
-            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField6 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateDayField dateDayField2 = new GrapeCity.Win.Editors.Fields.DateDayField();
-            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField7 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateHourField dateHourField2 = new GrapeCity.Win.Editors.Fields.DateHourField();
             GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField8 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateMinuteField dateMinuteField2 = new GrapeCity.Win.Editors.Fields.DateMinuteField();
+            GrapeCity.Win.Editors.Fields.DateMonthField dateMonthField2 = new GrapeCity.Win.Editors.Fields.DateMonthField();
             GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField9 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateDayField dateDayField2 = new GrapeCity.Win.Editors.Fields.DateDayField();
+            GrapeCity.Win.Editors.Fields.DateYearField dateYearField3 = new GrapeCity.Win.Editors.Fields.DateYearField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField10 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateMonthField dateMonthField3 = new GrapeCity.Win.Editors.Fields.DateMonthField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField11 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateDayField dateDayField3 = new GrapeCity.Win.Editors.Fields.DateDayField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField12 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateHourField dateHourField3 = new GrapeCity.Win.Editors.Fields.DateHourField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField13 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateMinuteField dateMinuteField3 = new GrapeCity.Win.Editors.Fields.DateMinuteField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField14 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateSecondField dateSecondField3 = new GrapeCity.Win.Editors.Fields.DateSecondField();
+            GrapeCity.Win.Editors.Fields.DateHourField dateHourField2 = new GrapeCity.Win.Editors.Fields.DateHourField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField6 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateMinuteField dateMinuteField2 = new GrapeCity.Win.Editors.Fields.DateMinuteField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField7 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
             GrapeCity.Win.Editors.Fields.DateSecondField dateSecondField2 = new GrapeCity.Win.Editors.Fields.DateSecondField();
-            GrapeCity.Win.Editors.Fields.DateHourField dateHourField1 = new GrapeCity.Win.Editors.Fields.DateHourField();
-            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField1 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateMinuteField dateMinuteField1 = new GrapeCity.Win.Editors.Fields.DateMinuteField();
-            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField2 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
-            GrapeCity.Win.Editors.Fields.DateSecondField dateSecondField1 = new GrapeCity.Win.Editors.Fields.DateSecondField();
+            GrapeCity.Win.Editors.ListItem listItem22 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem22 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem23 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem23 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem24 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem24 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.ListItem listItem19 = new GrapeCity.Win.Editors.ListItem();
             GrapeCity.Win.Editors.SubItem subItem19 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.ListItem listItem20 = new GrapeCity.Win.Editors.ListItem();
             GrapeCity.Win.Editors.SubItem subItem20 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.ListItem listItem21 = new GrapeCity.Win.Editors.ListItem();
             GrapeCity.Win.Editors.SubItem subItem21 = new GrapeCity.Win.Editors.SubItem();
-            GrapeCity.Win.Editors.ListItem listItem16 = new GrapeCity.Win.Editors.ListItem();
-            GrapeCity.Win.Editors.SubItem subItem16 = new GrapeCity.Win.Editors.SubItem();
-            GrapeCity.Win.Editors.ListItem listItem17 = new GrapeCity.Win.Editors.ListItem();
-            GrapeCity.Win.Editors.SubItem subItem17 = new GrapeCity.Win.Editors.SubItem();
-            GrapeCity.Win.Editors.ListItem listItem18 = new GrapeCity.Win.Editors.ListItem();
-            GrapeCity.Win.Editors.SubItem subItem18 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.ListItem listItem1 = new GrapeCity.Win.Editors.ListItem();
             GrapeCity.Win.Editors.SubItem subItem1 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.ListItem listItem2 = new GrapeCity.Win.Editors.ListItem();
@@ -92,6 +92,23 @@ namespace InputManWin12_Demo._07_DropDown
             GrapeCity.Win.Editors.SubItem subItem14 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.ListItem listItem15 = new GrapeCity.Win.Editors.ListItem();
             GrapeCity.Win.Editors.SubItem subItem15 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem16 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem16 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem17 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem17 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem18 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem18 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.Fields.DateYearField dateYearField1 = new GrapeCity.Win.Editors.Fields.DateYearField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField1 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateMonthField dateMonthField1 = new GrapeCity.Win.Editors.Fields.DateMonthField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField2 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateDayField dateDayField1 = new GrapeCity.Win.Editors.Fields.DateDayField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField3 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateHourField dateHourField1 = new GrapeCity.Win.Editors.Fields.DateHourField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField4 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateMinuteField dateMinuteField1 = new GrapeCity.Win.Editors.Fields.DateMinuteField();
+            GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField5 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
+            GrapeCity.Win.Editors.Fields.DateSecondField dateSecondField1 = new GrapeCity.Win.Editors.Fields.DateSecondField();
             this.gcDate1 = new GrapeCity.Win.Editors.GcDate(this.components);
             this.dropDownButton4 = new GrapeCity.Win.Editors.DropDownButton();
             this.gcDateTime1 = new GrapeCity.Win.Editors.GcDateTime(this.components);
@@ -129,22 +146,31 @@ namespace InputManWin12_Demo._07_DropDown
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.gcComboBox7 = new GrapeCity.Win.Editors.GcComboBox(this.components);
+            this.dropDownButton9 = new GrapeCity.Win.Editors.DropDownButton();
+            this.label13 = new System.Windows.Forms.Label();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.gcComboBox6 = new GrapeCity.Win.Editors.GcComboBox(this.components);
-            this.dropDownButton17 = new GrapeCity.Win.Editors.DropDownButton();
-            this.gcComboBox5 = new GrapeCity.Win.Editors.GcComboBox(this.components);
-            this.dropDownButton16 = new GrapeCity.Win.Editors.DropDownButton();
-            this.gcComboBox4 = new GrapeCity.Win.Editors.GcComboBox(this.components);
-            this.dropDownButton15 = new GrapeCity.Win.Editors.DropDownButton();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.gcComboBox3 = new GrapeCity.Win.Editors.GcComboBox(this.components);
             this.dropDownButton10 = new GrapeCity.Win.Editors.DropDownButton();
-            this.label11 = new System.Windows.Forms.Label();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label15 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.gcComboBox4 = new GrapeCity.Win.Editors.GcComboBox(this.components);
+            this.dropDownButton15 = new GrapeCity.Win.Editors.DropDownButton();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.gcComboBox6 = new GrapeCity.Win.Editors.GcComboBox(this.components);
+            this.dropDownButton17 = new GrapeCity.Win.Editors.DropDownButton();
+            this.label17 = new System.Windows.Forms.Label();
+            this.gcComboBox5 = new GrapeCity.Win.Editors.GcComboBox(this.components);
+            this.dropDownButton16 = new GrapeCity.Win.Editors.DropDownButton();
+            this.gcDateTime2 = new GrapeCity.Win.Editors.GcDateTime(this.components);
+            this.dropDownButton12 = new GrapeCity.Win.Editors.DropDownButton();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -163,10 +189,15 @@ namespace InputManWin12_Demo._07_DropDown
             ((System.ComponentModel.ISupportInitialize)(this.gcColorPicker4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcColorPicker5)).BeginInit();
             this.groupBox3.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox3)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcComboBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcComboBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcDateTime2)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -174,6 +205,8 @@ namespace InputManWin12_Demo._07_DropDown
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.gcDateTime2);
+            this.splitContainer1.Panel1.Controls.Add(this.label16);
             this.splitContainer1.Panel1.Controls.Add(this.gcTime1);
             this.splitContainer1.Panel1.Controls.Add(this.label2);
             this.splitContainer1.Panel1.Controls.Add(this.gcDate1);
@@ -191,14 +224,14 @@ namespace InputManWin12_Demo._07_DropDown
             // gcDate1
             // 
             this.gcDate1.AutoSize = true;
-            dateLiteralField3.Text = "/";
-            dateLiteralField4.Text = "/";
+            dateLiteralField8.Text = "/";
+            dateLiteralField9.Text = "/";
             this.gcDate1.Fields.AddRange(new GrapeCity.Win.Editors.Fields.DateField[] {
-            dateYearField1,
-            dateLiteralField3,
-            dateMonthField1,
-            dateLiteralField4,
-            dateDayField1});
+            dateYearField2,
+            dateLiteralField8,
+            dateMonthField2,
+            dateLiteralField9,
+            dateDayField2});
             this.gcDate1.Location = new System.Drawing.Point(11, 75);
             this.gcDate1.Margin = new System.Windows.Forms.Padding(2);
             this.gcDate1.Name = "gcDate1";
@@ -215,22 +248,22 @@ namespace InputManWin12_Demo._07_DropDown
             // gcDateTime1
             // 
             this.gcDateTime1.AutoSize = true;
-            dateLiteralField5.Text = "/";
-            dateLiteralField6.Text = "/";
-            dateLiteralField8.Text = ":";
-            dateLiteralField9.Text = ":";
+            dateLiteralField10.Text = "/";
+            dateLiteralField11.Text = "/";
+            dateLiteralField13.Text = ":";
+            dateLiteralField14.Text = ":";
             this.gcDateTime1.Fields.AddRange(new GrapeCity.Win.Editors.Fields.DateField[] {
-            dateYearField2,
-            dateLiteralField5,
-            dateMonthField2,
-            dateLiteralField6,
-            dateDayField2,
-            dateLiteralField7,
-            dateHourField2,
-            dateLiteralField8,
-            dateMinuteField2,
-            dateLiteralField9,
-            dateSecondField2});
+            dateYearField3,
+            dateLiteralField10,
+            dateMonthField3,
+            dateLiteralField11,
+            dateDayField3,
+            dateLiteralField12,
+            dateHourField3,
+            dateLiteralField13,
+            dateMinuteField3,
+            dateLiteralField14,
+            dateSecondField3});
             this.gcDateTime1.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.gcDateTime1.Location = new System.Drawing.Point(11, 29);
             this.gcDateTime1.Name = "gcDateTime1";
@@ -275,14 +308,14 @@ namespace InputManWin12_Demo._07_DropDown
             // gcTime1
             // 
             this.gcTime1.AutoSize = true;
-            dateLiteralField1.Text = ":";
-            dateLiteralField2.Text = ":";
+            dateLiteralField6.Text = ":";
+            dateLiteralField7.Text = ":";
             this.gcTime1.Fields.AddRange(new GrapeCity.Win.Editors.Fields.DateField[] {
-            dateHourField1,
-            dateLiteralField1,
-            dateMinuteField1,
-            dateLiteralField2,
-            dateSecondField1});
+            dateHourField2,
+            dateLiteralField6,
+            dateMinuteField2,
+            dateLiteralField7,
+            dateSecondField2});
             this.gcTime1.Location = new System.Drawing.Point(11, 122);
             this.gcTime1.Name = "gcTime1";
             this.gcShortcut1.SetShortcuts(this.gcTime1, new GrapeCity.Win.Editors.ShortcutCollection(new System.Windows.Forms.Keys[] {
@@ -345,19 +378,19 @@ namespace InputManWin12_Demo._07_DropDown
             this.gcComboBox1.DropDown.AutoWidth = true;
             this.gcComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.gcComboBox1.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
-            subItem19.Value = "None";
-            listItem19.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem19});
-            subItem20.Value = "FixedSingle";
-            listItem20.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem20});
-            subItem21.Value = "Fixed3D";
-            listItem21.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem21});
+            subItem22.Value = "None";
+            listItem22.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem22});
+            subItem23.Value = "FixedSingle";
+            listItem23.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem23});
+            subItem24.Value = "Fixed3D";
+            listItem24.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem24});
             this.gcComboBox1.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
-            listItem19,
-            listItem20,
-            listItem21});
+            listItem22,
+            listItem23,
+            listItem24});
             this.gcComboBox1.ListHeaderPane.Height = 25;
             this.gcComboBox1.ListHeaderPane.Visible = false;
             this.gcComboBox1.Location = new System.Drawing.Point(122, 80);
@@ -486,19 +519,19 @@ namespace InputManWin12_Demo._07_DropDown
             this.gcComboBox2.DropDown.AutoWidth = true;
             this.gcComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.gcComboBox2.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
-            subItem16.Value = "境界線";
-            listItem16.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem16});
-            subItem17.Value = "塗りつぶし";
-            listItem17.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem17});
-            subItem18.Value = "境界線と塗りつぶし";
-            listItem18.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem18});
+            subItem19.Value = "境界線";
+            listItem19.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem19});
+            subItem20.Value = "塗りつぶし";
+            listItem20.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem20});
+            subItem21.Value = "境界線と塗りつぶし";
+            listItem21.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem21});
             this.gcComboBox2.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
-            listItem16,
-            listItem17,
-            listItem18});
+            listItem19,
+            listItem20,
+            listItem21});
             this.gcComboBox2.ListHeaderPane.Height = 25;
             this.gcComboBox2.ListHeaderPane.Visible = false;
             this.gcComboBox2.Location = new System.Drawing.Point(122, 24);
@@ -588,31 +621,92 @@ namespace InputManWin12_Demo._07_DropDown
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.checkBox3);
-            this.groupBox3.Controls.Add(this.checkBox2);
-            this.groupBox3.Controls.Add(this.checkBox1);
-            this.groupBox3.Controls.Add(this.gcComboBox6);
-            this.groupBox3.Controls.Add(this.gcComboBox5);
-            this.groupBox3.Controls.Add(this.gcComboBox4);
-            this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Controls.Add(this.label19);
-            this.groupBox3.Controls.Add(this.gcComboBox3);
-            this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.label15);
+            this.groupBox3.Controls.Add(this.tabControl1);
             this.groupBox3.Location = new System.Drawing.Point(8, 287);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(264, 162);
+            this.groupBox3.Size = new System.Drawing.Size(293, 162);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "ピッカーの表示";
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.ItemSize = new System.Drawing.Size(100, 23);
+            this.tabControl1.Location = new System.Drawing.Point(9, 24);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(278, 135);
+            this.tabControl1.TabIndex = 3;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.gcComboBox7);
+            this.tabPage1.Controls.Add(this.label13);
+            this.tabPage1.Controls.Add(this.checkBox3);
+            this.tabPage1.Controls.Add(this.gcComboBox3);
+            this.tabPage1.Controls.Add(this.checkBox2);
+            this.tabPage1.Controls.Add(this.label15);
+            this.tabPage1.Controls.Add(this.checkBox1);
+            this.tabPage1.Controls.Add(this.label11);
+            this.tabPage1.Location = new System.Drawing.Point(4, 27);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(270, 104);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "基本";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // gcComboBox7
+            // 
+            this.gcComboBox7.AutoSize = true;
+            this.gcComboBox7.DropDown.AutoWidth = true;
+            this.gcComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gcComboBox7.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
+            subItem1.Value = "なし";
+            listItem1.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem1});
+            subItem2.Value = "英語";
+            listItem2.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem2});
+            subItem3.Value = "日本語";
+            listItem3.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem3});
+            this.gcComboBox7.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
+            listItem1,
+            listItem2,
+            listItem3});
+            this.gcComboBox7.ListHeaderPane.Height = 25;
+            this.gcComboBox7.ListHeaderPane.Visible = false;
+            this.gcComboBox7.Location = new System.Drawing.Point(127, 65);
+            this.gcComboBox7.Name = "gcComboBox7";
+            this.gcComboBox7.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
+            this.dropDownButton9});
+            this.gcComboBox7.Size = new System.Drawing.Size(135, 26);
+            this.gcComboBox7.TabIndex = 13;
+            this.gcComboBox7.UseCompatibleDrawing = true;
+            this.gcComboBox7.SelectedIndexChanged += new System.EventHandler(this.gcComboBox7_SelectedIndexChanged);
+            // 
+            // dropDownButton9
+            // 
+            this.dropDownButton9.Name = "dropDownButton9";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(11, 68);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(82, 18);
+            this.label13.TabIndex = 12;
+            this.label13.Text = "12時制表記：";
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Checked = true;
             this.checkBox3.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox3.Location = new System.Drawing.Point(212, 52);
+            this.checkBox3.Location = new System.Drawing.Point(217, 35);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(39, 22);
             this.checkBox3.TabIndex = 11;
@@ -620,195 +714,32 @@ namespace InputManWin12_Demo._07_DropDown
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Checked = true;
-            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox2.Location = new System.Drawing.Point(167, 52);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(39, 22);
-            this.checkBox2.TabIndex = 10;
-            this.checkBox2.Text = "分";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(122, 52);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(39, 22);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "時";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
-            // 
-            // gcComboBox6
-            // 
-            this.gcComboBox6.AutoSize = true;
-            this.gcComboBox6.DropDown.AutoWidth = true;
-            this.gcComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gcComboBox6.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
-            subItem1.Value = "1";
-            listItem1.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem1});
-            subItem2.Value = "10";
-            listItem2.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem2});
-            subItem3.Value = "15";
-            listItem3.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem3});
-            subItem4.Value = "30";
-            listItem4.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem4});
-            this.gcComboBox6.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
-            listItem1,
-            listItem2,
-            listItem3,
-            listItem4});
-            this.gcComboBox6.ListHeaderPane.Height = 25;
-            this.gcComboBox6.ListHeaderPane.Visible = false;
-            this.gcComboBox6.Location = new System.Drawing.Point(121, 131);
-            this.gcComboBox6.Name = "gcComboBox6";
-            this.gcComboBox6.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
-            this.dropDownButton17});
-            this.gcComboBox6.Size = new System.Drawing.Size(135, 26);
-            this.gcComboBox6.TabIndex = 7;
-            this.gcComboBox6.UseCompatibleDrawing = true;
-            this.gcComboBox6.SelectedIndexChanged += new System.EventHandler(this.gcComboBox6_SelectedIndexChanged);
-            // 
-            // dropDownButton17
-            // 
-            this.dropDownButton17.Name = "dropDownButton17";
-            // 
-            // gcComboBox5
-            // 
-            this.gcComboBox5.AutoSize = true;
-            this.gcComboBox5.DropDown.AutoWidth = true;
-            this.gcComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gcComboBox5.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
-            subItem5.Value = "1";
-            listItem5.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem5});
-            subItem6.Value = "10";
-            listItem6.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem6});
-            subItem7.Value = "15";
-            listItem7.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem7});
-            subItem8.Value = "30";
-            listItem8.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem8});
-            this.gcComboBox5.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
-            listItem5,
-            listItem6,
-            listItem7,
-            listItem8});
-            this.gcComboBox5.ListHeaderPane.Height = 25;
-            this.gcComboBox5.ListHeaderPane.Visible = false;
-            this.gcComboBox5.Location = new System.Drawing.Point(121, 103);
-            this.gcComboBox5.Name = "gcComboBox5";
-            this.gcComboBox5.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
-            this.dropDownButton16});
-            this.gcComboBox5.Size = new System.Drawing.Size(135, 26);
-            this.gcComboBox5.TabIndex = 6;
-            this.gcComboBox5.UseCompatibleDrawing = true;
-            this.gcComboBox5.SelectedIndexChanged += new System.EventHandler(this.gcComboBox5_SelectedIndexChanged);
-            // 
-            // dropDownButton16
-            // 
-            this.dropDownButton16.Name = "dropDownButton16";
-            // 
-            // gcComboBox4
-            // 
-            this.gcComboBox4.AutoSize = true;
-            this.gcComboBox4.DropDown.AutoWidth = true;
-            this.gcComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.gcComboBox4.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
-            subItem9.Value = "1";
-            listItem9.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem9});
-            subItem10.Value = "3";
-            listItem10.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem10});
-            subItem11.Value = "6";
-            listItem11.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem11});
-            this.gcComboBox4.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
-            listItem9,
-            listItem10,
-            listItem11});
-            this.gcComboBox4.ListHeaderPane.Height = 25;
-            this.gcComboBox4.ListHeaderPane.Visible = false;
-            this.gcComboBox4.Location = new System.Drawing.Point(121, 75);
-            this.gcComboBox4.Name = "gcComboBox4";
-            this.gcComboBox4.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
-            this.dropDownButton15});
-            this.gcComboBox4.Size = new System.Drawing.Size(135, 26);
-            this.gcComboBox4.TabIndex = 5;
-            this.gcComboBox4.UseCompatibleDrawing = true;
-            this.gcComboBox4.SelectedIndexChanged += new System.EventHandler(this.gcComboBox4_SelectedIndexChanged);
-            // 
-            // dropDownButton15
-            // 
-            this.dropDownButton15.Name = "dropDownButton15";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(5, 134);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(92, 18);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "秒の表示間隔：";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(5, 78);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(104, 18);
-            this.label18.TabIndex = 7;
-            this.label18.Text = "時間の表示間隔：";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(5, 106);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(92, 18);
-            this.label19.TabIndex = 8;
-            this.label19.Text = "分の表示間隔：";
-            // 
             // gcComboBox3
             // 
             this.gcComboBox3.AutoSize = true;
             this.gcComboBox3.DropDown.AutoWidth = true;
             this.gcComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.gcComboBox3.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
-            subItem12.Value = "yyyy";
-            listItem12.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem12});
-            subItem13.Value = "yy";
-            listItem13.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem13});
-            subItem14.Value = "ggg ee";
-            listItem14.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem14});
-            subItem15.Value = "gg e";
-            listItem15.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem15});
+            subItem4.Value = "yyyy";
+            listItem4.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem4});
+            subItem5.Value = "yy";
+            listItem5.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem5});
+            subItem6.Value = "ggg ee";
+            listItem6.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem6});
+            subItem7.Value = "gg e";
+            listItem7.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem7});
             this.gcComboBox3.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
-            listItem12,
-            listItem13,
-            listItem14,
-            listItem15});
+            listItem4,
+            listItem5,
+            listItem6,
+            listItem7});
             this.gcComboBox3.ListHeaderPane.Height = 25;
             this.gcComboBox3.ListHeaderPane.Visible = false;
-            this.gcComboBox3.Location = new System.Drawing.Point(122, 24);
+            this.gcComboBox3.Location = new System.Drawing.Point(127, 7);
             this.gcComboBox3.Name = "gcComboBox3";
             this.gcComboBox3.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
             this.dropDownButton10});
@@ -821,31 +752,252 @@ namespace InputManWin12_Demo._07_DropDown
             // 
             this.dropDownButton10.Name = "dropDownButton10";
             // 
-            // label11
+            // checkBox2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 27);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(116, 18);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "年のフォーマット：";
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Checked = true;
+            this.checkBox2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox2.Location = new System.Drawing.Point(172, 35);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(39, 22);
+            this.checkBox2.TabIndex = 10;
+            this.checkBox2.Text = "分";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 53);
+            this.label15.Location = new System.Drawing.Point(11, 36);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(80, 18);
             this.label15.TabIndex = 2;
             this.label15.Text = "時間の表示：";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(127, 35);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(39, 22);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "時";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(11, 10);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(116, 18);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "年のフォーマット：";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.gcComboBox4);
+            this.tabPage2.Controls.Add(this.label19);
+            this.tabPage2.Controls.Add(this.label18);
+            this.tabPage2.Controls.Add(this.gcComboBox6);
+            this.tabPage2.Controls.Add(this.label17);
+            this.tabPage2.Controls.Add(this.gcComboBox5);
+            this.tabPage2.Location = new System.Drawing.Point(4, 27);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(270, 104);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "表示間隔";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // gcComboBox4
+            // 
+            this.gcComboBox4.AutoSize = true;
+            this.gcComboBox4.DropDown.AutoWidth = true;
+            this.gcComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gcComboBox4.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
+            subItem8.Value = "1";
+            listItem8.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem8});
+            subItem9.Value = "3";
+            listItem9.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem9});
+            subItem10.Value = "6";
+            listItem10.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem10});
+            this.gcComboBox4.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
+            listItem8,
+            listItem9,
+            listItem10});
+            this.gcComboBox4.ListHeaderPane.Height = 25;
+            this.gcComboBox4.ListHeaderPane.Visible = false;
+            this.gcComboBox4.Location = new System.Drawing.Point(127, 7);
+            this.gcComboBox4.Name = "gcComboBox4";
+            this.gcComboBox4.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
+            this.dropDownButton15});
+            this.gcComboBox4.Size = new System.Drawing.Size(135, 26);
+            this.gcComboBox4.TabIndex = 5;
+            this.gcComboBox4.UseCompatibleDrawing = true;
+            this.gcComboBox4.SelectedIndexChanged += new System.EventHandler(this.gcComboBox4_SelectedIndexChanged);
+            // 
+            // dropDownButton15
+            // 
+            this.dropDownButton15.Name = "dropDownButton15";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(11, 38);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(92, 18);
+            this.label19.TabIndex = 8;
+            this.label19.Text = "分の表示間隔：";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(11, 10);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(104, 18);
+            this.label18.TabIndex = 7;
+            this.label18.Text = "時間の表示間隔：";
+            // 
+            // gcComboBox6
+            // 
+            this.gcComboBox6.AutoSize = true;
+            this.gcComboBox6.DropDown.AutoWidth = true;
+            this.gcComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gcComboBox6.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
+            subItem11.Value = "1";
+            listItem11.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem11});
+            subItem12.Value = "10";
+            listItem12.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem12});
+            subItem13.Value = "15";
+            listItem13.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem13});
+            subItem14.Value = "30";
+            listItem14.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem14});
+            this.gcComboBox6.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
+            listItem11,
+            listItem12,
+            listItem13,
+            listItem14});
+            this.gcComboBox6.ListHeaderPane.Height = 25;
+            this.gcComboBox6.ListHeaderPane.Visible = false;
+            this.gcComboBox6.Location = new System.Drawing.Point(127, 63);
+            this.gcComboBox6.Name = "gcComboBox6";
+            this.gcComboBox6.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
+            this.dropDownButton17});
+            this.gcComboBox6.Size = new System.Drawing.Size(135, 26);
+            this.gcComboBox6.TabIndex = 7;
+            this.gcComboBox6.UseCompatibleDrawing = true;
+            this.gcComboBox6.SelectedIndexChanged += new System.EventHandler(this.gcComboBox6_SelectedIndexChanged);
+            // 
+            // dropDownButton17
+            // 
+            this.dropDownButton17.Name = "dropDownButton17";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(11, 66);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(92, 18);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "秒の表示間隔：";
+            // 
+            // gcComboBox5
+            // 
+            this.gcComboBox5.AutoSize = true;
+            this.gcComboBox5.DropDown.AutoWidth = true;
+            this.gcComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.gcComboBox5.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
+            subItem15.Value = "1";
+            listItem15.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem15});
+            subItem16.Value = "10";
+            listItem16.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem16});
+            subItem17.Value = "15";
+            listItem17.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem17});
+            subItem18.Value = "30";
+            listItem18.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem18});
+            this.gcComboBox5.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
+            listItem15,
+            listItem16,
+            listItem17,
+            listItem18});
+            this.gcComboBox5.ListHeaderPane.Height = 25;
+            this.gcComboBox5.ListHeaderPane.Visible = false;
+            this.gcComboBox5.Location = new System.Drawing.Point(127, 35);
+            this.gcComboBox5.Name = "gcComboBox5";
+            this.gcComboBox5.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
+            this.dropDownButton16});
+            this.gcComboBox5.Size = new System.Drawing.Size(135, 26);
+            this.gcComboBox5.TabIndex = 6;
+            this.gcComboBox5.UseCompatibleDrawing = true;
+            this.gcComboBox5.SelectedIndexChanged += new System.EventHandler(this.gcComboBox5_SelectedIndexChanged);
+            // 
+            // dropDownButton16
+            // 
+            this.dropDownButton16.Name = "dropDownButton16";
+            // 
+            // gcDateTime2
+            // 
+            this.gcDateTime2.AutoSize = true;
+            dateLiteralField1.Text = "/";
+            dateLiteralField2.Text = "/";
+            dateLiteralField4.Text = ":";
+            dateLiteralField5.Text = ":";
+            this.gcDateTime2.Fields.AddRange(new GrapeCity.Win.Editors.Fields.DateField[] {
+            dateYearField1,
+            dateLiteralField1,
+            dateMonthField1,
+            dateLiteralField2,
+            dateDayField1,
+            dateLiteralField3,
+            dateHourField1,
+            dateLiteralField4,
+            dateMinuteField1,
+            dateLiteralField5,
+            dateSecondField1});
+            this.gcDateTime2.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.gcDateTime2.Location = new System.Drawing.Point(11, 190);
+            this.gcDateTime2.Name = "gcDateTime2";
+            this.gcDateTime2.RecommendedValue = new System.DateTime(2015, 1, 1, 0, 0, 0, 0);
+            this.gcDateTime2.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
+            this.dropDownButton12});
+            this.gcDateTime2.Size = new System.Drawing.Size(260, 24);
+            this.gcDateTime2.TabIndex = 7;
+            this.gcDateTime2.Value = new System.DateTime(2015, 1, 1, 0, 0, 0, 0);
+            // 
+            // dropDownButton12
+            // 
+            this.dropDownButton12.Name = "dropDownButton12";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(8, 169);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(284, 18);
+            this.label16.TabIndex = 6;
+            this.label16.Text = "日付時刻：（ドロップダウンカレンダーピッカー）";
+            // 
             // DropDownDateTimePicker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
-            this.Description = "タッチデバイスでの操作がより快適になる、日付や時刻入力専用のドロップダウン日付時刻ピッカーを提供します。";
+            this.Description = "タッチデバイスでの操作がより快適になる、ドロップダウン日付時刻／カレンダーピッカーを提供します。";
             this.Name = "DropDownDateTimePicker";
             this.Size = new System.Drawing.Size(724, 554);
-            this.Title = "ドロップダウン日付時刻ピッカー\r\n";
+            this.Title = "ドロップダウン日付時刻／カレンダーピッカー\r\n";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -867,11 +1019,17 @@ namespace InputManWin12_Demo._07_DropDown
             ((System.ComponentModel.ISupportInitialize)(this.gcColorPicker4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcColorPicker5)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox3)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcComboBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcComboBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcComboBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcDateTime2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -932,5 +1090,14 @@ namespace InputManWin12_Demo._07_DropDown
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private GrapeCity.Win.Editors.GcComboBox gcComboBox7;
+        private GrapeCity.Win.Editors.DropDownButton dropDownButton9;
+        private System.Windows.Forms.Label label13;
+        private GrapeCity.Win.Editors.GcDateTime gcDateTime2;
+        private GrapeCity.Win.Editors.DropDownButton dropDownButton12;
+        private System.Windows.Forms.Label label16;
     }
 }

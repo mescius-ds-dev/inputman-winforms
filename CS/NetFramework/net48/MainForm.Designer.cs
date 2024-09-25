@@ -100,53 +100,55 @@ namespace InputManWin12_Demo
             System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("省略文字の表示");
             System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("オーバーフローチップの表示");
             System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("テキストの配置");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("表示機能", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("フローティングラベルの表示");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("表示機能", new System.Windows.Forms.TreeNode[] {
             treeNode38,
             treeNode39,
             treeNode40,
             treeNode41,
             treeNode42,
-            treeNode43});
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("ドロップダウンのカスタマイズ");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("ドロップダウンカレンダー");
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("ドロップダウン日付時刻ピッカー");
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("ドロップダウンによる入力補助", new System.Windows.Forms.TreeNode[] {
-            treeNode45,
+            treeNode43,
+            treeNode44});
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("ドロップダウンのカスタマイズ");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("ドロップダウンカレンダー");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("ドロップダウン日付時刻／カレンダーピッカー");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("ドロップダウンによる入力補助", new System.Windows.Forms.TreeNode[] {
             treeNode46,
-            treeNode47});
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("ドロップダウンボタン");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("スピンボタン");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("サイドボタン");
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("シンボルボタン");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("スピン操作");
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("コントロールに追加可能なボタン", new System.Windows.Forms.TreeNode[] {
-            treeNode49,
+            treeNode47,
+            treeNode48});
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("ドロップダウンボタン");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("スピンボタン");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("サイドボタン");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("シンボルボタン");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("スピン操作");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("コントロールに追加可能なボタン", new System.Windows.Forms.TreeNode[] {
             treeNode50,
             treeNode51,
             treeNode52,
-            treeNode53});
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("マルチカラムによるリスト表示");
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("オートコンプリートによる補完機能");
-            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("リストのフィルタと自動選択");
-            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("表示テキストのカスタマイズ");
-            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("コンボコントロール", new System.Windows.Forms.TreeNode[] {
-            treeNode55,
+            treeNode53,
+            treeNode54});
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("マルチカラムによるリスト表示");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("オートコンプリートによる補完機能");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("リストのフィルタと自動選択");
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("表示テキストのカスタマイズ");
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("コンボコントロール", new System.Windows.Forms.TreeNode[] {
             treeNode56,
             treeNode57,
-            treeNode58});
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("マルチカラムによるリスト表示");
-            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("リストコントロール", new System.Windows.Forms.TreeNode[] {
-            treeNode60});
-            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("入力範囲の設定");
-            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("イベントを利用した検証");
-            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("検証エラーの通知");
-            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("入力値の検証", new System.Windows.Forms.TreeNode[] {
-            treeNode62,
+            treeNode58,
+            treeNode59});
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("マルチカラムによるリスト表示");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("リストコントロール", new System.Windows.Forms.TreeNode[] {
+            treeNode61});
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("入力範囲の設定");
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("イベントを利用した検証");
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("検証エラーの通知");
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("入力値の検証", new System.Windows.Forms.TreeNode[] {
             treeNode63,
-            treeNode64});
-            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("社員情報入力");
-            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("実用例", new System.Windows.Forms.TreeNode[] {
-            treeNode66});
+            treeNode64,
+            treeNode65});
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("社員情報入力");
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("実用例", new System.Windows.Forms.TreeNode[] {
+            treeNode67});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.trial = new System.Windows.Forms.LinkLabel();
@@ -166,9 +168,6 @@ namespace InputManWin12_Demo
             this.searchtext = new System.Windows.Forms.TextBox();
             this.menuheader = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.product_info = new System.Windows.Forms.LinkLabel();
-            this.separator = new System.Windows.Forms.PictureBox();
-            this.twitter = new System.Windows.Forms.LinkLabel();
             this.copyright = new System.Windows.Forms.Label();
             this.grapecity_logo = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -191,7 +190,6 @@ namespace InputManWin12_Demo
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuheader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grapecity_logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -312,9 +310,6 @@ namespace InputManWin12_Demo
             // 
             this.splitContainer3.Panel2.BackgroundImage = global::InputManWin12_Demo.Properties.Resources.fotter;
             this.splitContainer3.Panel2.Controls.Add(this.pictureBox3);
-            this.splitContainer3.Panel2.Controls.Add(this.product_info);
-            this.splitContainer3.Panel2.Controls.Add(this.separator);
-            this.splitContainer3.Panel2.Controls.Add(this.twitter);
             this.splitContainer3.Panel2.Controls.Add(this.copyright);
             this.splitContainer3.Panel2.Controls.Add(this.grapecity_logo);
             this.splitContainer3.Panel2.Controls.Add(this.pictureBox2);
@@ -504,62 +499,64 @@ namespace InputManWin12_Demo
             treeNode43.Name = "ノード1";
             treeNode43.Text = "テキストの配置";
             treeNode44.Name = "ノード0";
-            treeNode44.Text = "表示機能";
-            treeNode45.Name = "ノード1";
-            treeNode45.Text = "ドロップダウンのカスタマイズ";
+            treeNode44.Text = "フローティングラベルの表示";
+            treeNode45.Name = "ノード0";
+            treeNode45.Text = "表示機能";
             treeNode46.Name = "ノード1";
-            treeNode46.Text = "ドロップダウンカレンダー";
+            treeNode46.Text = "ドロップダウンのカスタマイズ";
             treeNode47.Name = "ノード1";
-            treeNode47.Text = "ドロップダウン日付時刻ピッカー";
-            treeNode48.Name = "ノード0";
-            treeNode48.Text = "ドロップダウンによる入力補助";
-            treeNode49.Name = "ノード1";
-            treeNode49.Tag = "サイドボタン";
-            treeNode49.Text = "ドロップダウンボタン";
+            treeNode47.Text = "ドロップダウンカレンダー";
+            treeNode48.Name = "ノード1";
+            treeNode48.Text = "ドロップダウン日付時刻／カレンダーピッカー";
+            treeNode49.Name = "ノード0";
+            treeNode49.Text = "ドロップダウンによる入力補助";
             treeNode50.Name = "ノード1";
             treeNode50.Tag = "サイドボタン";
-            treeNode50.Text = "スピンボタン";
+            treeNode50.Text = "ドロップダウンボタン";
             treeNode51.Name = "ノード1";
-            treeNode51.Text = "サイドボタン";
+            treeNode51.Tag = "サイドボタン";
+            treeNode51.Text = "スピンボタン";
             treeNode52.Name = "ノード1";
-            treeNode52.Tag = "サイドボタン";
-            treeNode52.Text = "シンボルボタン";
-            treeNode53.Name = "ノード0";
+            treeNode52.Text = "サイドボタン";
+            treeNode53.Name = "ノード1";
             treeNode53.Tag = "サイドボタン";
-            treeNode53.Text = "スピン操作";
+            treeNode53.Text = "シンボルボタン";
             treeNode54.Name = "ノード0";
-            treeNode54.Text = "コントロールに追加可能なボタン";
-            treeNode55.Name = "ノード1";
-            treeNode55.Tag = "コンボ";
-            treeNode55.Text = "マルチカラムによるリスト表示";
+            treeNode54.Tag = "サイドボタン";
+            treeNode54.Text = "スピン操作";
+            treeNode55.Name = "ノード0";
+            treeNode55.Text = "コントロールに追加可能なボタン";
             treeNode56.Name = "ノード1";
             treeNode56.Tag = "コンボ";
-            treeNode56.Text = "オートコンプリートによる補完機能";
+            treeNode56.Text = "マルチカラムによるリスト表示";
             treeNode57.Name = "ノード1";
             treeNode57.Tag = "コンボ";
-            treeNode57.Text = "リストのフィルタと自動選択";
+            treeNode57.Text = "オートコンプリートによる補完機能";
             treeNode58.Name = "ノード1";
             treeNode58.Tag = "コンボ";
-            treeNode58.Text = "表示テキストのカスタマイズ";
-            treeNode59.Name = "ノード0";
-            treeNode59.Text = "コンボコントロール";
-            treeNode60.Name = "ノード1";
-            treeNode60.Text = "マルチカラムによるリスト表示";
-            treeNode61.Name = "ノード0";
-            treeNode61.Text = "リストコントロール";
-            treeNode62.Name = "ノード1";
-            treeNode62.Tag = "検証";
-            treeNode62.Text = "入力範囲の設定";
+            treeNode58.Text = "リストのフィルタと自動選択";
+            treeNode59.Name = "ノード1";
+            treeNode59.Tag = "コンボ";
+            treeNode59.Text = "表示テキストのカスタマイズ";
+            treeNode60.Name = "ノード0";
+            treeNode60.Text = "コンボコントロール";
+            treeNode61.Name = "ノード1";
+            treeNode61.Text = "マルチカラムによるリスト表示";
+            treeNode62.Name = "ノード0";
+            treeNode62.Text = "リストコントロール";
             treeNode63.Name = "ノード1";
-            treeNode63.Text = "イベントを利用した検証";
+            treeNode63.Tag = "検証";
+            treeNode63.Text = "入力範囲の設定";
             treeNode64.Name = "ノード1";
-            treeNode64.Text = "検証エラーの通知";
-            treeNode65.Name = "ノード0";
-            treeNode65.Text = "入力値の検証";
-            treeNode66.Name = "ノード1";
-            treeNode66.Text = "社員情報入力";
-            treeNode67.Name = "ノード0";
-            treeNode67.Text = "実用例";
+            treeNode64.Text = "イベントを利用した検証";
+            treeNode65.Name = "ノード1";
+            treeNode65.Text = "検証エラーの通知";
+            treeNode66.Name = "ノード0";
+            treeNode66.Text = "入力値の検証";
+            treeNode67.Name = "ノード1";
+            treeNode67.Text = "社員情報入力";
+            treeNode68.Name = "ノード0";
+            treeNode68.Text = "実用例";
             this.treemenu.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode4,
             treeNode10,
@@ -569,13 +566,13 @@ namespace InputManWin12_Demo
             treeNode30,
             treeNode34,
             treeNode37,
-            treeNode44,
-            treeNode48,
-            treeNode54,
-            treeNode59,
-            treeNode61,
-            treeNode65,
-            treeNode67});
+            treeNode45,
+            treeNode49,
+            treeNode55,
+            treeNode60,
+            treeNode62,
+            treeNode66,
+            treeNode68});
             this.treemenu.Size = new System.Drawing.Size(231, 472);
             this.treemenu.TabIndex = 0;
             // 
@@ -641,60 +638,13 @@ namespace InputManWin12_Demo
             this.pictureBox3.TabIndex = 22;
             this.pictureBox3.TabStop = false;
             // 
-            // product_info
-            // 
-            this.product_info.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.product_info.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.product_info.AutoSize = true;
-            this.product_info.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.product_info.Font = new System.Drawing.Font("メイリオ", 11.25F);
-            this.product_info.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.product_info.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.product_info.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.product_info.Location = new System.Drawing.Point(762, 14);
-            this.product_info.Name = "product_info";
-            this.product_info.Size = new System.Drawing.Size(70, 23);
-            this.product_info.TabIndex = 19;
-            this.product_info.TabStop = true;
-            this.product_info.Text = "製品情報";
-            this.product_info.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            // 
-            // separator
-            // 
-            this.separator.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.separator.BackgroundImage = global::InputManWin12_Demo.Properties.Resources.separator;
-            this.separator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.separator.Location = new System.Drawing.Point(857, 14);
-            this.separator.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.separator.Name = "separator";
-            this.separator.Size = new System.Drawing.Size(13, 58);
-            this.separator.TabIndex = 21;
-            this.separator.TabStop = false;
-            // 
-            // twitter
-            // 
-            this.twitter.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.twitter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.twitter.DisabledLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.twitter.Font = new System.Drawing.Font("メイリオ", 14.25F);
-            this.twitter.Image = global::InputManWin12_Demo.Properties.Resources.twittericon;
-            this.twitter.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.twitter.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.twitter.Location = new System.Drawing.Point(876, 17);
-            this.twitter.Name = "twitter";
-            this.twitter.Size = new System.Drawing.Size(127, 55);
-            this.twitter.TabIndex = 20;
-            this.twitter.TabStop = true;
-            this.twitter.Text = "　　　　　　　　　　　";
-            this.twitter.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            // 
             // copyright
             // 
             this.copyright.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.copyright.AutoSize = true;
             this.copyright.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.copyright.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(195)))), ((int)(((byte)(195)))));
-            this.copyright.Location = new System.Drawing.Point(173, -91);
+            this.copyright.Location = new System.Drawing.Point(173, -95);
             this.copyright.Name = "copyright";
             this.copyright.Size = new System.Drawing.Size(215, 17);
             this.copyright.TabIndex = 0;
@@ -704,7 +654,7 @@ namespace InputManWin12_Demo
             // 
             this.grapecity_logo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.grapecity_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.grapecity_logo.Location = new System.Drawing.Point(12, -99);
+            this.grapecity_logo.Location = new System.Drawing.Point(12, -103);
             this.grapecity_logo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.grapecity_logo.Name = "grapecity_logo";
             this.grapecity_logo.Size = new System.Drawing.Size(155, 29);
@@ -757,7 +707,6 @@ namespace InputManWin12_Demo
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuheader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.separator)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grapecity_logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -787,9 +736,6 @@ namespace InputManWin12_Demo
         private System.Windows.Forms.LinkLabel trial;
         private System.Windows.Forms.LinkLabel firstView;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.LinkLabel product_info;
-        private System.Windows.Forms.PictureBox separator;
-        private System.Windows.Forms.LinkLabel twitter;
     }
 }
 

@@ -74,9 +74,9 @@ namespace InputManWin12_Demo._01_Controls
             GrapeCity.Win.Editors.Fields.DateLiteralField dateLiteralField16 = new GrapeCity.Win.Editors.Fields.DateLiteralField();
             GrapeCity.Win.Editors.Fields.DateSecondField dateSecondField2 = new GrapeCity.Win.Editors.Fields.DateSecondField();
             GrapeCity.Win.Editors.ThreeStateBorderNotify threeStateBorderNotify1 = new GrapeCity.Win.Editors.ThreeStateBorderNotify();
-            GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue compareValue2 = new GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue();
-            GrapeCity.Win.Editors.TipNotify tipNotify1 = new GrapeCity.Win.Editors.TipNotify();
-            GrapeCity.Win.Editors.GcNumberValidator.CompareValue compareValue1 = new GrapeCity.Win.Editors.GcNumberValidator.CompareValue();
+            GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue compareValue3 = new GrapeCity.Win.Editors.GcDateTimeValidator.CompareValue();
+            GrapeCity.Win.Editors.TipNotify tipNotify2 = new GrapeCity.Win.Editors.TipNotify();
+            GrapeCity.Win.Editors.GcNumberValidator.CompareValue compareValue2 = new GrapeCity.Win.Editors.GcNumberValidator.CompareValue();
             GrapeCity.Win.Editors.Fields.TimeSpanSignField timeSpanSignField1 = new GrapeCity.Win.Editors.Fields.TimeSpanSignField();
             GrapeCity.Win.Editors.Fields.TimeSpanDayField timeSpanDayField1 = new GrapeCity.Win.Editors.Fields.TimeSpanDayField();
             GrapeCity.Win.Editors.Fields.TimeSpanLiteralField timeSpanLiteralField1 = new GrapeCity.Win.Editors.Fields.TimeSpanLiteralField();
@@ -87,6 +87,8 @@ namespace InputManWin12_Demo._01_Controls
             GrapeCity.Win.Editors.Fields.TimeSpanSecondField timeSpanSecondField1 = new GrapeCity.Win.Editors.Fields.TimeSpanSecondField();
             GrapeCity.Win.Editors.ThreeStateIconNotify threeStateIconNotify1 = new GrapeCity.Win.Editors.ThreeStateIconNotify();
             GrapeCity.Win.Editors.GcTimeSpanValidator.InvalidRange invalidRange1 = new GrapeCity.Win.Editors.GcTimeSpanValidator.InvalidRange();
+            GrapeCity.Win.Editors.TipNotify tipNotify1 = new GrapeCity.Win.Editors.TipNotify();
+            GrapeCity.Win.Editors.GcNumberValidator.CompareValue compareValue1 = new GrapeCity.Win.Editors.GcNumberValidator.CompareValue();
             GrapeCity.Win.Editors.IconNotify iconNotify1 = new GrapeCity.Win.Editors.IconNotify();
             GrapeCity.Win.Editors.GcBalloonTipNotify gcBalloonTipNotify1 = new GrapeCity.Win.Editors.GcBalloonTipNotify();
             GrapeCity.Win.Editors.BalloonTipInformation balloonTipInformation1 = new GrapeCity.Win.Editors.BalloonTipInformation();
@@ -145,15 +147,19 @@ namespace InputManWin12_Demo._01_Controls
             this.gcTimeSpanValidator1 = new GrapeCity.Win.Editors.GcTimeSpanValidator();
             this.gcTimeSpan1 = new GrapeCity.Win.Editors.GcTimeSpan(this.components);
             this.gcNumberValidator1 = new GrapeCity.Win.Editors.GcNumberValidator();
+            this.gcNumber2 = new GrapeCity.Win.Editors.GcNumber(this.components);
+            this.dropDownButton2 = new GrapeCity.Win.Editors.DropDownButton();
             this.gcCommonValidator1 = new GrapeCity.Win.Editors.GcCommonValidator();
             this.gcTextBox6 = new GrapeCity.Win.Editors.GcTextBox(this.components);
             this.gcDate2 = new GrapeCity.Win.Editors.GcDateTime(this.components);
             this.dropDownButton8 = new GrapeCity.Win.Editors.DropDownButton();
             this.gcFieldStyler1 = new GrapeCity.Win.Editors.GcFieldStyler(this.components);
-            this.gcSoftKeyboard1 = new GrapeCity.Win.Editors.GcSoftKeyboard();
+            this.gcSoftKeyboard1 = new GrapeCity.Win.Editors.GcSoftKeyboard(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gcTextBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcTextBox5)).BeginInit();
@@ -166,12 +172,16 @@ namespace InputManWin12_Demo._01_Controls
             ((System.ComponentModel.ISupportInitialize)(this.gcDate1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcNumber1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcTimeSpan1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcNumber2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcTextBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcDate2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.gcNumber2);
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Controls.Add(this.label22);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label20);
             this.panel1.Controls.Add(this.label19);
@@ -556,10 +566,10 @@ namespace InputManWin12_Demo._01_Controls
             threeStateBorderNotify1.ValidLineWidth = 2;
             this.gcDateTimeValidator1.GetValidateActions(this.gcDate1).AddRange(new GrapeCity.Win.Editors.ValidateAction[] {
             threeStateBorderNotify1});
-            compareValue2.ComparedValue = new System.DateTime(2015, 1, 1, 0, 0, 0, 0);
-            compareValue2.Name = "2015/01/01よりも大きい値を入力してください";
+            compareValue3.ComparedValue = new System.DateTime(2015, 1, 1, 0, 0, 0, 0);
+            compareValue3.Name = "2015/01/01よりも大きい値を入力してください";
             this.gcDateTimeValidator1.GetValidateItems(this.gcDate1).AddRange(new object[] {
-            compareValue2});
+            compareValue3});
             this.gcDate1.Value = new System.DateTime(2014, 12, 31, 12, 0, 0, 0);
             // 
             // dropDownButton5
@@ -615,19 +625,19 @@ namespace InputManWin12_Demo._01_Controls
             this.dropDownButton7});
             this.gcNumber1.Size = new System.Drawing.Size(144, 24);
             this.gcNumber1.TabIndex = 25;
-            tipNotify1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Warning;
-            tipNotify1.ToolTipText = "100よりも小さい値でなくてはいけません";
-            tipNotify1.ToolTipTitle = "範囲エラー";
+            tipNotify2.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Warning;
+            tipNotify2.ToolTipText = "100よりも小さい値でなくてはいけません";
+            tipNotify2.ToolTipTitle = "範囲エラー";
             this.gcNumberValidator1.GetValidateActions(this.gcNumber1).AddRange(new GrapeCity.Win.Editors.ValidateAction[] {
-            tipNotify1});
-            compareValue1.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan;
-            compareValue1.ComparedValue = new decimal(new int[] {
+            tipNotify2});
+            compareValue2.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan;
+            compareValue2.ComparedValue = new decimal(new int[] {
             100,
             0,
             0,
             0});
             this.gcNumberValidator1.GetValidateItems(this.gcNumber1).AddRange(new object[] {
-            compareValue1});
+            compareValue2});
             this.gcNumber1.Value = new decimal(new int[] {
             200,
             0,
@@ -669,6 +679,58 @@ namespace InputManWin12_Demo._01_Controls
             this.gcTimeSpanValidator1.GetValidateItems(this.gcTimeSpan1).AddRange(new object[] {
             invalidRange1});
             this.gcTimeSpan1.Value = System.TimeSpan.Parse("3.23:59:59");
+            // 
+            // gcNumber2
+            // 
+            this.gcNumber2.AutoSize = true;
+            this.gcNumber2.DropDown.DropDownType = GrapeCity.Win.Editors.NumberDropDownType.Slider;
+            this.gcNumber2.Fields.IntegerPart.MinDigits = 1;
+            this.gcNumber2.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.gcNumber2.Location = new System.Drawing.Point(138, 336);
+            this.gcNumber2.MaxValue = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
+            this.gcNumber2.MinValue = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.gcNumber2.Name = "gcNumber2";
+            this.gcNumber2.NumberSlider.ShowMarkLabel = true;
+            this.gcNumber2.NumberSlider.Step = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.gcNumber2.NumberSlider.Visible = true;
+            this.gcNumber2.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
+            this.dropDownButton2});
+            this.gcNumber2.Size = new System.Drawing.Size(144, 36);
+            this.gcNumber2.TabIndex = 34;
+            tipNotify1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Warning;
+            tipNotify1.ToolTipText = "100よりも小さい値でなくてはいけません";
+            tipNotify1.ToolTipTitle = "範囲エラー";
+            this.gcNumberValidator1.GetValidateActions(this.gcNumber2).AddRange(new GrapeCity.Win.Editors.ValidateAction[] {
+            tipNotify1});
+            compareValue1.ComparedOperator = GrapeCity.Win.Editors.ComparedOperator.SmallerThan;
+            compareValue1.ComparedValue = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.gcNumberValidator1.GetValidateItems(this.gcNumber2).AddRange(new object[] {
+            compareValue1});
+            this.gcNumber2.Value = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            // 
+            // dropDownButton2
+            // 
+            this.dropDownButton2.Name = "dropDownButton2";
             // 
             // gcTextBox6
             // 
@@ -775,6 +837,25 @@ namespace InputManWin12_Demo._01_Controls
             this.label20.TabIndex = 32;
             this.label20.Text = "（ひらがな入力用キーボードを表示）";
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(3, 338);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(80, 18);
+            this.label21.TabIndex = 33;
+            this.label21.Text = "スライダー：";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label22.Location = new System.Drawing.Point(296, 338);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(272, 18);
+            this.label22.TabIndex = 35;
+            this.label22.Text = "（入力用とドロップダウンのスライダーを表示）";
+            // 
             // Components
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
@@ -794,6 +875,7 @@ namespace InputManWin12_Demo._01_Controls
             ((System.ComponentModel.ISupportInitialize)(this.gcDate1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcNumber1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcTimeSpan1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcNumber2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcTextBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcDate2)).EndInit();
             this.ResumeLayout(false);
@@ -852,5 +934,9 @@ namespace InputManWin12_Demo._01_Controls
         private GrapeCity.Win.Editors.GcSoftKeyboard gcSoftKeyboard1;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
+        private GrapeCity.Win.Editors.GcNumber gcNumber2;
+        private GrapeCity.Win.Editors.DropDownButton dropDownButton2;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
     }
 }

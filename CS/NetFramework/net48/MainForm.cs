@@ -16,9 +16,7 @@ namespace InputManWin12_Demo
             treemenu.AfterCollapse += new TreeViewEventHandler(treemenu_AfterCollapse);
             firstView.LinkClicked += new LinkLabelLinkClickedEventHandler(firstView_LinkClicked);
             trial.LinkClicked += new LinkLabelLinkClickedEventHandler(trial_LinkClicked);
-            product_info.LinkClicked += new LinkLabelLinkClickedEventHandler(product_info_LinkClicked);
             searchtext.TextChanged += new EventHandler(searchtext_TextChanged);
-            twitter.LinkClicked += new LinkLabelLinkClickedEventHandler(twitter_LinkClicked);
             searchlist.SelectedIndexChanged += new EventHandler(searchlist_SelectedIndexChanged);
             myTabControl1.SelectedIndexChanged += new EventHandler(myTabControl1_SelectedIndexChanged);
 
@@ -201,6 +199,9 @@ namespace InputManWin12_Demo
                         case "読み取り専用コントロールのスタイル":
                             this.setMainPanel(new InputManWin12_Demo._06_Display.ReadOnlyColor());
                             break;
+                        case "フローティングラベルの表示":
+                            this.setMainPanel(new InputManWin12_Demo._06_Display.PlaceHolder());
+                            break;
                         default:
                             break;
                     }
@@ -214,7 +215,7 @@ namespace InputManWin12_Demo
                         case "ドロップダウンカレンダー":
                             this.setMainPanel(new InputManWin12_Demo._07_DropDown.DropDownCalendar());
                             break;
-                        case "ドロップダウン日付時刻ピッカー":
+                        case "ドロップダウン日付時刻／カレンダーピッカー":
                             this.setMainPanel(new InputManWin12_Demo._07_DropDown.DropDownDateTimePicker());
                             break;
                         default:
@@ -362,18 +363,6 @@ namespace InputManWin12_Demo
         {
             // トライアル版へのリンク
             System.Diagnostics.Process.Start("https://developer.mescius.jp/download#input");
-        }
-
-        private void product_info_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            // フッタから製品情報へのリンク
-            System.Diagnostics.Process.Start("https://developer.mescius.jp/inputmanplus-winforms");
-        }
-
-        private void twitter_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            // ツイッターへのリンク
-            System.Diagnostics.Process.Start("https://twitter.com/MESCIUS_dev");
         }
         #endregion
 

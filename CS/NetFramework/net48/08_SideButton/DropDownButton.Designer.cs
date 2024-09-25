@@ -92,6 +92,15 @@ namespace InputManWin12_Demo._08_SideButton
             GrapeCity.Win.Editors.ListItem listItem13 = new GrapeCity.Win.Editors.ListItem();
             GrapeCity.Win.Editors.SubItem subItem25 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.SubItem subItem26 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem14 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem27 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.SubItem subItem28 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem15 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem29 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.SubItem subItem30 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.ListItem listItem16 = new GrapeCity.Win.Editors.ListItem();
+            GrapeCity.Win.Editors.SubItem subItem31 = new GrapeCity.Win.Editors.SubItem();
+            GrapeCity.Win.Editors.SubItem subItem32 = new GrapeCity.Win.Editors.SubItem();
             GrapeCity.Win.Editors.Fields.MaskPatternField maskPatternField1 = new GrapeCity.Win.Editors.Fields.MaskPatternField();
             GrapeCity.Win.Editors.Fields.MaskLiteralField maskLiteralField1 = new GrapeCity.Win.Editors.Fields.MaskLiteralField();
             GrapeCity.Win.Editors.Fields.MaskPatternField maskPatternField2 = new GrapeCity.Win.Editors.Fields.MaskPatternField();
@@ -415,6 +424,21 @@ namespace InputManWin12_Demo._08_SideButton
             listItem9.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
             subItem17,
             subItem18});
+            subItem19.Value = "Office2021DarkGray";
+            subItem20.Value = "コントロールの外観をOffice 2021のダークグレイのスタイルにします。";
+            listItem10.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem19,
+            subItem20});
+            subItem21.Value = "Office2021Black";
+            subItem22.Value = "コントロールの外観をOffice 2021の黒のスタイルにします。";
+            listItem11.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem21,
+            subItem22});
+            subItem23.Value = "Office2021White";
+            subItem24.Value = "コントロールの外観をOffice 2021の白のスタイルにします。";
+            listItem12.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem23,
+            subItem24});
             this.gcComboBox2.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
             listItem1,
             listItem2,
@@ -424,12 +448,16 @@ namespace InputManWin12_Demo._08_SideButton
             listItem6,
             listItem7,
             listItem8,
-            listItem9});
+            listItem9,
+            listItem10,
+            listItem11,
+            listItem12});
             this.gcComboBox2.ListColumns.AddRange(new GrapeCity.Win.Editors.ListColumn[] {
             this.listColumn39,
             this.listColumn40});
             this.gcComboBox2.ListHeaderPane.Height = 25;
             this.gcComboBox2.Location = new System.Drawing.Point(143, 5);
+            this.gcComboBox2.MaxDropDownItems = 10;
             this.gcComboBox2.Name = "gcComboBox2";
             this.gcShortcut1.SetShortcuts(this.gcComboBox2, new GrapeCity.Win.Editors.ShortcutCollection(new System.Windows.Forms.Keys[] {
                 System.Windows.Forms.Keys.F2,
@@ -488,31 +516,31 @@ namespace InputManWin12_Demo._08_SideButton
             this.gcComboBox3.DropDown.AutoWidth = true;
             this.gcComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.gcComboBox3.Ellipsis = GrapeCity.Win.Editors.EllipsisMode.EllipsisEnd;
-            subItem19.Value = "LeftInside";
-            subItem20.Value = "コントロールの内部左端に配置されます。";
-            listItem10.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem19,
-            subItem20});
-            subItem21.Value = "LeftOutside";
-            subItem22.Value = "コントロールの外部左端に配置されます。";
-            listItem11.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem21,
-            subItem22});
-            subItem23.Value = "RightInside";
-            subItem24.Value = "コントロールの内部右端に配置されます。";
-            listItem12.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
-            subItem23,
-            subItem24});
-            subItem25.Value = "RightOutside";
-            subItem26.Value = "コントロールの外部右端に配置されます。";
+            subItem25.Value = "LeftInside";
+            subItem26.Value = "コントロールの内部左端に配置されます。";
             listItem13.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
             subItem25,
             subItem26});
+            subItem27.Value = "LeftOutside";
+            subItem28.Value = "コントロールの外部左端に配置されます。";
+            listItem14.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem27,
+            subItem28});
+            subItem29.Value = "RightInside";
+            subItem30.Value = "コントロールの内部右端に配置されます。";
+            listItem15.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem29,
+            subItem30});
+            subItem31.Value = "RightOutside";
+            subItem32.Value = "コントロールの外部右端に配置されます。";
+            listItem16.SubItems.AddRange(new GrapeCity.Win.Editors.SubItem[] {
+            subItem31,
+            subItem32});
             this.gcComboBox3.Items.AddRange(new GrapeCity.Win.Editors.ListItem[] {
-            listItem10,
-            listItem11,
-            listItem12,
-            listItem13});
+            listItem13,
+            listItem14,
+            listItem15,
+            listItem16});
             this.gcComboBox3.ListColumns.AddRange(new GrapeCity.Win.Editors.ListColumn[] {
             this.listColumn1,
             this.listColumn2});

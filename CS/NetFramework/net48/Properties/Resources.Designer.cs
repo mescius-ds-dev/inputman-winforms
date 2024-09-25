@@ -213,16 +213,6 @@ namespace InputManWin12_Demo.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
-        internal static System.Drawing.Bitmap separator {
-            get {
-                object obj = ResourceManager.GetObject("separator", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
         internal static System.Drawing.Bitmap stopwatch {
             get {
                 object obj = ResourceManager.GetObject("stopwatch", resourceCulture);
@@ -246,16 +236,6 @@ namespace InputManWin12_Demo.Properties {
         internal static System.Drawing.Bitmap trialbutton {
             get {
                 object obj = ResourceManager.GetObject("trialbutton", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static System.Drawing.Bitmap twittericon {
-            get {
-                object obj = ResourceManager.GetObject("twittericon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -238,6 +238,7 @@ namespace InputManWin12_Demo._01_Controls
             this.gcAddressBox1 = new GrapeCity.Win.Editors.GcAddressBox(this.components);
             this.gcMaskedComboBox1 = new GrapeCity.Win.Editors.GcMaskedComboBox(this.components);
             this.dropDownButton4 = new GrapeCity.Win.Editors.DropDownButton();
+            this.gcTextBox2 = new GrapeCity.Win.Editors.GcTextBox(this.components);
             this.gcListBox1 = new GrapeCity.Win.Editors.GcListBox();
             this.listColumn3 = new GrapeCity.Win.Editors.ListColumn();
             this.listColumn4 = new GrapeCity.Win.Editors.ListColumn();
@@ -247,8 +248,9 @@ namespace InputManWin12_Demo._01_Controls
             this.label12 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.dataSet1 = new System.Data.DataSet();
-            this.gcTextBox2 = new GrapeCity.Win.Editors.GcTextBox(this.components);
             this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.gcSlider1 = new GrapeCity.Win.Editors.GcSlider();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gcComboBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcNumber1)).BeginInit();
@@ -262,13 +264,15 @@ namespace InputManWin12_Demo._01_Controls
             ((System.ComponentModel.ISupportInitialize)(this.gcPostal1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcAddressBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcMaskedComboBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcTextBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcListBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcTextBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.gcSlider1);
+            this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.gcTextBox2);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label15);
@@ -497,7 +501,7 @@ namespace InputManWin12_Demo._01_Controls
             this.gcComboBox1.ShowListBoxImage = true;
             this.gcComboBox1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
             this.dropDownButton3});
-            this.gcComboBox1.Size = new System.Drawing.Size(144, 24);
+            this.gcComboBox1.Size = new System.Drawing.Size(144, 26);
             this.gcComboBox1.TabIndex = 17;
             this.gcComboBox1.TextFormat = "[0]：[1]";
             // 
@@ -587,7 +591,7 @@ namespace InputManWin12_Demo._01_Controls
                 "ApplyRecommendedValue"}));
             this.gcNumber1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
             this.spinButton1});
-            this.gcNumber1.Size = new System.Drawing.Size(87, 22);
+            this.gcNumber1.Size = new System.Drawing.Size(87, 24);
             this.gcNumber1.TabIndex = 15;
             this.gcNumber1.ValueSign = GrapeCity.Win.Editors.ValueSignControl.Positive;
             // 
@@ -644,7 +648,7 @@ namespace InputManWin12_Demo._01_Controls
                 "SwitchSign",
                 "SwitchSign",
                 "ApplyRecommendedValue"}));
-            this.gcTimeSpan1.Size = new System.Drawing.Size(144, 22);
+            this.gcTimeSpan1.Size = new System.Drawing.Size(144, 24);
             this.gcTimeSpan1.TabIndex = 25;
             this.gcTimeSpan1.Value = System.TimeSpan.Parse("99.23:59:00");
             // 
@@ -702,7 +706,7 @@ namespace InputManWin12_Demo._01_Controls
                 "ApplyRecommendedValue"}));
             this.gcDate1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
             this.dropDownButton1});
-            this.gcDate1.Size = new System.Drawing.Size(144, 22);
+            this.gcDate1.Size = new System.Drawing.Size(144, 24);
             this.gcDate1.TabIndex = 7;
             this.gcDate1.Value = new System.DateTime(2015, 5, 10, 10, 15, 27, 0);
             // 
@@ -796,7 +800,7 @@ namespace InputManWin12_Demo._01_Controls
                 ((object)(this.gcMask1))}, new string[] {
                 "ShortcutClear",
                 "ApplyRecommendedValue"}));
-            this.gcMask1.Size = new System.Drawing.Size(144, 22);
+            this.gcMask1.Size = new System.Drawing.Size(144, 24);
             this.gcMask1.TabIndex = 3;
             // 
             // gcTextBox1
@@ -808,13 +812,11 @@ namespace InputManWin12_Demo._01_Controls
             this.gcTextBox1.ImeMode = System.Windows.Forms.ImeMode.On;
             this.gcTextBox1.Location = new System.Drawing.Point(7, 29);
             this.gcTextBox1.Name = "gcTextBox1";
-            this.gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            this.gcTextBox1.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
             this.gcShortcut1.SetShortcuts(this.gcTextBox1, new GrapeCity.Win.Editors.ShortcutCollection(new System.Windows.Forms.Keys[] {
                 System.Windows.Forms.Keys.F2}, new object[] {
                 ((object)(this.gcTextBox1))}, new string[] {
                 "ShortcutClear"}));
-            this.gcTextBox1.Size = new System.Drawing.Size(144, 22);
+            this.gcTextBox1.Size = new System.Drawing.Size(144, 24);
             this.gcTextBox1.TabIndex = 1;
             // 
             // gcRichTextBox1
@@ -1011,7 +1013,7 @@ namespace InputManWin12_Demo._01_Controls
                 "ApplyRecommendedValue"}));
             this.gcDate2.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
             this.dropDownButton2});
-            this.gcDate2.Size = new System.Drawing.Size(144, 22);
+            this.gcDate2.Size = new System.Drawing.Size(144, 24);
             this.gcDate2.TabIndex = 9;
             this.gcDate2.Value = new System.DateTime(2015, 1, 1, 0, 0, 0, 0);
             // 
@@ -1051,7 +1053,7 @@ namespace InputManWin12_Demo._01_Controls
                 "ApplyRecommendedValue"}));
             this.gcTime1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
             this.spinButton2});
-            this.gcTime1.Size = new System.Drawing.Size(87, 22);
+            this.gcTime1.Size = new System.Drawing.Size(87, 24);
             this.gcTime1.TabIndex = 11;
             this.gcTime1.Value = System.TimeSpan.Parse("11:59:00");
             // 
@@ -1075,7 +1077,7 @@ namespace InputManWin12_Demo._01_Controls
                 System.Windows.Forms.Keys.F2}, new object[] {
                 ((object)(this.gcPostal1))}, new string[] {
                 "ShortcutClear"}));
-            this.gcPostal1.Size = new System.Drawing.Size(87, 22);
+            this.gcPostal1.Size = new System.Drawing.Size(87, 24);
             this.gcPostal1.TabIndex = 21;
             // 
             // gcAddressBox1
@@ -1087,7 +1089,7 @@ namespace InputManWin12_Demo._01_Controls
                 System.Windows.Forms.Keys.F2}, new object[] {
                 ((object)(this.gcAddressBox1))}, new string[] {
                 "ShortcutClear"}));
-            this.gcAddressBox1.Size = new System.Drawing.Size(144, 22);
+            this.gcAddressBox1.Size = new System.Drawing.Size(144, 24);
             this.gcAddressBox1.TabIndex = 23;
             // 
             // gcMaskedComboBox1
@@ -1134,13 +1136,30 @@ namespace InputManWin12_Demo._01_Controls
                 "ApplyRecommendedValue"}));
             this.gcMaskedComboBox1.SideButtons.AddRange(new GrapeCity.Win.Editors.SideButtonBase[] {
             this.dropDownButton4});
-            this.gcMaskedComboBox1.Size = new System.Drawing.Size(144, 24);
+            this.gcMaskedComboBox1.Size = new System.Drawing.Size(144, 26);
             this.gcMaskedComboBox1.TabIndex = 19;
             this.gcMaskedComboBox1.TextSubItemIndex = 1;
             // 
             // dropDownButton4
             // 
             this.dropDownButton4.Name = "dropDownButton4";
+            // 
+            // gcTextBox2
+            // 
+            this.gcTextBox2.AlternateText.DisplayNull.ForeColor = System.Drawing.Color.Gray;
+            this.gcTextBox2.AutoSize = true;
+            this.gcTextBox2.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.gcTextBox2.Location = new System.Drawing.Point(171, 29);
+            this.gcTextBox2.Name = "gcTextBox2";
+            this.gcTextBox2.PasswordChar = '*';
+            this.gcTextBox2.PasswordStrength.Enable = true;
+            this.gcShortcut1.SetShortcuts(this.gcTextBox2, new GrapeCity.Win.Editors.ShortcutCollection(new System.Windows.Forms.Keys[] {
+                System.Windows.Forms.Keys.F2}, new object[] {
+                ((object)(this.gcTextBox2))}, new string[] {
+                "ShortcutClear"}));
+            this.gcTextBox2.Size = new System.Drawing.Size(144, 24);
+            this.gcTextBox2.TabIndex = 13;
+            this.gcTextBox2.Text = "P@ssword!23";
             // 
             // gcListBox1
             // 
@@ -1240,7 +1259,7 @@ namespace InputManWin12_Demo._01_Controls
             this.gcListBox1.SelectedItemStyle.ForeColor = System.Drawing.Color.Black;
             this.gcListBox1.ShowItemImage = true;
             this.gcListBox1.ShowOverflowTip = true;
-            this.gcListBox1.Size = new System.Drawing.Size(199, 125);
+            this.gcListBox1.Size = new System.Drawing.Size(199, 79);
             this.gcListBox1.StatusBar.Text = "GcSoftKeyboard";
             this.gcListBox1.TabIndex = 29;
             // 
@@ -1304,25 +1323,6 @@ namespace InputManWin12_Demo._01_Controls
             // 
             this.dataSet1.DataSetName = "NewDataSet";
             // 
-            // gcTextBox2
-            // 
-            this.gcTextBox2.AlternateText.DisplayNull.ForeColor = System.Drawing.Color.Gray;
-            this.gcTextBox2.AutoSize = true;
-            this.gcTextBox2.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.gcTextBox2.Location = new System.Drawing.Point(171, 29);
-            this.gcTextBox2.Name = "gcTextBox2";
-            this.gcTextBox2.PasswordChar = '*';
-            this.gcTextBox2.PasswordStrength.Enable = true;
-            this.gcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Caption = "パスワードの強度";
-            this.gcTextBox2.PasswordStrength.PasswordTip.InvalidTipInformation.Text = "入力されたパスワードの強度は無効です。";
-            this.gcShortcut1.SetShortcuts(this.gcTextBox2, new GrapeCity.Win.Editors.ShortcutCollection(new System.Windows.Forms.Keys[] {
-                System.Windows.Forms.Keys.F2}, new object[] {
-                ((object)(this.gcTextBox2))}, new string[] {
-                "ShortcutClear"}));
-            this.gcTextBox2.Size = new System.Drawing.Size(144, 22);
-            this.gcTextBox2.TabIndex = 13;
-            this.gcTextBox2.Text = "P@ssword!23";
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -1331,6 +1331,29 @@ namespace InputManWin12_Demo._01_Controls
             this.label16.Size = new System.Drawing.Size(152, 18);
             this.label16.TabIndex = 12;
             this.label16.Text = "テキスト（パスワード）：";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(333, 254);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(80, 18);
+            this.label17.TabIndex = 30;
+            this.label17.Text = "スライダー：";
+            // 
+            // gcSlider1
+            // 
+            this.gcSlider1.KeyStep = 3;
+            this.gcSlider1.Location = new System.Drawing.Point(336, 275);
+            this.gcSlider1.Name = "gcSlider1";
+            this.gcSlider1.Size = new System.Drawing.Size(199, 24);
+            this.gcSlider1.Step = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.gcSlider1.TabIndex = 31;
+            this.gcSlider1.Text = "0";
             // 
             // Controls
             // 
@@ -1354,9 +1377,9 @@ namespace InputManWin12_Demo._01_Controls
             ((System.ComponentModel.ISupportInitialize)(this.gcPostal1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcAddressBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcMaskedComboBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gcTextBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gcListBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gcTextBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1424,5 +1447,7 @@ namespace InputManWin12_Demo._01_Controls
         private System.Data.DataSet dataSet1;
         private GrapeCity.Win.Editors.GcTextBox gcTextBox2;
         private System.Windows.Forms.Label label16;
+        private GrapeCity.Win.Editors.GcSlider gcSlider1;
+        private System.Windows.Forms.Label label17;
     }
 }
